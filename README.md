@@ -55,5 +55,29 @@ Kalian bisa langsung click button “Try Atlas Free” dan kalian akan di arahka
 ![Gambar2](Images\Screenshot(394).png)
 Setelah melakukan login/sign up maka kita bisa ke langkah berikutnya.
 
+#### 4.1.2 Membuat cluster pada MongoDB dan menginstall Mongodb Compass <br />
+Setelah membuat account, kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
+![Gambar3](Images\Screenshot(388).png)
 
+Isilah form berikut sesuai kebutuhan kalian seperti kebutuhan organisasi, project, dsb. Setelah mengisi form tersebut silahkan click button “Finish” dan sebelum membuat cluster nya kita harus men-download	 yang namanya MongoDB Compass terlebih dahulu agar cluster nya dapat digunakan.
+Tambahkan halaman web baru dan masukan MongoDB Compass ke dalam kolom pencarian browser kalian, setelah itu kalian akan dihadapkan dengan halaman web seperti gambar dibawah ini.
+![Gambar4](Images\Screenshot(386).png)
+
+Lalu kalian bisa click button “Download Now” dan kalian akan di arahkan ke halaman web Donwloadnya.
+![Gambar5](Images\Screenshot(387).png)
+
+Seperti yang kalian lihat pada gambar di atas, silahkan men-download MongoDB Compass (GUI) nya dan tunggu beberapa menit untuk menyelesaikan downlaod-an tersebut. Dan untuk pengguna macOS kalian bisa men-downlaodnya juga dengan cara mengubah platformnya dan sesuaikan dengan versi macOS kalian. Setelah download-an kalian selesai, kalian bisa kembali ke halaman web MongoDB Atlas nya untuk membuat cluster.
+![Gambar6](Images\Screenshot(385).png)
+
+Lengkapi Username dan Password kalian, setelah kalian lengkapi silahkan click button “Create Database User” 
+Setelah sudah meng-create database user kalian akan di hadapkan dengan seperti gambar dibawah ini.
+![Gambar7](Images\Screenshot(397).png)
+
+Kalian bisa meng-click button “Choose a connection method” untuk mendapatkan Mongostring nya.
+![Gambar8](Images\Screenshot(398).png)
+
+Seperti gambar di atas karena kalian sudah men-download MongoDB Compass kalian bisa memilih “Access your data trhough tools Compass”.
+![Gambar9](Images\Screenshot(399).png)
+
+Setelah kalian memilih tools menggunakan compass kalian akan di arahkan seperti gambar di atas, kalian tinggal memilih “I have MongoDB compass installed” karena kalian sudah men-down;oad nya tadi, dan di bawahnya akan tertera connection string nya. Ini yang akan dipakai ketika kita memakai software MongoDB compass nya,tidak lupa untuk meng-copy connection string nya dan simpan baik-baik karena akan selalu dipakai ketika anda sedang menggunakan MongoDB Compass, sekarang menuju langkah terakhir.
 
