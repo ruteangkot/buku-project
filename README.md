@@ -41,11 +41,19 @@ CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. 
 ## Bab 3 Perancangan dan Pengembangan Sistem<br />
 
 ## Bab 4 Tutorial Pembuatan Website<br />
-### 4.1 Cara Connect Database MongoDB untuk Visual Studio Code /br >
+
+### 4.1 Cara Connect Database MongoDB untuk Visual Studio Code <br />
 
 Berikut adalah beberapa tutorial yang bisa membantu kalian dalam cara meng-connect database MongoDB ke visual studio code, dan cara menggunakan Mongostring.
 
-#### 4.1.1 Cara membuat account MongoDB /br >
+#### 4.1.1 Cara membuat account MongoDB <br />
+
+Buka browser default kalian dan cari di kolom pencarian MongoDB
+setelah itu kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
+![Gambar1](Images\Screenshot(385).png)
+Kalian bisa langsung click button “Try Atlas Free” dan kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
+![Gambar2](Images\Screenshot(394).png)
+Setelah melakukan login/sign up maka kita bisa ke langkah berikutnya.
 
 
 
