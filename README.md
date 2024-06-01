@@ -17,6 +17,14 @@ Dengan adanya website rute angkot, masyarakat dapat dengan mudah menemukan rute 
 Dalam pengembangan suatu website, pemahaman terhadap bahasa pemograman menjadi kunci utama untuk dikuasai. Seperti saat membuat sebuah Website Rute Angkot, terdapat dua bahasa pemograman yang digunakan, yaitu Front-end dan Back-end. Front-end disini bertugas untuk memberikan tampilan antar pengguna, sedangkan Back-end bertugas untuk mengatur bagian server dari sebuah website.<br />
 Front-end disini akan menggunakan JavaScript dan juga Framework CSS Skeleton. Dan untuk Back-end akan menggunakan bahasa GO.
 
+#### 2.1.1 FRONTEND<br />
+
+Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang berinteraksi langsung dengan pengguna. Teknologi ini biasanya dikembangkan menggunakan HTML, CSS, JavaScript, dan alat desain grafis seperti Photoshop dan Fireworks. Tujuan pengembangan front-end adalah untuk menciptakan antarmuka pengguna grafis (GUI) yang memberikan pengalaman pengguna yang baik bagi pengguna akhir.(Jesús & Caballero, n.d.)<br />
+
+### 2.2 APLIKASI YANG DIGUNAKAN<br />
+
+### 2.3 PENYIMPANAN YANG DIGUNAKAN<br />
+
 ## Bab 3 Perancangan dan Pengembangan Sistem<br />
 
 ## Bab 4 Tutorial Pembuatan Website<br />
