@@ -27,7 +27,12 @@ Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang
 
 #### 2.1.3 HTML<br />
 
-HTML Hypertext Markup Language berfungsi sebagai bahasa markup yang digunakan untuk pembuatan dokumen di internet. Dokumen di web biasanya dapat dijangkau melalui protokol HTTP, memfasilitasi transmisi data dari server situs web tertentu ke pengguna untuk visualisasi melalui browser web. Berfungsi sebagai bahasa markup, HTML menggunakan tag untuk menginstruksikan browser web tentang pemrosesan teks, sehingga <br />
+HTML Hypertext Markup Language berfungsi sebagai bahasa markup yang digunakan untuk pembuatan dokumen di internet. Dokumen di web biasanya dapat dijangkau melalui protokol HTTP, memfasilitasi transmisi data dari server situs web tertentu ke pengguna untuk visualisasi melalui browser web. Berfungsi sebagai bahasa markup, HTML menggunakan tag untuk menginstruksikan browser web tentang pemrosesan teks, sehingga menunjukkan apakah teks merupakan paragraf, daftar, atau hyperlink.(Rahmatika et al., 2021)<br />
+Selain itu, HTML sering berfungsi sebagai tahap awal dalam pengembangan situs web dan dianggap penting bagi pemula yang memulai pembuatan situs web untuk memahami tag dasar dalam HTML.<br />
+
+#### 2.1.4 CSS<br />
+
+CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. Ini membantu menentukan ukuran teks, font, dan warna di seluruh situs. Ini memisahkan gaya dokumen dari struktur. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)<br />
 
 ### 2.2 APLIKASI YANG DIGUNAKAN<br />
 
