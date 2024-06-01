@@ -25,6 +25,10 @@ Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang
 
 “Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
 
+#### 2.1.3 HTML<br />
+
+HTML Hypertext Markup Language berfungsi sebagai bahasa markup yang digunakan untuk pembuatan dokumen di internet. Dokumen di web biasanya dapat dijangkau melalui protokol HTTP, memfasilitasi transmisi data dari server situs web tertentu ke pengguna untuk visualisasi melalui browser web. Berfungsi sebagai bahasa markup, HTML menggunakan tag untuk menginstruksikan browser web tentang pemrosesan teks, sehingga <br />
+
 ### 2.2 APLIKASI YANG DIGUNAKAN<br />
 
 ### 2.3 PENYIMPANAN YANG DIGUNAKAN<br />
