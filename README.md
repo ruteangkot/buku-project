@@ -36,6 +36,10 @@ CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. 
 
 ### 2.2 APLIKASI YANG DIGUNAKAN<br />
 
+#### 2.2.1 Visual Studio Code<br />
+
+Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
+
 ### 2.3 PENYIMPANAN YANG DIGUNAKAN<br />
 
 ## Bab 3 Perancangan dan Pengembangan Sistem<br />
@@ -96,4 +100,3 @@ Jika sudah menambahkan connection string nya kalian bisa langsung meng-run codin
 Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di atas, maka selamat codingan anda sudah connect dengan MongoDB.
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
-
