@@ -46,7 +46,7 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 
 ## Bab 4 Tutorial Pembuatan Website<br />
 
-### 4.1 Cara Connect Database MongoDB untuk Visual Studio Code <br />
+### 4.1 Membuat Database <br />
 
 Berikut adalah beberapa tutorial yang bisa membantu kalian dalam cara meng-connect database MongoDB ke visual studio code, dan cara menggunakan Mongostring.
 
@@ -100,3 +100,9 @@ Jika sudah menambahkan connection string nya kalian bisa langsung meng-run codin
 Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di atas, maka selamat codingan anda sudah connect dengan MongoDB.
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
+
+### 4.2 Membuat Backend <br />
+
+### 4.3 Membuat Frontend <br />
+
+Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
