@@ -106,3 +106,11 @@ Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sed
 ### 4.3 Membuat Frontend <br />
 
 Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
+Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
+
+Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
+
+1. langkah pertama yaitu membuat folder baru untuk menampung file Frontend dengan cara klik logo folder pada Explorer.
+   ![Gambar 13](<Images/Cuplikan layar 2024-06-04 094928.png>)
+2. Beri nama folder tersebut.
+   ![Gambar 14](<Images/Cuplikan layar 2024-06-04 094954.png>)
