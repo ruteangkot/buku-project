@@ -1,6 +1,6 @@
 # Website Rute Angkot
 
-## Bab 1 Pengenalan Website Rute Angkot<br />
+## Chapter 1 Pengenalan Website Rute Angkot<br />
 
 ### 1.1 APA ITU WEBSITE RUTE ANGKOT<br />
 
@@ -10,7 +10,7 @@ Website rute angkot adalah platform digital yang menyediakan informasi tentang r
 
 Dengan adanya website rute angkot, masyarakat dapat dengan mudah menemukan rute angkot yang mereka butuhkan, mengurangi ketergantungan pada informasi manual, dan meningkatkan efisiensi dalam penggunaan angkutan umum. Platform ini juga dapat membantu pemerintah dan operator angkutan kota dalam mengelola dan mengoptimalkan rute angkot.
 
-## Bab 2 Metodologi Pembuatan Website<br />
+## Chapter 2 Pengenalan Teknologi<br />
 
 ### 2.1 BAHASA PEMOGRAMAN<br />
 
@@ -27,24 +27,30 @@ Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang
 
 #### 2.1.3 HTML<br />
 
-HTML Hypertext Markup Language berfungsi sebagai bahasa markup yang digunakan untuk pembuatan dokumen di internet. Dokumen di web biasanya dapat dijangkau melalui protokol HTTP, memfasilitasi transmisi data dari server situs web tertentu ke pengguna untuk visualisasi melalui browser web. Berfungsi sebagai bahasa markup, HTML menggunakan tag untuk menginstruksikan browser web tentang pemrosesan teks, sehingga menunjukkan apakah teks merupakan paragraf, daftar, atau hyperlink.(Rahmatika et al., 2021)<br />
-Selain itu, HTML sering berfungsi sebagai tahap awal dalam pengembangan situs web dan dianggap penting bagi pemula yang memulai pembuatan situs web untuk memahami tag dasar dalam HTML.<br />
+HTML (HyperText Markup Language) adalah bahasa standar untuk membuat dan menyusun halaman web. HTML memungkinkan pengembang untuk menentukan struktur dari konten web dengan menggunakan elemen-elemen seperti heading, paragraf, gambar, tautan, dan lain-lain. Setiap elemen HTML diidentifikasi dengan tag yang dikelilingi oleh tanda kurung sudut. Berikut adalah contoh sederhana dari struktur dasar sebuah halaman HTML:
+![Gambar1](<Images/carbon(4).png>) <br />
 
 #### 2.1.4 CSS<br />
 
-CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. Ini membantu menentukan ukuran teks, font, dan warna di seluruh situs. Ini memisahkan gaya dokumen dari struktur. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)<br />
+CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. Ini membantu menentukan ukuran teks, font, dan warna di seluruh situs. Ini memisahkan gaya dokumen dari struktur. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)
+![Gambar1](<Images/carbon(5).png>) <br />
+<br />
 
-### 2.2 APLIKASI YANG DIGUNAKAN<br />
+#### 2.1.5 CSS Skeleton <br />
+CSS Skeleton adalah framework CSS yang ringan dan responsif yang membantu pengembang membuat desain web yang bersih dan sederhana. Skeleton menyediakan grid sistem, elemen dasar seperti tombol, formulir, dan tabel yang dapat langsung digunakan tanpa perlu banyak konfigurasi. Ini sangat berguna untuk membuat prototipe cepat dan aplikasi yang memerlukan desain minimalis. Berikut adalah contoh penggunaan CSS Skeleton:
+![Gambar](<Images/carbon(6).png>) <br />
 
-#### 2.2.1 Visual Studio Code<br />
+#### 2.1.6 Visual Studio Code<br />
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
 
-### 2.3 PENYIMPANAN YANG DIGUNAKAN<br />
+#### 2.1.7 MongoDB <br />
+MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
+![Gambar](<Images/carbon(7).png>) <br />
 
-## Bab 3 Perancangan dan Pengembangan Sistem<br />
 
-## Bab 4 Tutorial Pembuatan Website<br />
+
+## Chapter 4 Tutorial Pembuatan Website<br />
 
 ### 4.1 Membuat Database <br />
 
