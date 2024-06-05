@@ -53,6 +53,12 @@ JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web me
 ![Gambar](<Images/carbon(8).png>) <br />
 
 ## Chapter 3 Pengenalan Database dan Penginstall-an MongoDB <br />
+### 3.0.1 Pengenalan Database <br />
+Apa itu Database?
+Database adalah kumpulan data yang disusun secara sistematis agar dapat diakses, dikelola, dan diperbarui dengan mudah. Database memungkinkan penyimpanan data dalam jumlah besar dengan cara yang terstruktur sehingga dapat digunakan untuk berbagai keperluan, seperti analisis data, pengambilan keputusan, dan penyimpanan informasi penting. <br />
+
+## Penginstall-an MongoDB <br />
+
 #### 3.1.1 Cara membuat account MongoDB <br />
 
 Buka browser default kalian dan cari di kolom pencarian MongoDB
