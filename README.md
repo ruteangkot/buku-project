@@ -28,12 +28,12 @@ Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang
 #### 2.1.3 HTML<br />
 
 HTML (HyperText Markup Language) adalah bahasa standar untuk membuat dan menyusun halaman web. HTML memungkinkan pengembang untuk menentukan struktur dari konten web dengan menggunakan elemen-elemen seperti heading, paragraf, gambar, tautan, dan lain-lain. Setiap elemen HTML diidentifikasi dengan tag yang dikelilingi oleh tanda kurung sudut. Berikut adalah contoh sederhana dari struktur dasar sebuah halaman HTML:
-![Gambar1](<Images/carbon(4).png>) <br />
+![Gambar](<Images/carbon(4).png>) <br />
 
 #### 2.1.4 CSS<br />
 
 CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. Ini membantu menentukan ukuran teks, font, dan warna di seluruh situs. Ini memisahkan gaya dokumen dari struktur. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)
-![Gambar1](<Images/carbon(5).png>) <br />
+![Gambar](<Images/carbon(5).png>) <br />
 <br />
 
 #### 2.1.5 CSS Skeleton <br />
@@ -48,15 +48,12 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
 
+#### 2.1.8 Javascript <br />
+JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. JavaScript adalah salah satu teknologi inti dari World Wide Web bersama dengan HTML dan CSS. Berikut adalah contoh sederhana dari JavaScript yang menampilkan pesan ketika tombol diklik:
+![Gambar](<Images/carbon(8).png>) <br />
 
-
-## Chapter 4 Tutorial Pembuatan Website<br />
-
-### 4.1 Membuat Database <br />
-
-Berikut adalah beberapa tutorial yang bisa membantu kalian dalam cara meng-connect database MongoDB ke visual studio code, dan cara menggunakan Mongostring.
-
-#### 4.1.1 Cara membuat account MongoDB <br />
+## Chapter 3 Pengenalan Database dan Penginstall-an MongoDB <br />
+#### 3.1.1 Cara membuat account MongoDB <br />
 
 Buka browser default kalian dan cari di kolom pencarian MongoDB
 setelah itu kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
@@ -65,7 +62,7 @@ Kalian bisa langsung click button “Try Atlas Free” dan kalian akan di arahka
 ![Gambar2](<Images/Screenshot (394).png>)
 Setelah melakukan login/sign up maka kita bisa ke langkah berikutnya.
 
-#### 4.1.2 Membuat cluster pada MongoDB dan menginstall Mongodb Compass <br />
+#### 3.1.2 Membuat cluster pada MongoDB dan menginstall Mongodb Compass <br />
 
 Setelah membuat account, kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
 ![Gambar3](<Images/Screenshot (388).png>)
@@ -92,7 +89,7 @@ Seperti gambar di atas karena kalian sudah men-download MongoDB Compass kalian b
 
 Setelah kalian memilih tools menggunakan compass kalian akan di arahkan seperti gambar di atas, kalian tinggal memilih “I have MongoDB compass installed” karena kalian sudah men-down;oad nya tadi, dan di bawahnya akan tertera connection string nya. Ini yang akan dipakai ketika kita memakai software MongoDB compass nya,tidak lupa untuk meng-copy connection string nya dan simpan baik-baik karena akan selalu dipakai ketika anda sedang menggunakan MongoDB Compass, sekarang menuju langkah terakhir.
 
-#### 4.1.3 Cara menambahkan New Connection di dalam MongoDB Compass. <br />
+#### 3.1.3 Cara menambahkan New Connection di dalam MongoDB Compass. <br />
 
 Pertama buka software MongoDB Compass kalian yang sudah terinstall.
 ![Gambar10](<Images/Screenshot (400).png>)
@@ -107,9 +104,9 @@ Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di 
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
-### 4.2 Membuat Backend <br />
+### Chapter 5 Membuat Backend <br />
 
-### 4.3 Membuat Frontend <br />
+### Chapter 6 Membuat Frontend <br />
 
 Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
 Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
