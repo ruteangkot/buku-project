@@ -35,6 +35,7 @@ Apa itu Database?
 Database adalah kumpulan data yang disusun secara sistematis agar dapat diakses, dikelola, dan diperbarui dengan mudah. Database memungkinkan penyimpanan data dalam jumlah besar dengan cara yang terstruktur sehingga dapat digunakan untuk berbagai keperluan, seperti analisis data, pengambilan keputusan, dan penyimpanan informasi penting. <br />
 
 #### Penginstall-an MongoDB <br />
+
 Langkah Pertama Buka browser default kalian dan cari di kolom pencarian MongoDB
 setelah itu kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
 ![Gambar1](<Images/Screenshot (385).png>)<br />
@@ -79,10 +80,8 @@ Jika sudah menambahkan connection string nya kalian bisa langsung meng-run codin
 Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di atas, maka selamat codingan anda sudah connect dengan MongoDB.
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
-
-### Chapter 5 Membuat Backend <br />
-
-### Chapter 6 Membuat Frontend <br />
+### chapter 4 Membuat Backend <br />
+### Chapter 5 Membuat Frontend <br />
 
 Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
 Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang berinteraksi langsung dengan pengguna. Teknologi ini biasanya dikembangkan menggunakan HTML, CSS, JavaScript, dan alat desain grafis seperti Photoshop dan Fireworks. Tujuan pengembangan front-end adalah untuk menciptakan antarmuka pengguna grafis (GUI) yang memberikan pengalaman pengguna yang baik bagi pengguna akhir.(Jesús & Caballero, n.d.)<br />
