@@ -114,3 +114,20 @@ Tambahkan juga Footer pada bagian bawah body agar tampilan sedikit lebih rapi.
 
 Selanjutnya agar tampilan website nya lebih cantik dan menarik, kita akan membuat file css pada folder Frontend. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)
 ![Gambar](<Images/Cuplikan layar 2024-06-06 110827.png>) <br />
+
+Dilanjutkan buat isi css nya seperti ini.<br />
+
+Pertama import dulu CDN dari Framework skeleton css agar mempermudah penempatan layout, dan import juga Font google agar memberikan tampilan teks lebih menarik.
+![Gambar](<Images/carbon (a).png>)<br />
+
+Tambahkan lagi tag-tag ini untuk style elemen-elemen utama pada html.
+![Gambar](<Images/carbon (b).png>)<br />
+
+Karena website kita berupa tabel dan diimpor dari file javascript, maka kita tambahkan tag-tag untuk style tabel nya dan style container untuk data tabel nya.
+![Gambar](<Images/carbon (c).png>)<br />
+
+Agar tampilan nya menyesuaikan mode gelap atau tidak nya browser yang digunakan user, maka kita akan membuat query darkmode seperti ini.
+![Gambar](<Images/carbon (d).png>)<br />
+
+Selanjutnya kita akan membuat query agar tampilan website kita dapat dibuka pada tampilan mobile tanpa merusak layout yang sudah dibuat.
+![Gambar](<Images/carbon (e).png>)<br />
