@@ -12,48 +12,28 @@ Dengan adanya website rute angkot, masyarakat dapat dengan mudah menemukan rute 
 
 ## Chapter 2 Pengenalan Teknologi<br />
 
-### 2.1 BAHASA PEMOGRAMAN<br />
-
-Dalam pengembangan suatu website, pemahaman terhadap bahasa pemograman menjadi kunci utama untuk dikuasai. Seperti saat membuat sebuah Website Rute Angkot, terdapat dua bahasa pemograman yang digunakan, yaitu Front-end dan Back-end. Front-end disini bertugas untuk memberikan tampilan antar pengguna, sedangkan Back-end bertugas untuk mengatur bagian server dari sebuah website.<br />
-Front-end disini akan menggunakan JavaScript dan juga Framework CSS Skeleton. Dan untuk Back-end akan menggunakan bahasa GO.
-
-#### 2.1.1 FRONTEND<br />
-
-Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang berinteraksi langsung dengan pengguna. Teknologi ini biasanya dikembangkan menggunakan HTML, CSS, JavaScript, dan alat desain grafis seperti Photoshop dan Fireworks. Tujuan pengembangan front-end adalah untuk menciptakan antarmuka pengguna grafis (GUI) yang memberikan pengalaman pengguna yang baik bagi pengguna akhir.(Jesús & Caballero, n.d.)<br />
-
 #### 2.1.2 BACKEND<br />
 
 “Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
-
-#### 2.1.3 HTML<br />
-
-HTML (HyperText Markup Language) adalah bahasa standar untuk membuat dan menyusun halaman web. HTML memungkinkan pengembang untuk menentukan struktur dari konten web dengan menggunakan elemen-elemen seperti heading, paragraf, gambar, tautan, dan lain-lain. Setiap elemen HTML diidentifikasi dengan tag yang dikelilingi oleh tanda kurung sudut. Berikut adalah contoh sederhana dari struktur dasar sebuah halaman HTML:
-![Gambar](<Images/carbon(4).png>) <br />
-
-#### 2.1.4 CSS<br />
-
-CSS adalah alat umum bagi pengembang web untuk mengontrol tampilan halaman web. Ini membantu menentukan ukuran teks, font, dan warna di seluruh situs. Ini memisahkan gaya dokumen dari struktur. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)
-![Gambar](<Images/carbon(5).png>) <br />
-<br />
-
-#### 2.1.5 CSS Skeleton <br />
-CSS Skeleton adalah framework CSS yang ringan dan responsif yang membantu pengembang membuat desain web yang bersih dan sederhana. Skeleton menyediakan grid sistem, elemen dasar seperti tombol, formulir, dan tabel yang dapat langsung digunakan tanpa perlu banyak konfigurasi. Ini sangat berguna untuk membuat prototipe cepat dan aplikasi yang memerlukan desain minimalis. Berikut adalah contoh penggunaan CSS Skeleton:
-![Gambar](<Images/carbon(6).png>) <br />
 
 #### 2.1.6 Visual Studio Code<br />
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
 
 #### 2.1.7 MongoDB <br />
+
 MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
 
 #### 2.1.8 Javascript <br />
+
 JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. JavaScript adalah salah satu teknologi inti dari World Wide Web bersama dengan HTML dan CSS. Berikut adalah contoh sederhana dari JavaScript yang menampilkan pesan ketika tombol diklik:
 ![Gambar](<Images/carbon(8).png>) <br />
 
 ## Chapter 3 Pengenalan Database dan Penginstall-an MongoDB <br />
+
 ### 3.0.1 Pengenalan Database <br />
+
 Apa itu Database?
 Database adalah kumpulan data yang disusun secara sistematis agar dapat diakses, dikelola, dan diperbarui dengan mudah. Database memungkinkan penyimpanan data dalam jumlah besar dengan cara yang terstruktur sehingga dapat digunakan untuk berbagai keperluan, seperti analisis data, pengambilan keputusan, dan penyimpanan informasi penting. <br />
 
@@ -115,11 +95,22 @@ Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sed
 ### Chapter 6 Membuat Frontend <br />
 
 Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
+Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang berinteraksi langsung dengan pengguna. Teknologi ini biasanya dikembangkan menggunakan HTML, CSS, JavaScript, dan alat desain grafis seperti Photoshop dan Fireworks. Tujuan pengembangan front-end adalah untuk menciptakan antarmuka pengguna grafis (GUI) yang memberikan pengalaman pengguna yang baik bagi pengguna akhir.(Jesús & Caballero, n.d.)<br />
 Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
 
-Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
+#### Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
 
-1. langkah pertama yaitu membuat folder baru untuk menampung file Frontend dengan cara klik logo folder pada Explorer.
-   ![Gambar 13](<Images/Cuplikan layar 2024-06-04 094928.png>)
-2. Beri nama folder tersebut.
-   ![Gambar 14](<Images/Cuplikan layar 2024-06-04 094954.png>)
+langkah pertama yaitu membuat folder baru untuk menampung file Frontend dengan cara klik logo folder pada Explorer.
+![Gambar 13](<Images/Cuplikan layar 2024-06-04 094928.png>)
+Beri nama folder tersebut.
+![Gambar 14](<Images/Cuplikan layar 2024-06-04 094954.png>)
+Kemudian buat file html pada folder tersebut yang akan digunakan sebagai page utama website ini. Html merupakan bahasa standar untuk membuat dan menyusun halaman web. HTML memungkinkan pengembang untuk menentukan struktur dari konten web dengan menggunakan elemen-elemen seperti heading, paragraf, gambar, tautan, dan lain-lain.
+![Gambar](<Images/carbon(4).png>) <br />
+Lalu lanjutkan isi pada bagian body nya seperti dibawah ini.
+![Gambar](<Images/carbon (6).png>) <br />
+Tambahkan class pada setiap tag yang dibutuhkan agar mempermudah style pada css nya nanti. Dan tambahkan juga tag Script sebagai konektor html dengan javascript nanti yang akan kita buat.<br />
+Tambahkan juga Footer pada bagian bawah body agar tampilan sedikit lebih rapi.
+![Gambar](<Images/carbon (7).png>) <br />
+
+Selanjutnya agar tampilan website nya lebih cantik dan menarik, kita akan membuat file css pada folder Frontend. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)
+![Gambar](<Images/Cuplikan layar 2024-06-06 110827.png>) <br />
