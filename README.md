@@ -99,8 +99,8 @@ Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
 
 langkah pertama yaitu membuat folder baru untuk menampung file Frontend dengan cara klik logo folder pada Explorer.
 ![Gambar 13](<Images/Cuplikan layar 2024-06-04 094928.png>)
-Beri nama folder tersebut.
-![Gambar 14](<Images/Cuplikan layar 2024-06-04 094954.png>)
+Beri nama folder tersebut.<br />
+![Gambar 14](<Images/Cuplikan layar 2024-06-04 094954.png>)<br />
 Kemudian buat file html pada folder tersebut yang akan digunakan sebagai page utama website ini. Html merupakan bahasa standar untuk membuat dan menyusun halaman web. HTML memungkinkan pengembang untuk menentukan struktur dari konten web dengan menggunakan elemen-elemen seperti heading, paragraf, gambar, tautan, dan lain-lain.
 ![Gambar](<Images/carbon(4).png>) <br />
 Lalu lanjutkan isi pada bagian body nya seperti dibawah ini.
@@ -129,8 +129,8 @@ Agar tampilan nya menyesuaikan mode gelap atau tidak nya browser yang digunakan 
 Selanjutnya kita akan membuat query agar tampilan website kita dapat dibuka pada tampilan mobile tanpa merusak layout yang sudah dibuat.
 ![Gambar](<Images/carbon (e).png>)<br />
 
-Setelah css selesai, sekarang lanjut membuat file javascript agar semua fungsi yang ada dapat di gunakan. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. Tambahkan lagi file baru javascript.<br />
-![Gambar](<Images/Cuplikan layar 2024-06-06 110920.png>)
+Setelah css selesai, sekarang lanjut membuat file javascript agar semua fungsi yang ada dapat di gunakan. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. Tambahkan lagi file baru javascript.
+![Gambar](<Images/Cuplikan layar 2024-06-06 110920.png>) <br />
 
 Lanjutkan isi file javascript nya. Tambahkan fungsi ini agar data dari Backend dapat dimuat pada Frontend.
 ![Gambar](<Images/carbon (g).png>)<br />
