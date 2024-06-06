@@ -25,9 +25,6 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
 
-#### 2.1.8 Javascript <br />
-
-JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. JavaScript adalah salah satu teknologi inti dari World Wide Web bersama dengan HTML dan CSS. Berikut adalah contoh sederhana dari JavaScript yang menampilkan pesan ketika tombol diklik:
 ![Gambar](<Images/carbon(8).png>) <br />
 
 ## Chapter 3 Pengenalan Database dan Penginstall-an MongoDB <br />
@@ -131,3 +128,15 @@ Agar tampilan nya menyesuaikan mode gelap atau tidak nya browser yang digunakan 
 
 Selanjutnya kita akan membuat query agar tampilan website kita dapat dibuka pada tampilan mobile tanpa merusak layout yang sudah dibuat.
 ![Gambar](<Images/carbon (e).png>)<br />
+
+Setelah css selesai, sekarang lanjut membuat file javascript agar semua fungsi yang ada dapat di gunakan. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. Tambahkan lagi file baru javascript.<br />
+![Gambar](<Images/Cuplikan layar 2024-06-06 110920.png>)
+
+Lanjutkan isi file javascript nya. Tambahkan fungsi ini agar data dari Backend dapat dimuat pada Frontend.
+![Gambar](<Images/carbon (g).png>)<br />
+
+Karena data merupakan data tabel, maka selanjutnya adalah membuat fungsi agar data yang dimuat langsung berbentuk tabel.
+![Gambar](<Images/carbon (h).png>)<br />
+
+Lalu terkahir kita akan membuat fungsi untuk placeholder agar kolom input pencarian rute dapat bergfungsi.
+![Gambar](<Images/carbon (i).png>)<br />
