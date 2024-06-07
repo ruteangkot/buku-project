@@ -80,7 +80,9 @@ Jika sudah menambahkan connection string nya kalian bisa langsung meng-run codin
 Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di atas, maka selamat codingan anda sudah connect dengan MongoDB.
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
+
 ### chapter 4 Membuat Backend <br />
+
 ### Chapter 5 Membuat Frontend <br />
 
 Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
@@ -132,3 +134,17 @@ Karena data merupakan data tabel, maka selanjutnya adalah membuat fungsi agar da
 
 Lalu terkahir kita akan membuat fungsi untuk placeholder agar kolom input pencarian rute dapat bergfungsi.
 ![Gambar](<Images/carbon (i).png>)<br />
+
+Selanjutnya membuat folder admin untuk page admin. Buat folder lagi seperti awal membuat file Frontend<br />
+
+Buat file html, css, dan javascript seperti awal.<br />
+![Gambar](Images/)<br />
+
+Isi file html nya seperti awal html utama.<br />
+![Gambar](Images/)<br />
+
+Lanjut isi file css agar tampilan nya seperti css utama.<br />
+![Gambar](Images/)<br />
+
+Dan terakhir isi file javascript nya. Pada file javascript ini seperti file javascript utama, namun ada beberapa tambahan code untuk fungsi CRUD.<br />
+![Gambar](Images/)<br />
