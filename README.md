@@ -137,3 +137,20 @@ Karena data merupakan data tabel, maka selanjutnya adalah membuat fungsi agar da
 
 Lalu terkahir kita akan membuat fungsi untuk placeholder agar kolom input pencarian rute dapat bergfungsi.
 ![Gambar](<Images/carbon (i).png>)<br />
+
+Selanjutnya membuat folder admin untuk page admin. Buat folder lagi seperti awal membuat file Frontend<br />
+
+Buat file html, css, dan javascript seperti awal.<br />
+![Gambar](Images/)<br />
+
+Isi file html nya seperti awal html utama.<br />
+![Gambar](<Images/carbon (k).png>)<br />
+
+Lanjut isi file css agar tampilan nya seperti css utama.<br />
+![Gambar](<Images/carbon%20(l).png>)<br />
+
+Dan terakhir isi file javascript nya. Pada file javascript ini seperti file javascript utama, namun ada beberapa tambahan code untuk fungsi CRUD.<br />
+![Gambar](<Images/carbon%20(l).png>)<br />
+
+Tambahkan fungsi-fungsi ini untuk menjalankan CRUD
+![Gambar](<Images/carbon%20(o).png>)<br />
