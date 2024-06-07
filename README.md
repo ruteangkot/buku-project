@@ -148,3 +148,6 @@ Lanjut isi file css agar tampilan nya seperti css utama.<br />
 
 Dan terakhir isi file javascript nya. Pada file javascript ini seperti file javascript utama, namun ada beberapa tambahan code untuk fungsi CRUD.<br />
 ![Gambar](Images/)<br />
+
+Tambahkan fungsi-fungsi ini untuk menjalankan CRUD
+![Gambar](Images/)<br />
