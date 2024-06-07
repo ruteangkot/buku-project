@@ -89,6 +89,14 @@ Sebelum kita membuat frontend kita harus membuat backend terlebih dahulu agar fr
 
 Dalam proyek ini, kita akan membuat backend untuk website Rute Angkot yang menyediakan informasi rute angkutan kota (angkot) bagi pengguna. Setelah backend selesai, kita akan melanjutkan dengan pengembangan frontend untuk menampilkan data-data yang telah dikelola oleh backend. Mari kita mulai dengan langkah-langkah pembuatan backend.
 
+#### Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+Setelah menyiapkan MongoDB, langkah selanjutnya dalam pengembangan backend untuk website Rute Angkot adalah menghubungkan aplikasi backend dengan basis data tersebut. MongoDB adalah basis data NoSQL yang berbasis dokumen, yang menyimpan data dalam bentuk BSON (Binary JSON). Dalam langkah ini, kita akan membuat koneksi antara aplikasi backend dan MongoDB, serta menyiapkan skema dan model untuk data rute angkot.
+
+Langkah pertama kalian bisa install Mongoose : 
+kalian bisa masuk ke file project kalian dan masuk ke visual studio code
+![Gambar](<Images/>)<br />
+
+
 
 ### Chapter 5 Membuat Frontend <br />
 
