@@ -112,8 +112,11 @@ setelah itu kalian bisa buka terminal di dalam visual studio code dan saat berad
 tunggu sampai proses downlaodnya selesai, setelah selesai kalian bisa langsung membuat file di dalam folder backend dan buat file "database.js".
 ![Gambar](Images/Screenshot%20(418).png)<br />
 lalu isi codingan didalamnya dengan codingan seperti gambar dibawah ini atau kalian bisa atur sesuka hati kalian.
+![Gambar](Images/Screenshot%20(421).png)<br />
+setelah menambahkan file database  kalian bisa buat file "app.js" seperti gambar dibawah ini.
 ![Gambar](Images/Screenshot%20(419).png)<br />
-
+dan kalian bisa mengisi di dalam codingannya seperti ini.
+![Gambar](Images/Screenshot%20(420).png)<br />
 
 
 
