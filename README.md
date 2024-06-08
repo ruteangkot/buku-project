@@ -105,7 +105,15 @@ Setelah menyiapkan MongoDB, langkah selanjutnya dalam pengembangan backend untuk
 
 Langkah pertama kalian bisa install Mongoose : 
 kalian bisa masuk ke file project kalian dan masuk ke visual studio code
-![Gambar](<Images/>)<br />
+![Gambar](<Images/Screenshot (412).png>)<br />
+setelah itu kalian bisa buka terminal di dalam visual studio code dan saat berada di terminal kalian bisa mengetik command di terminal "npm install moongose" seperti gambar dibawah ini.
+![Gambar](<Images/Screenshot (413).png>)<br />
+![Gambar](<Images/Screenshot (414).png>)<br />
+tunggu sampai proses downlaodnya selesai, setelah selesai kalian bisa langsung membuat file di dalam folder backend dan buat file "database.js".
+![Gambar](Images/Screenshot%20(418).png)<br />
+lalu isi codingan didalamnya dengan codingan seperti gambar dibawah ini atau kalian bisa atur sesuka hati kalian.
+![Gambar](Images/Screenshot%20(419).png)<br />
+
 
 
 
