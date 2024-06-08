@@ -94,12 +94,6 @@ Jika sudah menambahkan connection string nya kalian bisa langsung meng-run codin
 Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di atas, maka selamat codingan anda sudah connect dengan MongoDB.
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
-
-### chapter 4 Membuat Backend <br />
-Sebelum kita membuat frontend kita harus membuat backend terlebih dahulu agar frontend nya bisa mendesain apa yang ada di dalam backend. Dalam pengembangan aplikasi web, pembuatan backend merupakan langkah awal yang sangat penting. Backend adalah bagian dari aplikasi yang bertanggung jawab untuk mengelola logika bisnis, penyimpanan data, dan komunikasi dengan server. Dengan backend yang kuat, data dan fungsionalitas aplikasi dapat diatur dengan baik dan aman. Pembuatan backend melibatkan penggunaan berbagai teknologi dan kerangka kerja yang memungkinkan pengembangan fitur seperti manajemen pengguna, otorisasi, penanganan permintaan, serta integrasi dengan basis data.
-
-Dalam proyek ini, kita akan membuat backend untuk website Rute Angkot yang menyediakan informasi rute angkutan kota (angkot) bagi pengguna. Setelah backend selesai, kita akan melanjutkan dengan pengembangan frontend untuk menampilkan data-data yang telah dikelola oleh backend. Mari kita mulai dengan langkah-langkah pembuatan backend.
-
 #### Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
 Setelah menyiapkan MongoDB, langkah selanjutnya dalam pengembangan backend untuk website Rute Angkot adalah menghubungkan aplikasi backend dengan basis data tersebut. MongoDB adalah basis data NoSQL yang berbasis dokumen, yang menyimpan data dalam bentuk BSON (Binary JSON). Dalam langkah ini, kita akan membuat koneksi antara aplikasi backend dan MongoDB, serta menyiapkan skema dan model untuk data rute angkot.
 
@@ -117,6 +111,8 @@ setelah menambahkan file database  kalian bisa buat file "app.js" seperti gambar
 ![Gambar](Images/Screenshot%20(419).png)<br />
 dan kalian bisa mengisi di dalam codingannya seperti ini.
 ![Gambar](Images/Screenshot%20(420).png)<br />
+
+## chapter 4 Membangun Frontend dengan Javascript <br />
 
 
 
