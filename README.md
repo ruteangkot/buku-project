@@ -85,18 +85,22 @@ NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
 ### chapter 4 Membuat Backend <br />
+
 Sebelum kita membuat frontend kita harus membuat backend terlebih dahulu agar frontend nya bisa mendesain apa yang ada di dalam backend. Dalam pengembangan aplikasi web, pembuatan backend merupakan langkah awal yang sangat penting. Backend adalah bagian dari aplikasi yang bertanggung jawab untuk mengelola logika bisnis, penyimpanan data, dan komunikasi dengan server. Dengan backend yang kuat, data dan fungsionalitas aplikasi dapat diatur dengan baik dan aman. Pembuatan backend melibatkan penggunaan berbagai teknologi dan kerangka kerja yang memungkinkan pengembangan fitur seperti manajemen pengguna, otorisasi, penanganan permintaan, serta integrasi dengan basis data.
 
 Dalam proyek ini, kita akan membuat backend untuk website Rute Angkot yang menyediakan informasi rute angkutan kota (angkot) bagi pengguna. Setelah backend selesai, kita akan melanjutkan dengan pengembangan frontend untuk menampilkan data-data yang telah dikelola oleh backend. Mari kita mulai dengan langkah-langkah pembuatan backend.
 
 #### Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+
 Setelah menyiapkan MongoDB, langkah selanjutnya dalam pengembangan backend untuk website Rute Angkot adalah menghubungkan aplikasi backend dengan basis data tersebut. MongoDB adalah basis data NoSQL yang berbasis dokumen, yang menyimpan data dalam bentuk BSON (Binary JSON). Dalam langkah ini, kita akan membuat koneksi antara aplikasi backend dan MongoDB, serta menyiapkan skema dan model untuk data rute angkot.
 
-Langkah pertama kalian bisa install Mongoose : 
+Langkah pertama kalian bisa install Mongoose :
 kalian bisa masuk ke file project kalian dan masuk ke visual studio code
-![Gambar](<Images/>)<br />
-
-
+![Gambar](Images/Screenshot%20(412).png)<br />
+Setelah itu kalian bisa ke terminal di dalam visual studio code dan ketik command "npm install moongose"
+![Gambar](Images/Screenshot%20(413).png)<br />
+![Gambar](Images/Screenshot%20(414).png)<br />
+Lalu tunggu prosesnya sampai beres.
 
 ### Chapter 5 Membuat Frontend <br />
 
