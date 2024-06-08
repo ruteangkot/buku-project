@@ -1,43 +1,54 @@
-# Website Rute Angkot
+# Pengembangan Website Rute Angkot
 
-## Chapter 1 Pengenalan Website Rute Angkot<br />
+## Chapter 1 Pengenalan Golang dan Javascript<br />
 
-### 1.1 APA ITU WEBSITE RUTE ANGKOT<br />
+### 1.1 Defini Golang<br />
 
-Website rute angkot adalah platform digital yang menyediakan informasi tentang rute angkutan kota (angkot) dalam bentuk tabel. Website ini memungkinkan pengguna untuk mencari dan menampilkan rute angkot yang tersedia di suatu kota, serta memberikan informasi detail mengenai jalur yang dilalui dan titik pemberhentian.<br />
+Go, juga dikenal sebagai Golang, adalah bahasa pemrograman yang dikembangkan oleh Google untuk membantu Anda menulis kode secara efisien dan mudah, aman, terukur, dan mudah dipelihara. Go dirancang untuk menyederhanakan manajemen ketergantungan dan proses pengembangan perangkat lunak. Bahasa ini secara asli mendukung konkurensi dan konkurensi, menjadikannya pilihan populer untuk pengembangan perangkat lunak yang memerlukan kinerja dan skalabilitas tinggi.(Blumen & Meyerson, n.d.)<br />
 
-### 1.2 Tujuan dan Manfaat Website Rute Angkot<br />
+### 1.2 Defini Javascript<br />
 
-Dengan adanya website rute angkot, masyarakat dapat dengan mudah menemukan rute angkot yang mereka butuhkan, mengurangi ketergantungan pada informasi manual, dan meningkatkan efisiensi dalam penggunaan angkutan umum. Platform ini juga dapat membantu pemerintah dan operator angkutan kota dalam mengelola dan mengoptimalkan rute angkot.
+JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi penting dalam lanskap aplikasi web kontemporer. Bahasa ini, yang dicirikan oleh sifatnya yang dinamis, sistem pengetikan longgar, dan properti asinkron, mengambil peran penting dalam mengaktifkan fungsionalitas interaktif dalam platform berbasis web. Selain itu, JavaScript digunakan secara luas untuk memfasilitasi manipulasi real-time dan interaksi dengan Document Object Model (DOM), komponen penting dalam struktur halaman web.(Ocariza et al., 2015)<br />
 
-## Chapter 2 Pengenalan Teknologi<br />
+### 1.3 Kelebihan menggunakan Golang dan Javascript dalam Pengembangan Web
 
-#### 2.1.2 BACKEND<br />
+#### Kelebihan Golang (Go)
 
-“Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
+1. Golang memiliki performa yang sangat baik karena dikompilasi menjadi kode mesin, sehingga berjalan lebih cepat dibandingkan bahasa yang diinterpretasikan seperti JavaScript.<br />
+2. Golang memiliki dukungan bawaan yang sangat kuat untuk concurrency melalui goroutines dan channels, yang memudahkan pengembangan aplikasi dengan kemampuan pemrosesan paralel yang efisien.<br />
+3. Golang adalah bahasa yang statically written, yang berarti banyak kesalahan bisa ditangkap pada saat kompilasi, sehingga mengurangi bug pada runtime.<br />
+4. Sintaks Golang dirancang untuk sederhana dan mudah dibaca, yang membuatnya lebih mudah untuk dipelajari dan dipahami.<br />
+5. Waktu kompilasi Golang sangat cepat dibandingkan dengan banyak bahasa lain yang dikompilasi, yang mempercepat siklus pengembangan.<br />
+6. Golang memiliki ekosistem yang kuat dengan banyak pustaka dan alat bantu, serta komunitas yang aktif.<br />
 
-#### 2.1.6 Visual Studio Code<br />
+#### Kelebihan JavaScript
+
+1. JavaScript adalah bahasa pemrograman yang withering umum digunakan untuk pengembangan front-end web. Semua browser cutting edge mendukung JavaScript, membuatnya esensial untuk pengembangan aplikasi web interaktif.<br />
+2. JavaScript memiliki ekosistem yang sangat luas dengan banyak system dan library populer seperti Respond, Precise, dan Vue.js untuk pengembangan front-end, serta Node.js untuk back-end.<br />
+3. JavaScript memiliki dukungan kuat untuk offbeat programming dengan fitur seperti Guarantees, async/await, dan event-driven programming, yang penting untuk pengembangan aplikasi web present day yang responsif.<br />
+4. JavaScript memiliki komunitas pengembang yang sangat besar dan aktif, yang menyediakan banyak sumber daya, instructional exercise, dan alat bantu untuk pengembangan web.<br />
+5. JavaScript memungkinkan pembuatan aplikasi web yang dapat memperbarui konten secara real-time tanpa perlu memuat ulang halaman, berkat teknologi seperti WebSockets dan system seperti Meteor.js.<br />
+
+## Chapter 2 Persiapan Lingkungan Pengembang<br />
+
+### 2.1 Cara Install Golang<br />
+
+### 2.1 Setting up Visual Studio Code dan ekstensi yang diperlukan<br />
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
 
-#### 2.1.7 MongoDB <br />
+## Chapter 3 Membangun Backend dengan Golang <br />
+
+“Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
+
+### 3.1 Struktur dasar Proyek Golang<br />
+
+### 3.2 Menghubungkan ke Database (MongoDB) <br />
 
 MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
 
-#### 2.1.8 Javascript <br />
-
-JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. JavaScript adalah salah satu teknologi inti dari World Wide Web bersama dengan HTML dan CSS. Berikut adalah contoh sederhana dari JavaScript yang menampilkan pesan ketika tombol diklik:
 ![Gambar](<Images/carbon(8).png>) <br />
-
-## Chapter 3 Pengenalan Database dan Penginstall-an MongoDB <br />
-
-### Pengenalan Database <br />
-
-Apa itu Database?
-Database adalah kumpulan data yang disusun secara sistematis agar dapat diakses, dikelola, dan diperbarui dengan mudah. Database memungkinkan penyimpanan data dalam jumlah besar dengan cara yang terstruktur sehingga dapat digunakan untuk berbagai keperluan, seperti analisis data, pengambilan keputusan, dan penyimpanan informasi penting. <br />
-
-#### Penginstall-an MongoDB <br />
 
 Langkah Pertama Buka browser default kalian dan cari di kolom pencarian MongoDB
 setelah itu kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
@@ -84,27 +95,15 @@ Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di 
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
-### chapter 4 Membuat Backend <br />
-Sebelum kita membuat frontend kita harus membuat backend terlebih dahulu agar frontend nya bisa mendesain apa yang ada di dalam backend. Dalam pengembangan aplikasi web, pembuatan backend merupakan langkah awal yang sangat penting. Backend adalah bagian dari aplikasi yang bertanggung jawab untuk mengelola logika bisnis, penyimpanan data, dan komunikasi dengan server. Dengan backend yang kuat, data dan fungsionalitas aplikasi dapat diatur dengan baik dan aman. Pembuatan backend melibatkan penggunaan berbagai teknologi dan kerangka kerja yang memungkinkan pengembangan fitur seperti manajemen pengguna, otorisasi, penanganan permintaan, serta integrasi dengan basis data.
+## Chapter 4 Membangun Frontend dengan Javascript <br />
 
-Dalam proyek ini, kita akan membuat backend untuk website Rute Angkot yang menyediakan informasi rute angkutan kota (angkot) bagi pengguna. Setelah backend selesai, kita akan melanjutkan dengan pengembangan frontend untuk menampilkan data-data yang telah dikelola oleh backend. Mari kita mulai dengan langkah-langkah pembuatan backend.
-
-#### Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
-Setelah menyiapkan MongoDB, langkah selanjutnya dalam pengembangan backend untuk website Rute Angkot adalah menghubungkan aplikasi backend dengan basis data tersebut. MongoDB adalah basis data NoSQL yang berbasis dokumen, yang menyimpan data dalam bentuk BSON (Binary JSON). Dalam langkah ini, kita akan membuat koneksi antara aplikasi backend dan MongoDB, serta menyiapkan skema dan model untuk data rute angkot.
-
-Langkah pertama kalian bisa install Mongoose : 
-kalian bisa masuk ke file project kalian dan masuk ke visual studio code
-![Gambar](<Images/>)<br />
-
-
-
-### Chapter 5 Membuat Frontend <br />
+### 4.1 Struktur dasar Proyek Javascript
 
 Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
 Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang berinteraksi langsung dengan pengguna. Teknologi ini biasanya dikembangkan menggunakan HTML, CSS, JavaScript, dan alat desain grafis seperti Photoshop dan Fireworks. Tujuan pengembangan front-end adalah untuk menciptakan antarmuka pengguna grafis (GUI) yang memberikan pengalaman pengguna yang baik bagi pengguna akhir.(Jesús & Caballero, n.d.)<br />
 Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
 
-#### Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
+### 4.2 Integrasi dengan HTML dan CSS<br />
 
 langkah pertama yaitu membuat folder baru untuk menampung file Frontend dengan cara klik logo folder pada Explorer.
 ![Gambar 13](<Images/Cuplikan layar 2024-06-04 094928.png>)
@@ -166,3 +165,19 @@ Dan terakhir isi file javascript nya. Pada file javascript ini seperti file java
 
 Tambahkan fungsi-fungsi ini untuk menjalankan CRUD
 ![Gambar](<Images/carbon%20(o).png>)<br />
+
+## Chapter 5 Membuat API untuk Rute Angkot
+
+### Merancang RESTful API dengan Golang
+
+### CRUD Operation untuk Data Rute Angkot
+
+### Testing API menggunakan Postman
+
+## Chapter 6 Integrasi Frontend dan Backend
+
+### Menghubungkan Frontend dengan API Backend
+
+### Menggunakan Xhr/fetch untuk panggilan API
+
+### Menampilkan data rute angkot dalam tabel
