@@ -43,6 +43,32 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 
 ### 3.1 Struktur dasar Proyek Golang<br />
 
+Golang (Go) adalah bahasa pemrograman yang dirancang untuk efisiensi, kecepatan, dan kesederhanaan. Dalam pengembangan aplikasi dengan Go, struktur proyek yang baik sangat penting untuk menjaga kode terorganisir, mudah dikelola, dan mudah dipahami oleh pengembang lain. Struktur proyek yang baik juga membantu dalam pemisahan tanggung jawab, memungkinkan pengujian yang lebih mudah, dan memfasilitasi kolaborasi antar tim.<br />
+
+Struktur proyek Golang dapat bervariasi tergantung pada jenis aplikasi (misalnya, aplikasi web, layanan mikro, alat CLI), namun biasanya mengikuti pola umum. Berikut adalah struktur dasar dan penjelasan untuk masing-masing direktori dan file berdasarkan contoh yang Anda berikan: <br />
+![Gambar](<Images/Screenshot (422).png>)<br />
+Gambar di atas adalah contoh dari struktur golang bisa dilihat file apa saja yang wajib ada saat anda menggunakan bahasa golang. <br />
+
+#### Penjelasan Direktori dan File
+
+1. Cmd
+   Direktori ini berisi aplikasi yang bisa dieksekusi. Subdirektori biasanya mengandung file "main.go" yang berfungsi sebagai entry point aplikasi.
+   [Gambar](<Images/Screenshot (425).png>)
+2. Internal
+   Direktori ini berisi kode yang hanya boleh digunakan dalam proyek yang sama. Paket-paket di dalam "internal" tidak bisa diimpor oleh proyek lain.
+   [Gambar](<Images/Screenshot (426).png>)<br />
+3. Pkg
+   Berisi paket-paket yang dapat diimpor oleh proyek lain atau oleh beberapa aplikasi dalam proyek yang sama. Ini adalah kode yang dapat digunakan ulang.
+   [Gambar](<Images/Screenshot (427).png>)<br />
+4. API
+   Direktori ini digunakan untuk mendifinisikan API (misalnya, handler HTTP, spesifikasi API versi tertentu).
+   [Gambar](<Images/Screenshot (429).png>)<br />
+5. Web
+   Berisi file statis (seperti CSS, JS) dan template HTML jika Anda memiliki aplikasi web.
+   [Gambar](<Images/Screenshot (428).png>)<br />
+
+<br />
+
 ### 3.2 Menghubungkan ke Database (MongoDB) <br />
 
 MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
