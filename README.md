@@ -140,76 +140,37 @@ setelah menambahkan file database kalian bisa buat file "app.js" seperti gambar 
 dan kalian bisa mengisi di dalam codingannya seperti ini.
 ![Gambar](<Images/Screenshot%20(420).png>)<br />
 
-## chapter 4 Membangun Frontend dengan Javascript <br />
+## Chapter 4 Membangun Frontend dengan Javascript <br />
 
-### Chapter 5 Membuat Frontend <br />
+### 4.1 Struktur dasar proyek Javascript
 
-Setelah selesai membuat Backend, maka selanjutnya adalah membuat bagian Frontend agar data-data yang telah dibuat pada Backend dapat ditampilkan dan Website bisa di akses oleh pengguna.<br />
-Frontend merupakan bagian pengembangan aplikasi web yang mencakup teknologi yang berinteraksi langsung dengan pengguna. Teknologi ini biasanya dikembangkan menggunakan HTML, CSS, JavaScript, dan alat desain grafis seperti Photoshop dan Fireworks. Tujuan pengembangan front-end adalah untuk menciptakan antarmuka pengguna grafis (GUI) yang memberikan pengalaman pengguna yang baik bagi pengguna akhir.(Jesús & Caballero, n.d.)<br />
-Berikut langkah-langkah pembuatan Frontend untuk Website Rute Angkot.<br />
+![Gambar]() <br />
 
-### 4.2 Integrasi dengan HTML dan CSS<br />
+Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namun, yang paling penting adalah dalam struktur ini terdapat tiga file HTML: satu untuk halaman utama, satu untuk halaman admin, dan satu untuk halaman login. Demikian juga dengan file CSS dan JavaScript, masing-masing terdiri dari tiga file yang sesuai untuk halaman utama, admin, dan login.<br />
 
-langkah pertama yaitu membuat folder baru untuk menampung file Frontend dengan cara klik logo folder pada Explorer.
-![Gambar 13](<Images/Cuplikan layar 2024-06-04 094928.png>)
-Beri nama folder tersebut.<br />
-![Gambar 14](<Images/Cuplikan layar 2024-06-04 094954.png>)<br />
-Kemudian buat file html pada folder tersebut yang akan digunakan sebagai page utama website ini. Html merupakan bahasa standar untuk membuat dan menyusun halaman web. HTML memungkinkan pengembang untuk menentukan struktur dari konten web dengan menggunakan elemen-elemen seperti heading, paragraf, gambar, tautan, dan lain-lain.
-![Gambar](<Images/carbon(4).png>) <br />
-Lalu lanjutkan isi pada bagian body nya seperti dibawah ini.
-![Gambar](<Images/carbon (6).png>) <br />
-Tambahkan class pada setiap tag yang dibutuhkan agar mempermudah style pada css nya nanti. Dan tambahkan juga tag Script sebagai konektor html dengan javascript nanti yang akan kita buat.<br />
-Tambahkan juga Footer pada bagian bawah body agar tampilan sedikit lebih rapi.
-![Gambar](<Images/carbon (7).png>) <br />
+### 4.2 Integrasi dengan HTML dan CSS
 
-Selanjutnya agar tampilan website nya lebih cantik dan menarik, kita akan membuat file css pada folder Frontend. CSS memungkinkan pengaturan font, warna, dan ukuran teks dalam HTML. Pengguna dapat menerapkan style sheet untuk menyesuaikan tampilan halaman web.(Burkhard, 2022)
-![Gambar](<Images/Cuplikan layar 2024-06-06 110827.png>) <br />
+#### 4.2.1 Membuat file HTML
 
-Dilanjutkan buat isi css nya seperti ini.<br />
+##### 1. Halaman utama (index.html)
 
-Pertama import dulu CDN dari Framework skeleton css agar mempermudah penempatan layout, dan import juga Font google agar memberikan tampilan teks lebih menarik.
-![Gambar](<Images/carbon (a).png>)<br />
+Kita akan memulai dengan membuat halaman utama (index.html). Halaman ini akan menampilkan tabel sederhana namun tabel tersebut akan kita panggil atau dimuat dengan menggunakan JavaScript.<br />
 
-Tambahkan lagi tag-tag ini untuk style elemen-elemen utama pada html.
-![Gambar](<Images/carbon (b).png>)<br />
+![Gambar]() <br />
 
-Karena website kita berupa tabel dan diimpor dari file javascript, maka kita tambahkan tag-tag untuk style tabel nya dan style container untuk data tabel nya.
-![Gambar](<Images/carbon (c).png>)<br />
+Jangan lupa untuk memanggil link CSS dan Script JavaScript-nya. Seperti pada contoh di atas, pemanggilan CSS menggunakan teks berwarna tosca dan untuk JavaScript menggunakan teks berwarna kuning.<br />
 
-Agar tampilan nya menyesuaikan mode gelap atau tidak nya browser yang digunakan user, maka kita akan membuat query darkmode seperti ini.
-![Gambar](<Images/carbon (d).png>)<br />
+##### 2. Halaman admin (admin.html)
 
-Selanjutnya kita akan membuat query agar tampilan website kita dapat dibuka pada tampilan mobile tanpa merusak layout yang sudah dibuat.
-![Gambar](<Images/carbon (e).png>)<br />
+Halaman admin akan menampilkan tabel yang berisi data tabel yang sama seperti di halaman utama dan diformat dengan gaya yang sama juga. Di sini, kita akan belajar tentang struktur HTML untuk halaman admin. Tidak seperti halaman utama, pada halaman admin kita akan menyediakan kepala tabel nya atau tag (`<th>`) dan sisanya sama seperti halaman utama di muat dengan JavaScript. Maka pada halaman admin ini membutuhkan id untuk fungsi pada JavaScrip nya nanti.<br />
 
-Setelah css selesai, sekarang lanjut membuat file javascript agar semua fungsi yang ada dapat di gunakan. JavaScript dapat digunakan untuk memanipulasi konten, mengontrol multimedia, menganalisis data, dan banyak lagi. Tambahkan lagi file baru javascript.
-![Gambar](<Images/Cuplikan layar 2024-06-06 110920.png>) <br />
+![Gambar]() <br />
 
-Lanjutkan isi file javascript nya. Tambahkan fungsi ini agar data dari Backend dapat dimuat pada Frontend.
-![Gambar](<Images/carbon (g).png>)<br />
+##### 3. Halaman login (login.html)
 
-Karena data merupakan data tabel, maka selanjutnya adalah membuat fungsi agar data yang dimuat langsung berbentuk tabel.
-![Gambar](<Images/carbon (h).png>)<br />
+Halaman login akan memiliki form login sederhana dengan input untuk username dan password.<br />
 
-Lalu terkahir kita akan membuat fungsi untuk placeholder agar kolom input pencarian rute dapat bergfungsi.
-![Gambar](<Images/carbon (i).png>)<br />
-
-Selanjutnya membuat folder admin untuk page admin. Buat folder lagi seperti awal membuat file Frontend<br />
-
-Buat file html, css, dan javascript seperti awal.<br />
-![Gambar](Images/)<br />
-
-Isi file html nya seperti awal html utama.<br />
-![Gambar](<Images/carbon (k).png>)<br />
-
-Lanjut isi file css agar tampilan nya seperti css utama.<br />
-![Gambar](<Images/carbon%20(l).png>)<br />
-
-Dan terakhir isi file javascript nya. Pada file javascript ini seperti file javascript utama, namun ada beberapa tambahan code untuk fungsi CRUD.<br />
-![Gambar](<Images/carbon%20(l).png>)<br />
-
-Tambahkan fungsi-fungsi ini untuk menjalankan CRUD
-![Gambar](<Images/carbon%20(o).png>)<br />
+![Gambar]() <br />
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
