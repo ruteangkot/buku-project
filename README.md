@@ -144,7 +144,7 @@ dan kalian bisa mengisi di dalam codingannya seperti ini.
 
 ### 4.1 Struktur dasar proyek Javascript
 
-![Gambar]() <br />
+![Gambar](Images/directory%20front.png) <br />
 
 Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namun, yang paling penting adalah dalam struktur ini terdapat tiga file HTML: satu untuk halaman utama, satu untuk halaman admin, dan satu untuk halaman login. Demikian juga dengan file CSS dan JavaScript, masing-masing terdiri dari tiga file yang sesuai untuk halaman utama, admin, dan login.<br />
 
@@ -156,7 +156,7 @@ Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namu
 
 Kita akan memulai dengan membuat halaman utama (index.html). Halaman ini akan menampilkan tabel sederhana namun tabel tersebut akan kita panggil atau dimuat dengan menggunakan JavaScript.<br />
 
-![Gambar]() <br />
+![Gambar](Images/mainhtml.png) <br />
 
 Jangan lupa untuk memanggil link CSS dan Script JavaScript-nya. Seperti pada contoh di atas, pemanggilan CSS menggunakan teks berwarna tosca dan untuk JavaScript menggunakan teks berwarna kuning.<br />
 
@@ -164,13 +164,13 @@ Jangan lupa untuk memanggil link CSS dan Script JavaScript-nya. Seperti pada con
 
 Halaman admin akan menampilkan tabel yang berisi data tabel yang sama seperti di halaman utama dan diformat dengan gaya yang sama juga. Di sini, kita akan belajar tentang struktur HTML untuk halaman admin. Tidak seperti halaman utama, pada halaman admin kita akan menyediakan kepala tabel nya atau tag (`<th>`) dan sisanya sama seperti halaman utama di muat dengan JavaScript. Maka pada halaman admin ini membutuhkan id untuk fungsi pada JavaScrip nya nanti.<br />
 
-![Gambar]() <br />
+![Gambar](Images/minhtml.png) <br />
 
 ##### 3. Halaman login (login.html)
 
 Halaman login akan memiliki form login sederhana dengan input untuk username dan password.<br />
 
-![Gambar]() <br />
+![Gambar](Images/loghtml.png) <br />
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
