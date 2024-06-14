@@ -179,17 +179,17 @@ Halaman login akan memiliki form login sederhana dengan input untuk username dan
 Kita akan membuat file CSS untuk halaman utama yang akan mengatur tampilan umum tabel dan elemen lain di halaman utama. Anda akan belajar tentang dasar-dasar CSS dan bagaimana menggunakannya untuk membuat halaman web terlihat lebih menarik.<br />
 Ini kode yang mengatur elemen utama pada html. Dan yang mengatur image jika anda menambahkan gambar pada html anda.<br />
 
-![Gambar](Images) <br />
+![Gambar](Images/cssutama1.png) <br />
 
-![Gambar]() <br />
+![Gambar](Images/cssutama2.png) <br />
 
 Pada bagian ini merupakan bagian yang mengatur gaya pada tabel.<br />
 
-![Gambar]() <br />
+![Gambar](Images/cssutama3.png) <br />
 
 Dan pada bagian ini untuk mengatur gaya pada footer nya.<br />
 
-![Gambar]()<br>
+![Gambar](Images/cssutama4.png)<br>
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
