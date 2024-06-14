@@ -172,6 +172,25 @@ Halaman login akan memiliki form login sederhana dengan input untuk username dan
 
 ![Gambar](Images/loghtml.png) <br />
 
+#### 4.2.2 Mengintegrasikan CSS
+
+##### 1. Gaya umum (style.css)
+
+Kita akan membuat file CSS untuk halaman utama yang akan mengatur tampilan umum tabel dan elemen lain di halaman utama. Anda akan belajar tentang dasar-dasar CSS dan bagaimana menggunakannya untuk membuat halaman web terlihat lebih menarik.<br />
+Ini kode yang mengatur elemen utama pada html. Dan yang mengatur image jika anda menambahkan gambar pada html anda.<br />
+
+![Gambar](Images) <br />
+
+![Gambar]() <br />
+
+Pada bagian ini merupakan bagian yang mengatur gaya pada tabel.<br />
+
+![Gambar]() <br />
+
+Dan pada bagian ini untuk mengatur gaya pada footer nya.<br />
+
+![Gambar]()<br>
+
 ## Chapter 5 Membuat API untuk Rute Angkot
 
 ### Merancang RESTful API dengan Golang
