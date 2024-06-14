@@ -191,6 +191,26 @@ Dan pada bagian ini untuk mengatur gaya pada footer nya.<br />
 
 ![Gambar](Images/cssutama4.png)<br>
 
+Jangan lupa import CDN untuk framework CSS Skeleton untuk layout yang lebih rapih. Dan import font dari google, untuk font bisa disesuaikan sesuai keinginan. <br />
+
+![Gambar]()<br />
+
+Tambahkan juga media query agar tampilan dapat di buka pada perangkat mobile dan tetap menjaga kerapihan semua layout nya.<br />
+
+![Gambar]() <br />
+
+Terakhir tambahkan juga query untuk menyesuaikan warna pada semua elemen nya jika browser menggunakan dark mode atau tidak. Ini opsional tergantung keinginan.<br />
+
+![Gambar]() <br />
+
+##### 2. Gaya khusus halaman admin (admin/admin.html)
+
+Kita akan membuat file CSS khusus untuk halaman admin, memberikan gaya yang sedikit berbeda untuk tabel dan elemen lainnya. Ini menunjukkan bagaimana kita bisa memiliki gaya khusus untuk halaman yang berbeda dalam proyek yang sama.<br />
+
+#### 3. Gaya khusus halaman login (login/login.html)
+
+File CSS untuk halaman login akan fokus pada penataan form login agar terlihat lebih rapi dan profesional.<br />
+
 ## Chapter 5 Membuat API untuk Rute Angkot
 
 ### Merancang RESTful API dengan Golang
