@@ -1,6 +1,6 @@
 # Pengembangan Website Rute Angkot
 
-## Kata Pengantar
+## KATA PENGANTAR
 
 Segala puji dan syukur kami panjatkan kepada Tuhan Yang Maha Esa atas limpahan rahmat dan karunia-Nya sehingga buku ini dapat diselesaikan dengan baik. Salawat serta salam semoga selalu tercurah kepada Nabi Besar Muhammad SAW.<br />
 
@@ -12,67 +12,81 @@ Kami menyadari bahwa buku ini masih jauh dari sempurna. Oleh karena itu, kritik 
 
 Semoga buku ini dapat bermanfaat dan menambah wawasan bagi para pembaca dalam bidang pengembangan website, serta memberikan kontribusi positif bagi masyarakat. Terima kasih.<br />
 
-## Prakata
+## PRAKATA
 
-## Daftar Isi
+Di era digital yang terus berkembang pesat, teknologi telah menyentuh berbagai aspek kehidupan, termasuk transportasi. Angkutan kota (angkot) memiliki peran vital dalam kehidupan masyarakat perkotaan, dan kini informasi rute angkot dapat diakses dengan mudah melalui internet.
 
-### Chapter 1 Pengenalan Golang dan JavaScript
+Website rute angkot adalah salah satu teknologi yang semakin diminati, karena memudahkan pengguna untuk mengakses informasi mengenai rute, jadwal, dan detail lainnya dengan cara yang terstruktur dan mudah diakses. Pembuatan website yang menampilkan tabel rute angkot menjadi sangat penting, karena memungkinkan pengguna memperoleh informasi dengan cepat dan tepat.
 
-#### 1.1 Definisi Golang
+Buku ini bertujuan untuk memberikan panduan yang komprehensif tentang cara merancang dan membangun website yang menampilkan tabel rute angkot. Setiap chapter dalam buku ini disusun dengan langkah-langkah yang mudah diikuti, khususnya bagi pembaca yang baru memulai.
 
-#### 1.2 Definisi Javascript
+Kami berharap buku ini dapat memberikan kontribusi positif dalam meningkatkan keterampilan pengembangan website para pembaca. Terima kasih telah memilih buku ini sebagai panduan belajar Anda.
 
-#### 1.3 Kelebihan menggunakan Golang dan Javascript dalam Pengembangan Web
+Selamat belajar dan semoga sukses!
 
-### Chapter 2 Persiapan Lingkungan Pengembang
+## DAFTAR ISI
 
-#### 2.1 Cara Instalasi Golang
+### CHAPTER 1 PENGENALAN GOLANG DAN JAVASCRIPT
 
-#### 2.1 Setting up Visual Studio Code dan ekstensi yang diperlukan
+#### 1.1 DEFINISI GOLANG
 
-### Chapter 3 Membangun Backend dengan Golang
+#### 1.2 DEFINISI JAVASCRIPT
 
-#### 3.1 Struktur Dasar Proyek Golang
+#### 1.3 KELEBIHAN MENGGUNAKAN GOLANG DAN JAVASCRIPT DALAM PENGEMBANGAN WEB
 
-#### 3.2 Menghubungkan ke Database (MongoDB)
+### CHAPTER 2 PERSIAPAN LINGKUNGAN PENGEMBANG
 
-### Chapter 4 Membangun Frontend dengan JavaScript
+#### 2.1 CARA INSTALASI GOLANG
 
-#### 4.1 Struktur Dasar Proyek JavaScript
+#### 2.1 SETTING UP VISUAL STUDIO CODE DAN EKTENSI YANG DIPERLUKAN
 
-#### 4.2 Integrasi HTML dan CSS
+### CHAPTER 3 MEMBANGUN BACKEND DENGAN GOLANG
 
-### Chapter 5 Membuat API Rute Angkot
+#### 3.1 STRUKTUR DASARA PROYEK GOLANG
 
-#### 5.1 Merancang RestFul API dengan Golang
+#### 3.2 MENGHUBUNGKAN KE DATABASE (MONGODB)
 
-#### 5.2 CRUD Operation untuk Data Rute Angkot
+### CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
-#### 5.3 Testing API Menggunakan Postman
+#### 4.1 STRUKTUR DASAR PROYEK JAVASCRIPT
 
-### Chapter 6 Integrasi Frontend dan Backend
+#### 4.2 INTEGRASI HTML DAN CSS
 
-#### 6.1 Menghubungkan Frontend Dengan API Backend
+### CHATER 5 MEMBUAT API RUTE ANGKOT
 
-### Chapter 7 Tampilan UI Website yang Sudah Dibuat
+#### 5.1 MERANCANG RESTFUL API DENGAN GOLANG
 
-#### 7.1 Tampilan User
+#### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
-#### 7.2 Tampilan Admin
+#### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
-## Chapter 1 Pengenalan Golang dan Javascript<br />
+### CHAPTER 6 INTEGRASI FRONTEND DAN BACKEND
 
-### 1.1 Definisi Golang<br />
+#### 6.1 MENGHUBUNGKAN FRONTEND DENGAN API BACKEND
+
+### CHAPTER 7 MENAMPILKAN UI WEBSITE YANG SUDAH DIBUAT
+
+#### 7.1 TAMPILAN USER
+
+#### 7.2 TAMPILAN ADMIN
+
+### DAFTAR PUSTAKA
+
+### TENTANG PENULIS
+
+## CHAPTER 1 PENGENALAN GOLANG DAN JAVASCRIPT<br />
+
+### 1.1 DEFINISI GOLANG<br />
 
 Go, juga dikenal sebagai Golang, adalah bahasa pemrograman yang dikembangkan oleh Google untuk membantu Anda menulis kode secara efisien dan mudah, aman, terukur, dan mudah dipelihara. Go dirancang untuk menyederhanakan manajemen ketergantungan dan proses pengembangan perangkat lunak. Bahasa ini secara asli mendukung konkurensi dan konkurensi, menjadikannya pilihan populer untuk pengembangan perangkat lunak yang memerlukan kinerja dan skalabilitas tinggi.(Blumen & Meyerson, n.d.)<br />
 
-### 1.2 Definisi Javascript<br />
+### 1.2 DEFINISI JAVASCRIPT<br />
 
 JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi penting dalam lanskap aplikasi web kontemporer. Bahasa ini, yang dicirikan oleh sifatnya yang dinamis, sistem pengetikan longgar, dan properti asinkron, mengambil peran penting dalam mengaktifkan fungsionalitas interaktif dalam platform berbasis web. Selain itu, JavaScript digunakan secara luas untuk memfasilitasi manipulasi real-time dan interaksi dengan Document Object Model (DOM), komponen penting dalam struktur halaman web.(Ocariza et al., 2015)<br />
 
-### 1.3 Kelebihan menggunakan Golang dan Javascript dalam Pengembangan Web
+### 1.3 KELEBIHAN MENGGUNAKAN GOLANG DAN JAVASCRIPT DALAM PENGEMBANGAN WEB
 
-#### Kelebihan Golang (Go)
+#### KELEBIHAN GOLANG (GO)
 
 1. Golang memiliki performa yang sangat baik karena dikompilasi menjadi kode mesin, sehingga berjalan lebih cepat dibandingkan bahasa yang diinterpretasikan seperti JavaScript.<br />
 2. Golang memiliki dukungan bawaan yang sangat kuat untuk concurrency melalui goroutines dan channels, yang memudahkan pengembangan aplikasi dengan kemampuan pemrosesan paralel yang efisien.<br />
@@ -81,7 +95,7 @@ JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi pent
 5. Waktu kompilasi Golang sangat cepat dibandingkan dengan banyak bahasa lain yang dikompilasi, yang mempercepat siklus pengembangan.<br />
 6. Golang memiliki ekosistem yang kuat dengan banyak pustaka dan alat bantu, serta komunitas yang aktif.<br />
 
-#### Kelebihan JavaScript
+#### KELEBIHAN JAVASCRIPT
 
 1. JavaScript adalah bahasa pemrograman yang withering umum digunakan untuk pengembangan front-end web. Semua browser cutting edge mendukung JavaScript, membuatnya esensial untuk pengembangan aplikasi web interaktif.<br />
 2. JavaScript memiliki ekosistem yang sangat luas dengan banyak system dan library populer seperti Respond, Precise, dan Vue.js untuk pengembangan front-end, serta Node.js untuk back-end.<br />
@@ -89,19 +103,19 @@ JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi pent
 4. JavaScript memiliki komunitas pengembang yang sangat besar dan aktif, yang menyediakan banyak sumber daya, instructional exercise, dan alat bantu untuk pengembangan web.<br />
 5. JavaScript memungkinkan pembuatan aplikasi web yang dapat memperbarui konten secara real-time tanpa perlu memuat ulang halaman, berkat teknologi seperti WebSockets dan system seperti Meteor.js.<br />
 
-## Chapter 2 Persiapan Lingkungan Pengembang<br />
+## CHAPTER 2 PERSIAPAN LINGKUNGAN PENGEMBANG<br />
 
-### 2.1 Cara Install Golang<br />
+### 2.1 CARA INSTALASI GOLANG<br />
 
-### 2.1 Setting up Visual Studio Code dan ekstensi yang diperlukan<br />
+### 2.1 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN<br />
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
 
-## Chapter 3 Membangun Backend dengan Golang <br />
+## CHAPTER 3 MEMBANGUN BACKEND DENGAN GOLANG <br />
 
 “Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
 
-### 3.1 Struktur dasar Proyek Golang<br />
+### 3.1 STRUKTUR DASAR PROYEK GOLANG<br />
 
 Golang (Go) adalah bahasa pemrograman yang dirancang untuk efisiensi, kecepatan, dan kesederhanaan. Dalam pengembangan aplikasi dengan Go, struktur proyek yang baik sangat penting untuk menjaga kode terorganisir, mudah dikelola, dan mudah dipahami oleh pengembang lain. Struktur proyek yang baik juga membantu dalam pemisahan tanggung jawab, memungkinkan pengujian yang lebih mudah, dan memfasilitasi kolaborasi antar tim.<br />
 
@@ -129,7 +143,7 @@ Gambar di atas adalah contoh dari struktur golang bisa dilihat file apa saja yan
 
 <br />
 
-### 3.2 Menghubungkan ke Database (MongoDB) <br />
+### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
 
 MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
@@ -200,19 +214,19 @@ setelah menambahkan file database kalian bisa buat file "app.js" seperti gambar 
 dan kalian bisa mengisi di dalam codingannya seperti ini.
 ![Gambar](<Images/Screenshot%20(420).png>)<br />
 
-## Chapter 4 Membangun Frontend dengan Javascript <br />
+## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT <br />
 
-### 4.1 Struktur dasar proyek Javascript
+### 4.1 STRUKTUR DASAR PROYEK JAVASCRIPT
 
 ![Gambar](Images/directory%20front.png) <br />
 
 Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namun, yang paling penting adalah dalam struktur ini terdapat tiga file HTML: satu untuk halaman utama, satu untuk halaman admin, dan satu untuk halaman login. Demikian juga dengan file CSS dan JavaScript, masing-masing terdiri dari tiga file yang sesuai untuk halaman utama, admin, dan login.<br />
 
-### 4.2 Integrasi dengan HTML dan CSS
+### 4.2 INTEGRASIKAN HTML DAN CSS
 
-#### 4.2.1 Membuat file HTML
+#### 4.2.1 MEMBUAT FILE HTML
 
-##### 1. Halaman utama (index.html)
+##### 1. HALAMAN UTAMA (index.html)
 
 Kita akan memulai dengan membuat halaman utama (index.html). Halaman ini akan menampilkan tabel sederhana namun tabel tersebut akan kita panggil atau dimuat dengan menggunakan JavaScript.<br />
 
@@ -220,21 +234,21 @@ Kita akan memulai dengan membuat halaman utama (index.html). Halaman ini akan me
 
 Jangan lupa untuk memanggil link CSS dan Script JavaScript-nya. Seperti pada contoh di atas, pemanggilan CSS menggunakan teks berwarna tosca dan untuk JavaScript menggunakan teks berwarna kuning.<br />
 
-##### 2. Halaman admin (admin.html)
+##### 2. HALAMAN ADMIN (admin.html)
 
 Halaman admin akan menampilkan tabel yang berisi data tabel yang sama seperti di halaman utama dan diformat dengan gaya yang sama juga. Di sini, kita akan belajar tentang struktur HTML untuk halaman admin. Tidak seperti halaman utama, pada halaman admin kita akan menyediakan kepala tabel nya atau tag (`<th>`) dan sisanya sama seperti halaman utama di muat dengan JavaScript. Maka pada halaman admin ini membutuhkan id untuk fungsi pada JavaScrip nya nanti.<br />
 
 ![Gambar](Images/minhtml.png) <br />
 
-##### 3. Halaman login (login.html)
+##### 3. HALAMAN LOGIN (login.html)
 
 Halaman login akan memiliki form login sederhana dengan input untuk username dan password.<br />
 
 ![Gambar](Images/loghtml.png) <br />
 
-#### 4.2.2 Mengintegrasikan CSS
+#### 4.2.2 MENGINTEGRASIKAN CSS
 
-##### 1. Gaya umum (style.css)
+##### 1. GAYA UMUM (style.css)
 
 Kita akan membuat file CSS untuk halaman utama yang akan mengatur tampilan umum tabel dan elemen lain di halaman utama. Anda akan belajar tentang dasar-dasar CSS dan bagaimana menggunakannya untuk membuat halaman web terlihat lebih menarik.<br />
 Ini kode yang mengatur elemen utama pada html. Dan yang mengatur image jika anda menambahkan gambar pada html anda.<br />
@@ -263,7 +277,7 @@ Terakhir tambahkan juga query untuk menyesuaikan warna pada semua elemen nya jik
 
 ![Gambar](Images/cssdarkmode.png) <br />
 
-##### 2. Gaya khusus halaman admin (admin/admin.html)
+##### 2. GAYA KHUSUS HALAMAN ADMIN (admin/admin.html)
 
 Kita akan membuat file CSS khusus untuk halaman admin, memberikan gaya yang sedikit berbeda untuk tabel dan elemen lainnya. Ini menunjukkan bagaimana kita bisa memiliki gaya khusus untuk halaman yang berbeda dalam proyek yang sama.<br />
 
@@ -285,7 +299,7 @@ Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
 
 Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
 
-##### 3. Gaya khusus halaman login (login/login.html)
+##### 3. GAYA KHUSUS HALAMAN LOGIN (login/login.html)
 
 Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional.<br />
 
@@ -298,11 +312,11 @@ Pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembua
 
 ![Gambar](Images/csslogin2.png)<br />
 
-### 4.3 Integarasi JavaScript
+### 4.3 INTEGRARSI JAVASCRIPT
 
-#### Membuat file javascript
+#### MEMBUAT FILE JAVASCRIPT
 
-##### 1. Skrip Utama (javascript/main.js)
+##### 1. SKRIP UTAMA (javascript/main.js)
 
 Kita akan membuat file JavaScript untuk halaman utama. Skrip ini akan menambahkan interaktivitas ke tabel atau elemen lainnya di halaman utama. Anda akan belajar tentang event handling dan manipulasi DOM dengan JavaScript.<br />
 
@@ -314,7 +328,7 @@ Selanjutnya, untuk membuat kolom pencarian rute nya dapat berjalan dibutuhkan fu
 
 ![Gambar](Images/mainjs2.png)<br />
 
-##### 2. Skrip Admin (admin/admin.js)
+##### 2. SKRIP ADMIN (admin/admin.js)
 
 File JavaScript untuk halaman admin akan mengandung skrip yang dibutuhkan untuk fungsi-fungsi admin, seperti manipulasi data tabel. Ini menunjukkan bagaimana kita bisa menambahkan fungsionalitas yang berbeda di halaman admin.<br />
 
@@ -326,7 +340,7 @@ Seperti yang sudah kita singgung pada pembahasan CSS sebelum nya mengenai modal,
 
 ![Gambar](Images/adminjs2.png)<br />
 
-##### 3. Skrip login (login/login.js)
+##### 3. SKRIP LOGIN (login/login.js)
 
 File JavaScript untuk halaman login akan mengandung skrip yang berfungsi untuk validasi form atau fungsi lain yang diperlukan untuk halaman login. Ini akan membantu meningkatkan keamanan dan pengalaman pengguna di halaman login.<br />
 
@@ -334,24 +348,24 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 ![Gambar](Images/loginjs.png)<br />
 
-## Chapter 5 Membuat API untuk Rute Angkot
+## CHAPTER 5 MEMBUAT API UNTUK RUTE ANGKOT
 
-### 5.1 Merancang RESTful API dengan Golang
+### 5.1 MERANCANG RESTFUL API DENGAN GOLANG
 
-### 5.2 CRUD Operation untuk Data Rute Angkot
+### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
-### 5.3 Testing API menggunakan Postman
+### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
-## Chapter 6 Integrasi Frontend dan Backend
+## CHAPTER 6 INTEGRASI FRONTEND DAN BACKEND
 
-### 6.1 Menghubungkan Frontend dengan API Backend
+### 6.1 MENGHUBUNGKAN FRONTNEND DENGAN API BACKEND
 
-## Chapter 7 Tampilan UI Website yang Sudah Dibuat
+## CHAPTER 7 TAMPILAN UI WEBSITE YANG SUDAH DIBUAT
 
-### 7.1 Tampilan User
+### 7.1 TAMPILAN USER
 
-### 7.2 Tampilan Admin
+### 7.2 TAMPILAN ADMIN
 
-## Daftar Pustaka
+## DAFTAR PUSTAKA
 
-## Tentang Penulis
+## TENTANG PENULIS
