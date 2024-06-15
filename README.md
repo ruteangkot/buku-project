@@ -207,9 +207,36 @@ Terakhir tambahkan juga query untuk menyesuaikan warna pada semua elemen nya jik
 
 Kita akan membuat file CSS khusus untuk halaman admin, memberikan gaya yang sedikit berbeda untuk tabel dan elemen lainnya. Ini menunjukkan bagaimana kita bisa memiliki gaya khusus untuk halaman yang berbeda dalam proyek yang sama.<br />
 
+Karena banyak nya elemen pada halaman admin, ini menjadikan kode nya lebih banyak daripada CSS halaman utama. Banyak elemen yang harus di style pada halaman ini. Berikut kode nya. <br />
+
+Pertama import juga font google dan CDN untuk Framework CSS Skeleton nya seperti pada CSS utama.<br />
+
+Lanjut isi kode-kode ini.<br />
+
+![Gambar](Images)<br />
+
+Karena pada halaman ini memang memiliki banyak elemen, terutama untuk elemen fungsi Create, Update, Delete. Ketiga fungsi tersebut berbentuk form inputan yang dibuat pada modal, maka dari itu kita akan memberikan gaya yang sesuai untuk modal tersebut.<br />
+
+![Gambar](Images)<br />
+
+Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
+
+![Gambar](Images)<br />
+
+Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
+
 #### 3. Gaya khusus halaman login (login/login.html)
 
-File CSS untuk halaman login akan fokus pada penataan form login agar terlihat lebih rapi dan profesional.<br />
+Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional.<br />
+
+Seperti pada file CSS sebelumnya import font google dan Framework CSS Skeleton.<br />
+Lanjut isi kode nya seperti ini.<br />
+
+![Gambar](Images)<br />
+
+Pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembuatan query responsive nya juga tidak terlalu banyak.<br />
+
+![Gambar](Images)<br />
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
