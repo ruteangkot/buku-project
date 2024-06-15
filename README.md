@@ -248,11 +248,11 @@ Kita akan membuat file JavaScript untuk halaman utama. Skrip ini akan menambahka
 
 Agar data nya di muat sesuai dengan tag (`<th>`) yang pada HTML atau data nya dapat masuk ke dalam tabel, maka perlu dibuat fungsi seperti dibawah ini.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/mainjs1.png)<br />
 
 Selanjutnya, untuk membuat kolom pencarian rute nya dapat berjalan dibutuhkan fungsi seperti ini.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/mainjs2.png)<br />
 
 ##### 2. Skrip Admin (admin/admin.js)
 
@@ -260,11 +260,11 @@ File JavaScript untuk halaman admin akan mengandung skrip yang dibutuhkan untuk 
 
 Sama seperti file javascript utama, kita akan buat fungsi agar data nya masuk ke dalam tabel, namun sedikit berbeda dengan file javascript utama. Ada penambahan elemen lain pada file javascript ini.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/adminjs1.png)<br />
 
 Seperti yang sudah kita singgung pada pembahasan CSS sebelum nya mengenai modal, disinilah kita akan membuat modal tersebut. Berikut kode nya.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/adminjs2.png)<br />
 
 ##### 3. Skrip login (login/login.js)
 
@@ -272,7 +272,7 @@ File JavaScript untuk halaman login akan mengandung skrip yang berfungsi untuk v
 
 Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, tapi sementara buat kode nya seperti dulu.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/loginjs.png)<br />
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
