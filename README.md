@@ -215,7 +215,7 @@ Lanjut isi kode-kode ini.<br />
 
 ![Gambar](Images/cssadmin1.png)<br />
 
-Karena pada halaman ini memang memiliki banyak elemen, terutama untuk elemen fungsi Create, Update, Delete. Ketiga fungsi tersebut berbentuk form inputan yang dibuat pada modal, maka dari itu kita akan memberikan gaya yang sesuai untuk modal tersebut.<br />
+Karena pada halaman ini memang memiliki banyak elemen, terutama elemen modal yang digunakan pada javascript nya untuk menangani suatu fungsi. Maka dari itu kita akan memberikan gaya yang sesuai untuk modal tersebut.<br />
 
 ![Gambar](Images/cssadmin2.png)<br />
 
@@ -225,7 +225,7 @@ Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
 
 Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
 
-#### 3. Gaya khusus halaman login (login/login.html)
+##### 3. Gaya khusus halaman login (login/login.html)
 
 Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional.<br />
 
@@ -237,6 +237,42 @@ Lanjut isi kode nya seperti ini.<br />
 Pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembuatan query responsive nya juga tidak terlalu banyak.<br />
 
 ![Gambar](Images/csslogin2.png)<br />
+
+### 4.3 Integarasi JavaScript
+
+#### Membuat file javascript
+
+##### 1. Skrip Utama (javascript/main.js)
+
+Kita akan membuat file JavaScript untuk halaman utama. Skrip ini akan menambahkan interaktivitas ke tabel atau elemen lainnya di halaman utama. Anda akan belajar tentang event handling dan manipulasi DOM dengan JavaScript.<br />
+
+Agar data nya di muat sesuai dengan tag (`<th>`) yang pada HTML atau data nya dapat masuk ke dalam tabel, maka perlu dibuat fungsi seperti dibawah ini.<br />
+
+![Gambar](Images/)<br />
+
+Selanjutnya, untuk membuat kolom pencarian rute nya dapat berjalan dibutuhkan fungsi seperti ini.<br />
+
+![Gambar](Images/)<br />
+
+##### 2. Skrip Admin (admin/admin.js)
+
+File JavaScript untuk halaman admin akan mengandung skrip yang dibutuhkan untuk fungsi-fungsi admin, seperti manipulasi data tabel. Ini menunjukkan bagaimana kita bisa menambahkan fungsionalitas yang berbeda di halaman admin.<br />
+
+Sama seperti file javascript utama, kita akan buat fungsi agar data nya masuk ke dalam tabel, namun sedikit berbeda dengan file javascript utama. Ada penambahan elemen lain pada file javascript ini.<br />
+
+![Gambar](Images/)<br />
+
+Seperti yang sudah kita singgung pada pembahasan CSS sebelum nya mengenai modal, disinilah kita akan membuat modal tersebut. Berikut kode nya.<br />
+
+![Gambar](Images/)<br />
+
+##### 3. Skrip login (login/login.js)
+
+File JavaScript untuk halaman login akan mengandung skrip yang berfungsi untuk validasi form atau fungsi lain yang diperlukan untuk halaman login. Ini akan membantu meningkatkan keamanan dan pengalaman pengguna di halaman login.<br />
+
+Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, tapi sementara buat kode nya seperti dulu.<br />
+
+![Gambar](Images/)<br />
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
