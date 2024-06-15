@@ -1,12 +1,62 @@
 # Pengembangan Website Rute Angkot
 
+## Kata Pengantar
+
+## Prakata
+
+## Daftar Isi
+
+### Chapter 1 Pengenalan Golang dan JavaScript
+
+#### 1.1 Definisi Golang
+
+#### 1.2 Definisi Javascript
+
+#### 1.3 Kelebihan menggunakan Golang dan Javascript dalam Pengembangan Web
+
+### Chapter 2 Persiapan Lingkungan Pengembang
+
+#### 2.1 Cara Instalasi Golang
+
+#### 2.1 Setting up Visual Studio Code dan ekstensi yang diperlukan
+
+### Chapter 3 Membangun Backend dengan Golang
+
+#### 3.1 Struktur Dasar Proyek Golang
+
+#### 3.2 Menghubungkan ke Database (MongoDB)
+
+### Chapter 4 Membangun Frontend dengan JavaScript
+
+#### 4.1 Struktur Dasar Proyek JavaScript
+
+#### 4.2 Integrasi HTML dan CSS
+
+### Chapter 5 Membuat API Rute Angkot
+
+#### 5.1 Merancang RestFul API dengan Golang
+
+#### 5.2 CRUD Operation untuk Data Rute Angkot
+
+#### 5.3 Testing API Menggunakan Postman
+
+### Chapter 6 Integrasi Frontend dan Backend
+
+#### 6.1 Menghubungkan Frontend Dengan API Backend
+
+### Chapter 7 Tampilan UI Website yang Sudah Dibuat
+
+#### 7.1 Tampilan User
+
+#### 7.2 Tampilan Admin
+
 ## Chapter 1 Pengenalan Golang dan Javascript<br />
 
-### 1.1 Defini Golang<br />
+### 1.1 Definisi Golang<br />
 
 Go, juga dikenal sebagai Golang, adalah bahasa pemrograman yang dikembangkan oleh Google untuk membantu Anda menulis kode secara efisien dan mudah, aman, terukur, dan mudah dipelihara. Go dirancang untuk menyederhanakan manajemen ketergantungan dan proses pengembangan perangkat lunak. Bahasa ini secara asli mendukung konkurensi dan konkurensi, menjadikannya pilihan populer untuk pengembangan perangkat lunak yang memerlukan kinerja dan skalabilitas tinggi.(Blumen & Meyerson, n.d.)<br />
 
-### 1.2 Defini Javascript<br />
+### 1.2 Definisi Javascript<br />
 
 JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi penting dalam lanskap aplikasi web kontemporer. Bahasa ini, yang dicirikan oleh sifatnya yang dinamis, sistem pengetikan longgar, dan properti asinkron, mengambil peran penting dalam mengaktifkan fungsionalitas interaktif dalam platform berbasis web. Selain itu, JavaScript digunakan secara luas untuk memfasilitasi manipulasi real-time dan interaksi dengan Document Object Model (DOM), komponen penting dalam struktur halaman web.(Ocariza et al., 2015)<br />
 
@@ -276,16 +326,22 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
-### Merancang RESTful API dengan Golang
+### 5.1 Merancang RESTful API dengan Golang
 
-### CRUD Operation untuk Data Rute Angkot
+### 5.2 CRUD Operation untuk Data Rute Angkot
 
-### Testing API menggunakan Postman
+### 5.3 Testing API menggunakan Postman
 
 ## Chapter 6 Integrasi Frontend dan Backend
 
-### Menghubungkan Frontend dengan API Backend
+### 6.1 Menghubungkan Frontend dengan API Backend
 
-### Menggunakan Xhr/fetch untuk panggilan API
+## Chapter 7 Tampilan UI Website yang Sudah Dibuat
 
-### Menampilkan data rute angkot dalam tabel
+### 7.1 Tampilan User
+
+### 7.2 Tampilan Admin
+
+## Daftar Pustaka
+
+## Tentang Penulis
