@@ -193,15 +193,15 @@ Dan pada bagian ini untuk mengatur gaya pada footer nya.<br />
 
 Jangan lupa import CDN untuk framework CSS Skeleton untuk layout yang lebih rapih. Dan import font dari google, untuk font bisa disesuaikan sesuai keinginan. <br />
 
-![Gambar]()<br />
+![Gambar](Images/cssimport.png)<br />
 
 Tambahkan juga media query agar tampilan dapat di buka pada perangkat mobile dan tetap menjaga kerapihan semua layout nya.<br />
 
-![Gambar]() <br />
+![Gambar](Images/cssresponsive.png) <br />
 
 Terakhir tambahkan juga query untuk menyesuaikan warna pada semua elemen nya jika browser menggunakan dark mode atau tidak. Ini opsional tergantung keinginan.<br />
 
-![Gambar]() <br />
+![Gambar](Images/cssdarkmode.png) <br />
 
 ##### 2. Gaya khusus halaman admin (admin/admin.html)
 
@@ -213,15 +213,15 @@ Pertama import juga font google dan CDN untuk Framework CSS Skeleton nya seperti
 
 Lanjut isi kode-kode ini.<br />
 
-![Gambar](Images)<br />
+![Gambar](Images/cssadmin1.png)<br />
 
 Karena pada halaman ini memang memiliki banyak elemen, terutama untuk elemen fungsi Create, Update, Delete. Ketiga fungsi tersebut berbentuk form inputan yang dibuat pada modal, maka dari itu kita akan memberikan gaya yang sesuai untuk modal tersebut.<br />
 
-![Gambar](Images)<br />
+![Gambar](Images/cssadmin2.png)<br />
 
 Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
 
-![Gambar](Images)<br />
+![Gambar](Images/cssadmin4.png)<br />
 
 Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
 
@@ -232,11 +232,11 @@ Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada 
 Seperti pada file CSS sebelumnya import font google dan Framework CSS Skeleton.<br />
 Lanjut isi kode nya seperti ini.<br />
 
-![Gambar](Images)<br />
+![Gambar](Images/csslogin1.png)<br />
 
 Pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembuatan query responsive nya juga tidak terlalu banyak.<br />
 
-![Gambar](Images)<br />
+![Gambar](Images/csslogin2.png)<br />
 
 ## Chapter 5 Membuat API untuk Rute Angkot
 
