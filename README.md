@@ -106,14 +106,15 @@ JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi pent
 ## CHAPTER 2 PERSIAPAN LINGKUNGAN PENGEMBANG<br />
 
 ### 2.1 CARA INSTALASI GOLANG<br />
+
 Golang, atau Go, adalah bahasa pemrograman yang dikembangkan oleh Google. Go dirancang untuk efisiensi, kemudahan penggunaan, dan kecepatan kompilasi. Bahasa ini memiliki fitur seperti pengelolaan memori otomatis, tipe data statis, dan dukungan concurrency yang kuat, menjadikannya pilihan yang baik untuk pengembangan aplikasi yang skalabel dan cepat.<br />
 
 Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 
 #### Instalasi di Windows <br />
-1. Unduh installer Golang: caranya dengan mengunjungi website Golang kalian bisa mengetik di kolom pencarian browser kalian "Golang" dan kalian akan di alihkan ke website seperti gambar dibawah ini.
-[GambarinstalasiGolang](<Images/>)
 
+1. Unduh installer Golang: caranya dengan mengunjungi website Golang kalian bisa mengetik di kolom pencarian browser kalian "Golang" dan kalian akan di alihkan ke website seperti gambar dibawah ini.
+   [GambarinstalasiGolang](<Images/Screenshot (457).png>)<br />
 
 ### 2.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN<br />
 
@@ -125,31 +126,26 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 
 ### 3.1 STRUKTUR DASAR PROYEK GOLANG<br />
 
-Golang (Go) adalah bahasa pemrograman yang dirancang untuk efisiensi, kecepatan, dan kesederhanaan. Dalam pengembangan aplikasi dengan Go, struktur proyek yang baik sangat penting untuk menjaga kode terorganisir, mudah dikelola, dan mudah dipahami oleh pengembang lain. Struktur proyek yang baik juga membantu dalam pemisahan tanggung jawab, memungkinkan pengujian yang lebih mudah, dan memfasilitasi kolaborasi antar tim.<br />
+[GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
 
-Struktur proyek Golang dapat bervariasi tergantung pada jenis aplikasi (misalnya, aplikasi web, layanan mikro, alat CLI), namun biasanya mengikuti pola umum. Berikut adalah struktur dasar dan penjelasan untuk masing-masing direktori dan file berdasarkan contoh yang Anda berikan: <br />
-![Gambar](<Images/Screenshot (422).png>)<br />
-Gambar di atas adalah contoh dari struktur golang bisa dilihat file apa saja yang wajib ada saat anda menggunakan bahasa golang. <br />
+#### Penjelasan Bagian Folder <br />
 
-#### Penjelasan Direktori dan File
+1. github/: Berisi konfigurasi untuk GitHub, seperti workflow untuk GitHub Actions.
+2. config/: Biasanya digunakan untuk menyimpan file konfigurasi aplikasi, seperti file konfigurasi database atau environment variables.
+3. controller/: Menyimpan logika untuk menangani permintaan HTTP. Controller berisi fungsi yang akan dipanggil oleh route.
+4. helper/: Berisi fungsi utilitas atau helper yang dapat digunakan di berbagai bagian aplikasi.
+5. model/: Menyimpan definisi struktur data atau model yang digunakan dalam aplikasi, biasanya berhubungan dengan database.
+6. route/: Berisi definisi rute untuk aplikasi web, menentukan endpoint dan controller mana yang harus dipanggil.
 
-1. Cmd
-   Direktori ini berisi aplikasi yang bisa dieksekusi. Subdirektori biasanya mengandung file "main.go" yang berfungsi sebagai entry point aplikasi.
-   [Gambar](<Images/Screenshot (425).png>)
-2. Internal
-   Direktori ini berisi kode yang hanya boleh digunakan dalam proyek yang sama. Paket-paket di dalam "internal" tidak bisa diimpor oleh proyek lain.
-   [Gambar](<Images/Screenshot (426).png>)<br />
-3. Pkg
-   Berisi paket-paket yang dapat diimpor oleh proyek lain atau oleh beberapa aplikasi dalam proyek yang sama. Ini adalah kode yang dapat digunakan ulang.
-   [Gambar](<Images/Screenshot (427).png>)<br />
-4. API
-   Direktori ini digunakan untuk mendifinisikan API (misalnya, handler HTTP, spesifikasi API versi tertentu).
-   [Gambar](<Images/Screenshot (429).png>)<br />
-5. Web
-   Berisi file statis (seperti CSS, JS) dan template HTML jika Anda memiliki aplikasi web.
-   [Gambar](<Images/Screenshot (428).png>)<br />
+##### Penjelasan Bagian File <br />
 
-<br />
+1. gcloudignore: Berisi daftar file atau direktori yang akan diabaikan saat melakukan deployment ke Google Cloud.
+2. gitignore: Berisi daftar file atau direktori yang akan diabaikan oleh Git.
+3. go.mod: Berisi informasi modul Go, seperti nama modul dan dependensi yang digunakan.
+4. go.sum: Berisi checksum dari dependensi yang digunakan, memastikan integritas dependensi.
+5. LICENSE: Berisi informasi lisensi proyek.
+6. main.go: File utama aplikasi Go yang biasanya berisi titik masuk utama (main function) dari aplikasi.
+7. README.md: Berisi dokumentasi proyek, penjelasan tentang cara instalasi, penggunaan, dan informasi lainnya yang relevan.
 
 ### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
 
