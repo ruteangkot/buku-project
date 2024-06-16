@@ -38,7 +38,7 @@ Selamat belajar dan semoga sukses!
 
 #### 2.1 CARA INSTALASI GOLANG
 
-#### 2.1 SETTING UP VISUAL STUDIO CODE DAN EKTENSI YANG DIPERLUKAN
+#### 2.2 SETTING UP VISUAL STUDIO CODE DAN EKTENSI YANG DIPERLUKAN
 
 ### CHAPTER 3 MEMBANGUN BACKEND DENGAN GOLANG
 
@@ -106,8 +106,16 @@ JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi pent
 ## CHAPTER 2 PERSIAPAN LINGKUNGAN PENGEMBANG<br />
 
 ### 2.1 CARA INSTALASI GOLANG<br />
+Golang, atau Go, adalah bahasa pemrograman yang dikembangkan oleh Google. Go dirancang untuk efisiensi, kemudahan penggunaan, dan kecepatan kompilasi. Bahasa ini memiliki fitur seperti pengelolaan memori otomatis, tipe data statis, dan dukungan concurrency yang kuat, menjadikannya pilihan yang baik untuk pengembangan aplikasi yang skalabel dan cepat.<br />
 
-### 2.1 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN<br />
+Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
+
+#### Instalasi di Windows <br />
+1. Unduh installer Golang: caranya dengan mengunjungi website Golang kalian bisa mengetik di kolom pencarian browser kalian "Golang" dan kalian akan di alihkan ke website seperti gambar dibawah ini.
+[GambarinstalasiGolang](<Images/>)
+
+
+### 2.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN<br />
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
 
