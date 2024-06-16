@@ -135,7 +135,7 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 3. controller/: Menyimpan logika untuk menangani permintaan HTTP. Controller berisi fungsi yang akan dipanggil oleh route.
 4. helper/: Berisi fungsi utilitas atau helper yang dapat digunakan di berbagai bagian aplikasi.
 5. model/: Menyimpan definisi struktur data atau model yang digunakan dalam aplikasi, biasanya berhubungan dengan database.
-6. route/: Berisi definisi rute untuk aplikasi web, menentukan endpoint dan controller mana yang harus dipanggil.
+6. route/: Berisi definisi rute untuk aplikasi web, menentukan endpoint dan controller mana yang harus dipanggil.<br />
 
 ##### Penjelasan Bagian File <br />
 
@@ -145,7 +145,7 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 4. go.sum: Berisi checksum dari dependensi yang digunakan, memastikan integritas dependensi.
 5. LICENSE: Berisi informasi lisensi proyek.
 6. main.go: File utama aplikasi Go yang biasanya berisi titik masuk utama (main function) dari aplikasi.
-7. README.md: Berisi dokumentasi proyek, penjelasan tentang cara instalasi, penggunaan, dan informasi lainnya yang relevan.
+7. README.md: Berisi dokumentasi proyek, penjelasan tentang cara instalasi, penggunaan, dan informasi lainnya yang relevan.<br />
 
 ### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
 
