@@ -385,7 +385,15 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 ### 7.1 TAMPILAN USER
 
+Tampilan halaman user pada mobile.<br />
+
+![Gambar](Images/userui.jpg)<br />
+
 ### 7.2 TAMPILAN ADMIN
+
+Tampilan halaman admin pada mobile.<br />
+
+![Gambar](Images/adminui.jpg)<br />
 
 ## DAFTAR PUSTAKA
 
