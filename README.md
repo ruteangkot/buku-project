@@ -144,6 +144,25 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 ### 3.1 STRUKTUR DASAR PROYEK GOLANG<br />
 
 [GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
+Integrasi dalam konteks proyek Go dapat berarti berbagai hal, seperti menghubungkan berbagai bagian proyek, mengatur dependensi, atau menjalankan aplikasi. Berikut adalah panduan singkat tentang bagaimana setiap bagian dari proyek Anda saling berhubungan dan bagaimana Anda dapat menjalankan dan mengembangkan proyek ini.
+
+#### 3.1.1 Konfigurasi Proyek (config/) <br />
+Ini adalah file yang digunakan untuk mengonfigurasi aplikasi atau sistem. File ini biasanya berisi pengaturan seperti konfigurasi database, pengaturan lingkungan (environment), koneksi ke layanan eksternal, atau pengaturan lainnya yang diperlukan oleh 
+Isi: Konfigurasi seperti file "config.yml" atau "config.json"
+Cara penggunaan: Dalam file "Main.go" atau Controller, anda akan memuat konfigurasi ini, contoh seperti gambar dibawah ini:
+[Carbon 3.1](<Images/carbon(3.1).png>) <br />
+
+#### 3.1.2 Controller (controller/) <br />
+Controller adalah bagian dari MVC yang berfungsi sebagai perantara antara model dan view. Controller menerima input dari pengguna melalui antarmuka pengguna (UI), memproses permintaan, dan mengirimkan output kembali ke pengguna dalam bentuk data yang diminta atau tampilan yang sesuai.
+Isi: Fungsi yang menangani permintaan HTTP 
+Cara penggunaan: Rute di "route/" akan memanggil fungsi dari controller. Contoh:
+[Carbon 3.2](<Images/carbon(3.2).png>) <br />
+
+#### 3.1.3 Helper (helper/) <br />
+ Helper adalah fungsi-fungsi bantu yang menyediakan fungsionalitas tambahan untuk aplikasi. Helper biasanya berisi fungsi-fungsi kecil yang sering digunakan di berbagai bagian aplikasi. Contohnya termasuk fungsi untuk formatting tanggal, mengelola string, atau fungsi-fungsi utilitas lainnya.
+Isi: Fungsi utilitas yang dapat digunakan di berbagai tempat.
+Cara Penggunaan: Import dan gunakan fungsi helper di controller atau file lainnya. Contoh:
+[Carbon 3.3](<Images/carbon (3.3).png>) <br />
 
 
 
