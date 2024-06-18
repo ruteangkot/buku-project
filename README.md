@@ -1,5 +1,7 @@
 # Pengembangan Website Rute Angkot
 
+![Gambar](Images/frontcover.jpg)<br />
+
 ## KATA PENGANTAR
 
 Segala puji dan syukur kami panjatkan kepada Tuhan Yang Maha Esa atas limpahan rahmat dan karunia-Nya sehingga buku ini dapat diselesaikan dengan baik. Salawat serta salam semoga selalu tercurah kepada Nabi Besar Muhammad SAW.<br />
@@ -429,3 +431,5 @@ Tampilan halaman admin pada mobile.<br />
 ## DAFTAR PUSTAKA
 
 ## TENTANG PENULIS
+
+![Gambar](Images/backcover.jpg)
