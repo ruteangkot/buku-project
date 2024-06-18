@@ -145,24 +145,7 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 
 [GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
 
-#### Penjelasan Bagian Folder <br />
 
-1. github/: Berisi konfigurasi untuk GitHub, seperti workflow untuk GitHub Actions.
-2. config/: Biasanya digunakan untuk menyimpan file konfigurasi aplikasi, seperti file konfigurasi database atau environment variables.
-3. controller/: Menyimpan logika untuk menangani permintaan HTTP. Controller berisi fungsi yang akan dipanggil oleh route.
-4. helper/: Berisi fungsi utilitas atau helper yang dapat digunakan di berbagai bagian aplikasi.
-5. model/: Menyimpan definisi struktur data atau model yang digunakan dalam aplikasi, biasanya berhubungan dengan database.
-6. route/: Berisi definisi rute untuk aplikasi web, menentukan endpoint dan controller mana yang harus dipanggil.<br />
-
-##### Penjelasan Bagian File <br />
-
-1. gcloudignore: Berisi daftar file atau direktori yang akan diabaikan saat melakukan deployment ke Google Cloud.
-2. gitignore: Berisi daftar file atau direktori yang akan diabaikan oleh Git.
-3. go.mod: Berisi informasi modul Go, seperti nama modul dan dependensi yang digunakan.
-4. go.sum: Berisi checksum dari dependensi yang digunakan, memastikan integritas dependensi.
-5. LICENSE: Berisi informasi lisensi proyek.
-6. main.go: File utama aplikasi Go yang biasanya berisi titik masuk utama (main function) dari aplikasi.
-7. README.md: Berisi dokumentasi proyek, penjelasan tentang cara instalasi, penggunaan, dan informasi lainnya yang relevan.<br />
 
 ### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
 
