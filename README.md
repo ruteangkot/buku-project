@@ -239,9 +239,9 @@ dan kalian bisa mengisi di dalam codingannya seperti ini.
 
 ### 4.1 STRUKTUR DASAR PROYEK JAVASCRIPT
 
-![Gambar](Images/directory%20front.png) <br />
+![Gambar](Images/direcfrontend.png) <br />
 
-Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namun, yang paling penting adalah dalam struktur ini terdapat tiga file HTML: satu untuk halaman utama, satu untuk halaman admin, dan satu untuk halaman login. Demikian juga dengan file CSS dan JavaScript, masing-masing terdiri dari tiga file yang sesuai untuk halaman utama, admin, dan login.<br />
+Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namun, yang paling penting adalah dalam struktur ini terdapat empat file HTML: satu untuk halaman utama, satu untuk halaman admin, satu untuk halaman login, dan satu untuk halaman register. Demikian juga dengan file CSS dan JavaScript, masing-masing terdiri dari empat file yang sesuai untuk halaman utama, admin, login, dan register.<br />
 
 ### 4.2 INTEGRASIKAN HTML DAN CSS
 
@@ -255,15 +255,21 @@ Kita akan memulai dengan membuat halaman utama (index.html). Halaman ini akan me
 
 Jangan lupa untuk memanggil link CSS dan Script JavaScript-nya. Seperti pada contoh di atas, pemanggilan CSS menggunakan teks berwarna tosca dan untuk JavaScript menggunakan teks berwarna kuning.<br />
 
-##### 2. HALAMAN ADMIN (admin.html)
+##### 2. HALAMAN ADMIN (admin/admin.html)
 
 Halaman admin akan menampilkan tabel yang berisi data tabel yang sama seperti di halaman utama dan diformat dengan gaya yang sama juga. Di sini, kita akan belajar tentang struktur HTML untuk halaman admin. Tidak seperti halaman utama, pada halaman admin kita akan menyediakan kepala tabel nya atau tag (`<th>`) dan sisanya sama seperti halaman utama di muat dengan JavaScript. Maka pada halaman admin ini membutuhkan id untuk fungsi pada JavaScrip nya nanti.<br />
 
 ![Gambar](Images/minhtml.png) <br />
 
-##### 3. HALAMAN LOGIN (login.html)
+##### 3. HALAMAN REGISTER (resgiter/register.html)
 
-Halaman login akan memiliki form login sederhana dengan input untuk username dan password.<br />
+Halaman register akan memiliki form register sederhana dengan input username dan password.<br />
+
+![Gambar](Images)<br />
+
+##### 4. HALAMAN LOGIN (login/login.html)
+
+Sama hal nya dengan halaman resgiter, pada halaman login akan memiliki form login sederhana dengan input untuk username dan password.<br />
 
 ![Gambar](Images/loghtml.png) <br />
 
@@ -320,9 +326,15 @@ Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
 
 Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
 
-##### 3. GAYA KHUSUS HALAMAN LOGIN (login/login.html)
+##### 3. GAYA KHUSUS HALAMAN REGISTER (register/register.html)
 
-Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional.<br />
+Kita akan membuat file CSS khusus untuk halaman register, memberikan gaya yang rapi dan profesional.<br />
+
+![Gambar](Images/)<br />
+
+##### 4. GAYA KHUSUS HALAMAN LOGIN (login/login.html)
+
+Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional sama dengan halaman register.<br />
 
 Seperti pada file CSS sebelumnya import font google dan Framework CSS Skeleton.<br />
 Lanjut isi kode nya seperti ini.<br />
@@ -361,9 +373,13 @@ Seperti yang sudah kita singgung pada pembahasan CSS sebelum nya mengenai modal,
 
 ![Gambar](Images/adminjs2.png)<br />
 
+##### 3. SKRIP REGISTER (register/register.js)
+
+File JavaScript untuk halaman register akan mengandung skrip yang berfungsi untuk input dan menyimpan data untuk login nantinya.
+
 ##### 3. SKRIP LOGIN (login/login.js)
 
-File JavaScript untuk halaman login akan mengandung skrip yang berfungsi untuk validasi form atau fungsi lain yang diperlukan untuk halaman login. Ini akan membantu meningkatkan keamanan dan pengalaman pengguna di halaman login.<br />
+Sama hal nya pada skrip register namun, File JavaScript untuk halaman login akan mengandung skrip yang berfungsi untuk validasi form atau fungsi lain yang diperlukan untuk halaman login. Ini akan membantu meningkatkan keamanan dan pengalaman pengguna di halaman login.<br />
 
 Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, tapi sementara buat kode nya seperti dulu.<br />
 
