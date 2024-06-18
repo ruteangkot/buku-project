@@ -137,7 +137,26 @@ Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 
 ### 2.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN<br />
 
-Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)
+Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)<br />
+
+Ekstensi yang diperlukan pada pengembangan website ini hanya ada tiga.<br />
+
+1. Eksntensi Golang
+
+Karena pada pengembangan ini kita akan menggunakan bahasa pemograman Go, tentu saja ekstensi ini di perlukan.<br />
+![Gambar](Images/ekstenGo.png)<br />
+
+2. Ekstensi JavaScript
+
+Ekstensi ini diperlukan agar dapat membantu dalam penlusian syntaks-syntaks pada javascript.<br />
+![Gambar](Images/EkstenJs.png)
+
+3. Ekstensi Prettier
+
+Terakhir ekstensi paling wajib di install adalah ini. Karena dengan adanya ekstensi ini sangat memudahkan kita jika memiliki penulisan kode-kode yang berantakan dapat di atasi secara cepat dan otomatis oleh ektensi ini.<br />
+![Gambar](Images/EkstenPrettier.png)<br />
+
+Sebenarnya ekstensi-ekstensi bisa disesuaikan lagi sesuai kebutuhan, namun untuk dasar nya ketiga ekstensi ini wajib diperlukan untuk memulai dan membantu dalam pengembangan suatu website.
 
 ## CHAPTER 3 MEMBANGUN BACKEND DENGAN GOLANG <br />
 
