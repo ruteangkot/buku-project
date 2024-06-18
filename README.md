@@ -147,24 +147,37 @@ Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Stud
 Integrasi dalam konteks proyek Go dapat berarti berbagai hal, seperti menghubungkan berbagai bagian proyek, mengatur dependensi, atau menjalankan aplikasi. Berikut adalah panduan singkat tentang bagaimana setiap bagian dari proyek Anda saling berhubungan dan bagaimana Anda dapat menjalankan dan mengembangkan proyek ini.
 
 #### 3.1.1 Konfigurasi Proyek (config/) <br />
-Ini adalah file yang digunakan untuk mengonfigurasi aplikasi atau sistem. File ini biasanya berisi pengaturan seperti konfigurasi database, pengaturan lingkungan (environment), koneksi ke layanan eksternal, atau pengaturan lainnya yang diperlukan oleh 
-Isi: Konfigurasi seperti file "config.yml" atau "config.json"
-Cara penggunaan: Dalam file "Main.go" atau Controller, anda akan memuat konfigurasi ini, contoh seperti gambar dibawah ini:
+
+Ini adalah file yang digunakan untuk mengonfigurasi aplikasi atau sistem. Biasanya, file ini berisi konfigurasi seperti konfigurasi database, pengaturan lingkungan (environment), koneksi ke layanan eksternal, dan pengaturan lainnya yang diperlukan oleh
+Isi: Konfigurasi seperti file "config.yml" atau "config.json" Cara penggunaan: Anda akan memuat konfigurasi ini ke dalam file kontroler atau file "Main.go", seperti yang ditunjukkan dalam gambar berikut:
 [Carbon 3.1](<Images/carbon(3.1).png>) <br />
 
 #### 3.1.2 Controller (controller/) <br />
-Controller adalah bagian dari MVC yang berfungsi sebagai perantara antara model dan view. Controller menerima input dari pengguna melalui antarmuka pengguna (UI), memproses permintaan, dan mengirimkan output kembali ke pengguna dalam bentuk data yang diminta atau tampilan yang sesuai.
-Isi: Fungsi yang menangani permintaan HTTP 
-Cara penggunaan: Rute di "route/" akan memanggil fungsi dari controller. Contoh:
+
+Controller adalah komponen MVC yang berfungsi sebagai perantara antara model dan tampilan. Melalui antarmuka pengguna (UI), controller menerima input pengguna, memprosesnya, dan kemudian mengirimkan output kembali ke pengguna dalam bentuk tampilan atau data yang diminta.
+Isi: Fungsi yang menangani permintaan HTTP Cara penggunaan: Fungsi kontroler akan dipanggil melalui rute di "route/". Contohnya:
 [Carbon 3.2](<Images/carbon(3.2).png>) <br />
 
 #### 3.1.3 Helper (helper/) <br />
- Helper adalah fungsi-fungsi bantu yang menyediakan fungsionalitas tambahan untuk aplikasi. Helper biasanya berisi fungsi-fungsi kecil yang sering digunakan di berbagai bagian aplikasi. Contohnya termasuk fungsi untuk formatting tanggal, mengelola string, atau fungsi-fungsi utilitas lainnya.
-Isi: Fungsi utilitas yang dapat digunakan di berbagai tempat.
-Cara Penggunaan: Import dan gunakan fungsi helper di controller atau file lainnya. Contoh:
+
+Helper biasanya berisi fungsi kecil yang sering digunakan di berbagai bagian aplikasi, seperti fungsi untuk format tanggal, mengelola string, dan fungsi utilitas lainnya.Isi: Fungsi utilitas yang dapat digunakan di tempat lain.Cara Penggunaan: Import fungsi helper ke controller atau file lain. Contohnya:
 [Carbon 3.3](<Images/carbon (3.3).png>) <br />
 
+#### 3.1.4 Model (model/) <br />
 
+Mengelola data dan logika bisnis aplikasi adalah bagian dari MVC. Model menunjukkan struktur data aplikasi dan memberi tahu cara berinteraksi dengan database dan sumber data lainnya. Isi: Model atau struktur data yang terkait dengan database. Cara Penggunaan: Untuk berinteraksi dengan database, gunakan model ini di controller. Contohnya:
+[Carbon 3.4](<Images/carbon (3.4).png>) <br />
+
+#### 3.1.5 Rute (route/) <br />
+
+Rute, yang biasanya didefinisikan dalam file khusus, menentukan URL dan metode HTTP (GET, POST, dll.) serta tindakan yang harus dilakukan saat permintaan HTTP diterima. Isi: Mendefinisikan endpoint HTTP. Cara Penggunaan: Mendefinisikan endpoint dengan menggunakan router, seperti mux. Contohnya:
+[Carbon 3.5](<Images/carbon (3.5).png>) <br />
+
+#### 3.1.6 Main (main.go/) <br />
+
+File main biasanya merupakan entri utama aplikasi. Aplikasi dimulai di sini dan konfigurasi awal dimulai. Setelah itu, mereka beralih ke komponen lain seperti rute, pengontrol, atau model.
+Titik masuk utama aplikasi adalah isi. Cara Penggunaan: Ini adalah tempat Anda memulai konfigurasi, router, dan server HTTP. Contohnya:
+[Carbon 3.6](<Images/carbon (3.6).png>) <br />
 
 ### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
 
