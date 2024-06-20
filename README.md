@@ -202,7 +202,7 @@ Titik masuk utama aplikasi adalah isi. Cara Penggunaan: Ini adalah tempat Anda m
 
 ### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
 
-MongoDB adalah database NoSQL yang menggunakan model dokumen, yang berarti data disimpan dalam format JSON-like yang fleksibel. MongoDB sangat cocok untuk aplikasi yang memerlukan skema dinamis dan dapat menangani berbagai jenis data. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
+MongoDB adalah basis data NoSQL berbasis dokumen yang dikembangkan oleh MongoDB Inc. dan bersifat open-source. Basis data ini menggunakan format objek JavaScript (JSON) untuk menyimpan dan mengambil data, yang kemudian dikonversi ke format BSON saat disimpan. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
 
 ![Gambar](<Images/carbon(8).png>) <br />
@@ -283,9 +283,9 @@ Pada bagian Frontend, struktur direktori bisa disesuaikan sesuai keinginan. Namu
 
 ### 4.2 INTEGRASIKAN HTML DAN CSS
 
-HTML atau HyperText Markup Language adalah format yang digunakan untuk menulis dokumen pada halaman web. Dokumen ini hampir selalu dapat diakses melalui HTTP, yaitu protokol yang menyampaikan informasi dari server situs web untuk ditampilkan kepada pengguna melalui peramban web. HTML merupakan bahasa markah yang digunakan untuk memberi tahu peramban web bagaimana menangani teks, seperti apakah teks tersebut ditulis sebagai paragraf, daftar, atau tautan, dengan menggunakan elemen-elemen yang disebut tag.
-
 #### 4.2.1 MEMBUAT FILE HTML
+
+HTML atau HyperText Markup Language adalah format yang digunakan untuk menulis dokumen pada halaman web. Dokumen ini hampir selalu dapat diakses melalui HTTP, yaitu protokol yang menyampaikan informasi dari server situs web untuk ditampilkan kepada pengguna melalui peramban web. HTML merupakan bahasa markah yang digunakan untuk memberi tahu peramban web bagaimana menangani teks, seperti apakah teks tersebut ditulis sebagai paragraf, daftar, atau tautan, dengan menggunakan elemen-elemen yang disebut tag.
 
 ##### 1. HALAMAN UTAMA (index.html)
 
@@ -314,6 +314,8 @@ Sama hal nya dengan halaman resgiter, pada halaman login akan memiliki form logi
 ![Gambar](Images/loghtml.png) <br />
 
 #### 4.2.2 MENGINTEGRASIKAN CSS
+
+CSS (Cascading Style Sheets) adalah metode yang semakin sering digunakan oleh pengembang web untuk mengatur tampilan halaman web. CSS memungkinkan pengembang untuk menentukan ukuran teks, font, dan warna untuk seluruh situs web tanpa perlu menyertakan informasi ini di setiap halaman, sehingga memisahkan gaya dari konten dan memudahkan proses desain.
 
 ##### 1. GAYA UMUM (style.css)
 
@@ -392,8 +394,6 @@ Samal hal nya pada halaman register, pada halaman login ini tidak terlalu banyak
 
 ### 4.3 INTEGRARSI JAVASCRIPT
 
-JavaScript adalah bahasa pemrograman skrip yang memainkan peran penting dalam aplikasi web saat ini. Bahasa ini dinamis, tidak ketat dalam pengetikan, asinkron, dan banyak digunakan untuk berinteraksi dengan Document Objek Model (DOM) selama runtime. Karakteristik ini membuat kode JavaScript rentan terhadap kesalahan, dan pelokalan kesalahan JavaScript sering kali menjadi tugas yang melelahkan dan manual. JavaScript memungkinkan eksekusi kode secara asinkron, yang dipicu oleh berbagai jenis peristiwa seperti klik pengguna atau panggilan fungsi asinkron.
-
 #### MEMBUAT FILE JAVASCRIPT
 
 ##### 1. SKRIP UTAMA (javascript/main.js)
@@ -469,6 +469,15 @@ Tampilan halaman admin pada mobile.<br />
 ![Gambar](Images/adminui.jpg)<br />
 
 ## DAFTAR PUSTAKA
+
+Blumen, R., & Meyerson, J. (n.d.). 4 / $ 3 1. 0 0 © 2 0 1 4 I E E E The Go Programming Language. www.se-radio.net<br />
+introduction-to-cascading-style-sheets-3j57sobw. (n.d.)<br />
+Jain, N. (2014). REVIEW OF DIFFERENT RESPONSIVE CSS FRONT-END FRAMEWORKS. In Journal of Global Research in Computer Science (Vol. 5, Issue 11). www.newaeonweb.com.br/responsiveaeon<br />
+Morozov, K. (2020). Increasing Web-Design Effectiveness Based on Backendless Architecture.<br />
+Murari, R., & Sandru, V. (2013). Visual Studio-Continuous Integration. In IJCEM International Journal of Computational Engineering & Management (Vol. 16). www.ijcem.org<br />
+Ocariza, F. S., Li, G., Pattabiraman, K., & Mesbah, A. (2015). Automatic Fault Localization for Client-Side JavaScript. Test. Verif. Reliab, 00, 1–24. https://doi.org/10.1002/stvr<br />
+Rahmatika, R., Pauziah, U., & Mursito, H. (2021). HTML-Based Website Learning Training (Hypertext Markup Languange). REKA ELKOMIKA: Jurnal Pengabdian Kepada Masyarakat, 2(1), 19–25. https://doi.org/10.26760/rekaelkomika.v2i1.19-25<br />
+Satheesh, Mithun., D’mello, B. Joseph., & Krol, Jason. (2015). Web development with MongoDB and NodeJS : build an interactive and full-featured web application from scratch using Node.js and MongoDB. Packt Publishing.<br />
 
 ## TENTANG PENULIS
 
