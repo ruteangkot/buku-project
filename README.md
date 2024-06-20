@@ -252,7 +252,7 @@ Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di 
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
-### 3.3 Import package <br />
+### 3.3 Penjelasan Import package <br />
 
 Untuk menggunakan MongoDB di dalam codingan kita harus menambahkan package MongoDB terlebih dahulu.
 Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program: <br />
@@ -288,6 +288,14 @@ Paket bson menawarkan tipe dan fungsi untuk bekerja dengan BSON (Binary JSON), f
 Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk menghubungkan dan berinteraksi dengan MongoDB menggunakan Go, serta fitur khusus yang membantu dalam berbagai aspek pengembangan aplikasi, seperti penanganan kesalahan dan pencetakan data ke konsol. <br />
 
 ### 3.4 Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+Langkah 1: Melakukan instalasi Go dan MongoDB
+
+Sebelum memulai, pastikan Anda telah menginstal Go dan MongoDB di sistem Anda. Anda dapat mengunduh dan menginstal keduanya dari situs resmi mereka. <br />
+
+Langkah 2: Membuat Proyek Go
+
+Buat folder untuk proyek baru Anda dan gunakan perintah berikut untuk memulai modul Go:
+
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT <br />
 
