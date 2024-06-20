@@ -344,7 +344,7 @@ Terakhir tambahkan juga query untuk menyesuaikan warna pada semua elemen nya jik
 
 ![Gambar](Images/cssdarkmode.png) <br />
 
-##### 2. GAYA KHUSUS HALAMAN ADMIN (admin/admin.html)
+##### 2. GAYA KHUSUS HALAMAN ADMIN (admin/admin.css)
 
 Kita akan membuat file CSS khusus untuk halaman admin, memberikan gaya yang sedikit berbeda untuk tabel dan elemen lainnya. Ini menunjukkan bagaimana kita bisa memiliki gaya khusus untuk halaman yang berbeda dalam proyek yang sama.<br />
 
@@ -366,22 +366,27 @@ Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
 
 Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
 
-##### 3. GAYA KHUSUS HALAMAN REGISTER (register/register.html)
+##### 3. GAYA KHUSUS HALAMAN REGISTER (register/register.css)
 
 Kita akan membuat file CSS khusus untuk halaman register, memberikan gaya yang rapi dan profesional.<br />
+Pada halaman ini tidak terlalu banyak elemen yang dibuat, maka gaya CSS nya juga tidak terlalu banyak.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/)
 
-##### 4. GAYA KHUSUS HALAMAN LOGIN (login/login.html)
+Import font google dan CDN Framework CSS Skeleton, lanjutkan buat query responsive nya.<br />
+
+![Gambar](Images/)
+
+##### 4. GAYA KHUSUS HALAMAN LOGIN (login/login.css)
 
 Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional sama dengan halaman register.<br />
 
-Seperti pada file CSS sebelumnya import font google dan Framework CSS Skeleton.<br />
+Seperti pada file CSS sebelumnya import font google dan CDN Framework CSS Skeleton.<br />
 Lanjut isi kode nya seperti ini.<br />
 
 ![Gambar](Images/csslogin1.png)<br />
 
-Pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembuatan query responsive nya juga tidak terlalu banyak.<br />
+Samal hal nya pada halaman register, pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembuatan query responsive nya juga tidak terlalu banyak.<br />
 
 ![Gambar](Images/csslogin2.png)<br />
 
@@ -418,6 +423,16 @@ Seperti yang sudah kita singgung pada pembahasan CSS sebelum nya mengenai modal,
 ##### 3. SKRIP REGISTER (register/register.js)
 
 File JavaScript untuk halaman register akan mengandung skrip yang berfungsi untuk input dan menyimpan data untuk login nantinya.
+
+![Gambar](Images)<br />
+
+Lanjut buat fungsi fect untuk menagkap data dan mengirimkan nya ke database.
+
+![Gambar](Images)<br />
+
+Kemudian terakhir lakukan lagi pemanggilan id untuk button login pada halaman ini yang dimaksudkan jika mempunyai akun yang sudah terdaftar maka akan dialihkan ke halaman login.<br />
+
+![Gambar](Images)
 
 ##### 3. SKRIP LOGIN (login/login.js)
 
