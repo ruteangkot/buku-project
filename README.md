@@ -457,4 +457,4 @@ Tampilan halaman admin pada mobile.<br />
 
 ## TENTANG PENULIS
 
-![Gambar](Images/backcover.jpg)
+![Gambar](Images/backcover2.png.jpg)
