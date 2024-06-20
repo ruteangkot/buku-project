@@ -252,24 +252,20 @@ Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di 
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
-#### Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+### 3.3 Import package <br />
+Untuk menggunakan MongoDB di dalam codingan kita harus menambahkan package MongoDB terlebih dahulu.
+Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program:
 
-Setelah menyiapkan MongoDB, langkah selanjutnya dalam pengembangan backend untuk website Rute Angkot adalah menghubungkan aplikasi backend dengan basis data tersebut. MongoDB adalah basis data NoSQL yang berbasis dokumen, yang menyimpan data dalam bentuk BSON (Binary JSON). Dalam langkah ini, kita akan membuat koneksi antara aplikasi backend dan MongoDB, serta menyiapkan skema dan model untuk data rute angkot.
+#### context <br />
+Untuk mengatur batas waktu, pembatalan, dan berbagi nilai antar goroutine, paket konteks menyediakan tipe dan fungsi. Dalam contoh ini, context.TODO() digunakan untuk membuat konteks kosong, yang menunjukkan bahwa Anda belum menentukan konteks sebenarnya. Seringkali digunakan sebagai penutup sementara.
 
-Langkah pertama kalian bisa install Mongoose :
-kalian bisa masuk ke file project kalian dan masuk ke visual studio code
-![Gambar](<Images/Screenshot (412).png>)<br />
-setelah itu kalian bisa buka terminal di dalam visual studio code dan saat berada di terminal kalian bisa mengetik command di terminal "npm install moongose" seperti gambar dibawah ini.
-![Gambar](<Images/Screenshot (413).png>)<br />
-![Gambar](<Images/Screenshot (414).png>)<br />
-tunggu sampai proses downlaodnya selesai, setelah selesai kalian bisa langsung membuat file di dalam folder backend dan buat file "database.js".
-![Gambar](<Images/Screenshot%20(418).png>)<br />
-lalu isi codingan didalamnya dengan codingan seperti gambar dibawah ini atau kalian bisa atur sesuka hati kalian.
-![Gambar](<Images/Screenshot%20(421).png>)<br />
-setelah menambahkan file database kalian bisa buat file "app.js" seperti gambar dibawah ini.
-![Gambar](<Images/Screenshot%20(419).png>)<br />
-dan kalian bisa mengisi di dalam codingannya seperti ini.
-![Gambar](<Images/Screenshot%20(420).png>)<br />
+#### fmt <br />
+Paket standar Go yang dikenal sebagai fmt memiliki fungsi untuk memformat dan mencetak teks ke konsol atau output lainnya. Dalam kasus ini, fmt.Println digunakan untuk mencetak pesan ke konsol, yang menunjukkan ketika koneksi ke MongoDB berhasil atau ketika dokumen telah disisipkan ke dalam koleksi.
+
+
+
+### 3.4 Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT <br />
 
