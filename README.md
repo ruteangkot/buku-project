@@ -253,19 +253,41 @@ NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
 ### 3.3 Import package <br />
+
 Untuk menggunakan MongoDB di dalam codingan kita harus menambahkan package MongoDB terlebih dahulu.
-Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program:
+Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program: <br />
 
 #### context <br />
-Untuk mengatur batas waktu, pembatalan, dan berbagi nilai antar goroutine, paket konteks menyediakan tipe dan fungsi. Dalam contoh ini, context.TODO() digunakan untuk membuat konteks kosong, yang menunjukkan bahwa Anda belum menentukan konteks sebenarnya. Seringkali digunakan sebagai penutup sementara.
+
+Untuk mengatur batas waktu, pembatalan, dan berbagi nilai antar goroutine, paket konteks menyediakan tipe dan fungsi. Dalam contoh ini, context.TODO() digunakan untuk membuat konteks kosong, yang menunjukkan bahwa Anda belum menentukan konteks sebenarnya. Seringkali digunakan sebagai penutup sementara. <br />
 
 #### fmt <br />
-Paket standar Go yang dikenal sebagai fmt memiliki fungsi untuk memformat dan mencetak teks ke konsol atau output lainnya. Dalam kasus ini, fmt.Println digunakan untuk mencetak pesan ke konsol, yang menunjukkan ketika koneksi ke MongoDB berhasil atau ketika dokumen telah disisipkan ke dalam koleksi.
 
+Paket standar Go yang dikenal sebagai fmt memiliki fungsi untuk memformat dan mencetak teks ke konsol atau output lainnya. Dalam kasus ini, fmt.Println digunakan untuk mencetak pesan ke konsol, yang menunjukkan ketika koneksi ke MongoDB berhasil atau ketika dokumen telah disisipkan ke dalam koleksi. <br />
 
+#### log <br />
+
+Paket log menawarkan fasilitas logging sederhana. Misalnya, log.Fatal digunakan untuk mencetak pesan kesalahan ke konsol dan menghentikan program jika terjadi kesalahan selama proses koneksi atau operasi MongoDB. Ini membantu menangani dan melacak kesalahan dalam aplikasi. <br />
+
+#### time <br />
+
+Paket waktu memiliki tipe dan fungsi untuk mengatur waktu dan durasi. Namun, dalam kasus ini, paket waktu tidak digunakan secara langsung. Namun, dalam aplikasi nyata, paket ini sering diperlukan untuk mengatur waktu koneksi atau menunggu selesainya operasi tertentu. <br />
+
+#### go.mongodb.org/mongo-driver/mongo <br />
+
+Paket mongo termasuk dalam driver MongoDB resmi untuk Go dan menyediakan tipe dan fungsi yang diperlukan untuk berinteraksi dengan MongoDB. Misalnya, mongo.Connect digunakan untuk menghubungkan ke server MongoDB, dan mongo.Collection digunakan untuk berinteraksi dengan koleksi tertentu yang ada dalam database. <br />
+
+#### go.mongodb.org/mongo-driver/mongo/options <br />
+
+Paket opsi adalah komponen driver MongoDB resmi untuk Go yang memberi klien, basis data, dan koleksi MongoDB berbagai opsi konfigurasi. Dalam kasus ini, options.Client().Untuk menghubungkan MongoDB ke URI, ApplyURI digunakan. <br />
+
+#### go.mongodb.org/mongo-driver/bson <br />
+
+Paket bson menawarkan tipe dan fungsi untuk bekerja dengan BSON (Binary JSON), format data yang digunakan MongoDB untuk menyimpan dokumen. Dalam kasus ini, bson.D digunakan untuk membuat dokumen BSON yang akan disisipkan atau diambil dari MongoDB.
+
+Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk menghubungkan dan berinteraksi dengan MongoDB menggunakan Go, serta fitur khusus yang membantu dalam berbagai aspek pengembangan aplikasi, seperti penanganan kesalahan dan pencetakan data ke konsol. <br />
 
 ### 3.4 Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
-
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT <br />
 
