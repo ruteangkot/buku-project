@@ -305,7 +305,7 @@ Halaman admin akan menampilkan tabel yang berisi data tabel yang sama seperti di
 
 Halaman register akan memiliki form register sederhana dengan input username dan password.<br />
 
-![Gambar](Images)<br />
+![Gambar](Images/registerhtml.png)<br />
 
 ##### 4. HALAMAN LOGIN (login/login.html)
 
@@ -371,11 +371,11 @@ Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika mema
 Kita akan membuat file CSS khusus untuk halaman register, memberikan gaya yang rapi dan profesional.<br />
 Pada halaman ini tidak terlalu banyak elemen yang dibuat, maka gaya CSS nya juga tidak terlalu banyak.<br />
 
-![Gambar](Images/)
+![Gambar](Images/registercss.png)
 
 Import font google dan CDN Framework CSS Skeleton, lanjutkan buat query responsive nya.<br />
 
-![Gambar](Images/)
+![Gambar](Images/registercss2.png)
 
 ##### 4. GAYA KHUSUS HALAMAN LOGIN (login/login.css)
 
@@ -424,15 +424,15 @@ Seperti yang sudah kita singgung pada pembahasan CSS sebelum nya mengenai modal,
 
 File JavaScript untuk halaman register akan mengandung skrip yang berfungsi untuk input dan menyimpan data untuk login nantinya.
 
-![Gambar](Images)<br />
+![Gambar](Images/registerjs.png)<br />
 
-Lanjut buat fungsi fect untuk menagkap data dan mengirimkan nya ke database.
+Lanjut buat fungsi fect untuk menagkap data register dan mengirimkan nya ke database.
 
-![Gambar](Images)<br />
+![Gambar](Images/registerjs3.png)<br />
 
 Kemudian terakhir lakukan lagi pemanggilan id untuk button login pada halaman ini yang dimaksudkan jika mempunyai akun yang sudah terdaftar maka akan dialihkan ke halaman login.<br />
 
-![Gambar](Images)
+![Gambar](Images/registerjs2.png)
 
 ##### 3. SKRIP LOGIN (login/login.js)
 
