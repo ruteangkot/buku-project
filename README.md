@@ -387,6 +387,8 @@ Pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembua
 
 ### 4.3 INTEGRARSI JAVASCRIPT
 
+JavaScript adalah bahasa pemrograman skrip yang memainkan peran penting dalam aplikasi web saat ini. Bahasa ini dinamis, tidak ketat dalam pengetikan, asinkron, dan banyak digunakan untuk berinteraksi dengan Document Objek Model (DOM) selama runtime. Karakteristik ini membuat kode JavaScript rentan terhadap kesalahan, dan pelokalan kesalahan JavaScript sering kali menjadi tugas yang melelahkan dan manual. JavaScript memungkinkan eksekusi kode secara asinkron, yang dipicu oleh berbagai jenis peristiwa seperti klik pengguna atau panggilan fungsi asinkron.
+
 #### MEMBUAT FILE JAVASCRIPT
 
 ##### 1. SKRIP UTAMA (javascript/main.js)
