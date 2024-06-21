@@ -38,6 +38,8 @@ Selamat belajar dan semoga sukses!
 
 #### 2.1 STRUKTUR DASAR PROYEK GOLANG
 
+#### 2.2 IMPORT PACKAGE
+
 ### CHAPTER 3 MEMBANGUN DATABASE (MONGODB)
 
 #### 3.1 MENGHUBUNGKAN DATABASE (MONGODB)
@@ -76,52 +78,23 @@ Selamat belajar dan semoga sukses!
 
 Go, juga dikenal sebagai Golang, adalah bahasa pemrograman yang dikembangkan oleh Google untuk membantu Anda menulis kode secara efisien dan mudah, aman, terukur, dan mudah dipelihara. Go dirancang untuk menyederhanakan manajemen ketergantungan dan proses pengembangan perangkat lunak. Bahasa ini secara asli mendukung konkurensi dan konkurensi, menjadikannya pilihan populer untuk pengembangan perangkat lunak yang memerlukan kinerja dan skalabilitas tinggi.(Blumen & Meyerson, n.d.)<br />
 
-### 1.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN
-
-JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi penting dalam lanskap aplikasi web kontemporer. Bahasa ini, yang dicirikan oleh sifatnya yang dinamis, sistem pengetikan longgar, dan properti asinkron, mengambil peran penting dalam mengaktifkan fungsionalitas interaktif dalam platform berbasis web. Selain itu, JavaScript digunakan secara luas untuk memfasilitasi manipulasi real-time dan interaksi dengan Document Object Model (DOM), komponen penting dalam struktur halaman web.(Ocariza et al., 2015)<br />
-
-### 1.3 KELEBIHAN MENGGUNAKAN GOLANG DAN JAVASCRIPT DALAM PENGEMBANGAN WEB
-
-#### KELEBIHAN GOLANG (GO)
-
-1. Golang memiliki performa yang sangat baik karena dikompilasi menjadi kode mesin, sehingga berjalan lebih cepat dibandingkan bahasa yang diinterpretasikan seperti JavaScript.<br />
-2. Golang memiliki dukungan bawaan yang sangat kuat untuk concurrency melalui goroutines dan channels, yang memudahkan pengembangan aplikasi dengan kemampuan pemrosesan paralel yang efisien.<br />
-3. Golang adalah bahasa yang statically written, yang berarti banyak kesalahan bisa ditangkap pada saat kompilasi, sehingga mengurangi bug pada runtime.<br />
-4. Sintaks Golang dirancang untuk sederhana dan mudah dibaca, yang membuatnya lebih mudah untuk dipelajari dan dipahami.<br />
-5. Waktu kompilasi Golang sangat cepat dibandingkan dengan banyak bahasa lain yang dikompilasi, yang mempercepat siklus pengembangan.<br />
-6. Golang memiliki ekosistem yang kuat dengan banyak pustaka dan alat bantu, serta komunitas yang aktif.<br />
-
-#### KELEBIHAN JAVASCRIPT
-
-1. JavaScript adalah bahasa pemrograman yang withering umum digunakan untuk pengembangan front-end web. Semua browser cutting edge mendukung JavaScript, membuatnya esensial untuk pengembangan aplikasi web interaktif.<br />
-2. JavaScript memiliki ekosistem yang sangat luas dengan banyak system dan library populer seperti Respond, Precise, dan Vue.js untuk pengembangan front-end, serta Node.js untuk back-end.<br />
-3. JavaScript memiliki dukungan kuat untuk offbeat programming dengan fitur seperti Guarantees, async/await, dan event-driven programming, yang penting untuk pengembangan aplikasi web present day yang responsif.<br />
-4. JavaScript memiliki komunitas pengembang yang sangat besar dan aktif, yang menyediakan banyak sumber daya, instructional exercise, dan alat bantu untuk pengembangan web.<br />
-5. JavaScript memungkinkan pembuatan aplikasi web yang dapat memperbarui konten secara real-time tanpa perlu memuat ulang halaman, berkat teknologi seperti WebSockets dan system seperti Meteor.js.<br />
-
-## CHAPTER 2 MEMBANGUN BACKEND DENGAN GOLANG
-
-### 2.1 STRUKTUR DASAR PROYEK GOLANG<br />
-
-Golang, atau Go, adalah bahasa pemrograman yang dikembangkan oleh Google. Go dirancang untuk efisiensi, kemudahan penggunaan, dan kecepatan kompilasi. Bahasa ini memiliki fitur seperti pengelolaan memori otomatis, tipe data statis, dan dukungan concurrency yang kuat, menjadikannya pilihan yang baik untuk pengembangan aplikasi yang skalabel dan cepat.<br />
-
 Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 
-#### Instalasi di Windows <br />
+#### Instalasi di Windows
 
 1.  Unduh Installer: Kunjungi situs resmi Golang dan unduh file installer .msi.
 2.  Jalankan Installer: Jalankan file installer dan ikuti petunjuknya.
 3.  Set PATH: Tambahkan C:\Go\bin ke variabel lingkungan PATH.
 4.  Verifikasi: Buka Command Prompt dan ketik go version. <br />
 
-##### Instalasi di macOS <br />
+##### Instalasi di macOS
 
 1.  Unduh Installer: Kunjungi situs resmi Golang dan unduh file installer .pkg.
 2.  Jalankan Installer: Buka file .pkg dan ikuti petunjuknya.
 3.  Set PATH: Tambahkan export PATH=$PATH:/usr/local/go/bin ke file profil shell Anda (misalnya, ~/.zshrc).
 4.  Verifikasi: Buka Terminal dan ketik go version. <br />
 
-###### Instalasi di Linux <br />
+###### Instalasi di Linux
 
 1. Unduh dan Ekstrak: Kunjungi situs resmi Golang dan unduh file .tar.gz. Ekstrak ke /usr/local.
    [GambarInstalasiLinux](<Images/Screenshot (460).png>)<br />
@@ -129,7 +102,7 @@ Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 3. Verifikasi: Buka Terminal dan ketik go version.
    Dengan mengikuti langkah-langkah di atas, Anda akan siap untuk mulai menggunakan Golang di sistem operasi Anda. <br />
 
-### 2.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN<br />
+### 1.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)<br />
 
@@ -152,51 +125,90 @@ Terakhir ekstensi paling wajib di install adalah ini. Karena dengan adanya ekste
 
 Sebenarnya ekstensi-ekstensi bisa disesuaikan lagi sesuai kebutuhan, namun untuk dasar nya ketiga ekstensi ini wajib diperlukan untuk memulai dan membantu dalam pengembangan suatu website.
 
-## CHAPTER 3 MEMBANGUN DATABASE (MONGODB) <br />
+## CHAPTER 2 MEMBANGUN BACKEND DENGAN GOLANG
 
 “Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
 
-### 3.1 MENGHUBUNGKAN DATABASE<br />
+### 2.1 STRUKTUR DASAR PROYEK GOLANG
 
 [GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
 Integrasi dalam konteks proyek Go dapat berarti berbagai hal, seperti menghubungkan berbagai bagian proyek, mengatur dependensi, atau menjalankan aplikasi. Berikut adalah panduan singkat tentang bagaimana setiap bagian dari proyek Anda saling berhubungan dan bagaimana Anda dapat menjalankan dan mengembangkan proyek ini.
 
-#### 3.1.1 Konfigurasi Proyek (config/) <br />
+#### 2.1.1 Konfigurasi Proyek (config/)
 
 Ini adalah file yang digunakan untuk mengonfigurasi aplikasi atau sistem. Biasanya, file ini berisi konfigurasi seperti konfigurasi database, pengaturan lingkungan (environment), koneksi ke layanan eksternal, dan pengaturan lainnya yang diperlukan oleh
 Isi: Konfigurasi seperti file "config.yml" atau "config.json" Cara penggunaan: Anda akan memuat konfigurasi ini ke dalam file kontroler atau file "Main.go", seperti yang ditunjukkan dalam gambar berikut:
 [Carbon 3.1](Images/config.png) <br />
 
-#### 3.1.2 Controller (controller/) <br />
+#### 2.1.2 Controller (controller/)
 
 Controller adalah komponen MVC yang berfungsi sebagai perantara antara model dan tampilan. Melalui antarmuka pengguna (UI), controller menerima input pengguna, memprosesnya, dan kemudian mengirimkan output kembali ke pengguna dalam bentuk tampilan atau data yang diminta.
 Isi: Fungsi yang menangani permintaan HTTP Cara penggunaan: Fungsi kontroler akan dipanggil melalui rute di "route/". Contohnya:
 [Carbon 3.2](Images/controller.png) <br />
 
-#### 3.1.3 Helper (helper/) <br />
+#### 2.1.3 Helper (helper/)
 
 Helper biasanya berisi fungsi kecil yang sering digunakan di berbagai bagian aplikasi, seperti fungsi untuk format tanggal, mengelola string, dan fungsi utilitas lainnya.Isi: Fungsi utilitas yang dapat digunakan di tempat lain.Cara Penggunaan: Import fungsi helper ke controller atau file lain. Contohnya:
 [Carbon 3.3](Images/helper.png) <br />
 
-#### 3.1.4 Model (model/) <br />
+#### 2.1.4 Model (model/)
 
 Mengelola data dan logika bisnis aplikasi adalah bagian dari MVC. Model menunjukkan struktur data aplikasi dan memberi tahu cara berinteraksi dengan database dan sumber data lainnya. Isi: Model atau struktur data yang terkait dengan database. Cara Penggunaan: Untuk berinteraksi dengan database, gunakan model ini di controller. Contohnya:
 [Carbon 3.4](Images/model.png) <br />
 
-#### 3.1.5 Rute (route/) <br />
+#### 2.1.5 Rute (route/)
 
 Rute, yang biasanya didefinisikan dalam file khusus, menentukan URL dan metode HTTP (GET, POST, dll.) serta tindakan yang harus dilakukan saat permintaan HTTP diterima. Isi: Mendefinisikan endpoint HTTP. Cara Penggunaan: Mendefinisikan endpoint dengan menggunakan router, seperti mux. Contohnya:
 [Carbon 3.5](Images/route.png) <br />
 
-#### 3.1.6 Main (main.go/) <br />
+#### 2.1.6 Main (main.go/)
 
 File main biasanya merupakan entri utama aplikasi. Aplikasi dimulai di sini dan konfigurasi awal dimulai. Setelah itu, mereka beralih ke komponen lain seperti rute, pengontrol, atau model.
 Titik masuk utama aplikasi adalah isi. Cara Penggunaan: Ini adalah tempat Anda memulai konfigurasi, router, dan server HTTP. Contohnya:
 [Carbon 3.6](Images/main.png) <br />
 
-### 3.2 MENGHUBUNGKAN KE DATABASE (MongoDB) <br />
+### 2.2 IMPORT PACKAGE
 
-MongoDB adalah basis data NoSQL berbasis dokumen yang dikembangkan oleh MongoDB Inc. dan bersifat open-source. Basis data ini menggunakan format objek JavaScript (JSON) untuk menyimpan dan mengambil data, yang kemudian dikonversi ke format BSON saat disimpan. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar. Berikut adalah contoh dokumen MongoDB:
+Untuk menggunakan MongoDB di dalam codingan kita harus menambahkan package MongoDB terlebih dahulu.
+Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program: <br />
+
+#### context
+
+Untuk mengatur batas waktu, pembatalan, dan berbagi nilai antar goroutine, paket konteks menyediakan tipe dan fungsi. Dalam contoh ini, context.TODO() digunakan untuk membuat konteks kosong, yang menunjukkan bahwa Anda belum menentukan konteks sebenarnya. Seringkali digunakan sebagai penutup sementara. <br />
+
+#### fmt
+
+Paket standar Go yang dikenal sebagai fmt memiliki fungsi untuk memformat dan mencetak teks ke konsol atau output lainnya. Dalam kasus ini, fmt.Println digunakan untuk mencetak pesan ke konsol, yang menunjukkan ketika koneksi ke MongoDB berhasil atau ketika dokumen telah disisipkan ke dalam koleksi. <br />
+
+#### log
+
+Paket log menawarkan fasilitas logging sederhana. Misalnya, log.Fatal digunakan untuk mencetak pesan kesalahan ke konsol dan menghentikan program jika terjadi kesalahan selama proses koneksi atau operasi MongoDB. Ini membantu menangani dan melacak kesalahan dalam aplikasi. <br />
+
+#### time
+
+Paket waktu memiliki tipe dan fungsi untuk mengatur waktu dan durasi. Namun, dalam kasus ini, paket waktu tidak digunakan secara langsung. Namun, dalam aplikasi nyata, paket ini sering diperlukan untuk mengatur waktu koneksi atau menunggu selesainya operasi tertentu. <br />
+
+#### go.mongodb.org/mongo-driver/mongo
+
+Paket mongo termasuk dalam driver MongoDB resmi untuk Go dan menyediakan tipe dan fungsi yang diperlukan untuk berinteraksi dengan MongoDB. Misalnya, mongo.Connect digunakan untuk menghubungkan ke server MongoDB, dan mongo.Collection digunakan untuk berinteraksi dengan koleksi tertentu yang ada dalam database. <br />
+
+#### go.mongodb.org/mongo-driver/mongo/options
+
+Paket opsi adalah komponen driver MongoDB resmi untuk Go yang memberi klien, basis data, dan koleksi MongoDB berbagai opsi konfigurasi. Dalam kasus ini, options.Client().Untuk menghubungkan MongoDB ke URI, ApplyURI digunakan. <br />
+
+#### go.mongodb.org/mongo-driver/bson
+
+Paket bson menawarkan tipe dan fungsi untuk bekerja dengan BSON (Binary JSON), format data yang digunakan MongoDB untuk menyimpan dokumen. Dalam kasus ini, bson.D digunakan untuk membuat dokumen BSON yang akan disisipkan atau diambil dari MongoDB.
+
+Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk menghubungkan dan berinteraksi dengan MongoDB menggunakan Go, serta fitur khusus yang membantu dalam berbagai aspek pengembangan aplikasi, seperti penanganan kesalahan dan pencetakan data ke konsol. <br />
+
+## CHAPTER 3 MEMBANGUN DATABASE (MONGODB)
+
+> MongoDB adalah basis data NoSQL berbasis dokumen yang dikembangkan oleh MongoDB Inc. dan bersifat open-source. Basis data ini menggunakan format objek JavaScript (JSON) untuk menyimpan dan mengambil data, yang kemudian dikonversi ke format BSON saat disimpan. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar.
+
+### 3.1 MENGHUBUNGKAN DATABASE
+
+Berikut adalah contoh dokumen MongoDB:
 ![Gambar](<Images/carbon(7).png>) <br />
 
 ![Gambar](<Images/carbon(8).png>) <br />
@@ -246,42 +258,7 @@ Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di 
 NB:
 Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
 
-### 3.3 Penjelasan Import package <br />
-
-Untuk menggunakan MongoDB di dalam codingan kita harus menambahkan package MongoDB terlebih dahulu.
-Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program: <br />
-
-#### context <br />
-
-Untuk mengatur batas waktu, pembatalan, dan berbagi nilai antar goroutine, paket konteks menyediakan tipe dan fungsi. Dalam contoh ini, context.TODO() digunakan untuk membuat konteks kosong, yang menunjukkan bahwa Anda belum menentukan konteks sebenarnya. Seringkali digunakan sebagai penutup sementara. <br />
-
-#### fmt <br />
-
-Paket standar Go yang dikenal sebagai fmt memiliki fungsi untuk memformat dan mencetak teks ke konsol atau output lainnya. Dalam kasus ini, fmt.Println digunakan untuk mencetak pesan ke konsol, yang menunjukkan ketika koneksi ke MongoDB berhasil atau ketika dokumen telah disisipkan ke dalam koleksi. <br />
-
-#### log <br />
-
-Paket log menawarkan fasilitas logging sederhana. Misalnya, log.Fatal digunakan untuk mencetak pesan kesalahan ke konsol dan menghentikan program jika terjadi kesalahan selama proses koneksi atau operasi MongoDB. Ini membantu menangani dan melacak kesalahan dalam aplikasi. <br />
-
-#### time <br />
-
-Paket waktu memiliki tipe dan fungsi untuk mengatur waktu dan durasi. Namun, dalam kasus ini, paket waktu tidak digunakan secara langsung. Namun, dalam aplikasi nyata, paket ini sering diperlukan untuk mengatur waktu koneksi atau menunggu selesainya operasi tertentu. <br />
-
-#### go.mongodb.org/mongo-driver/mongo <br />
-
-Paket mongo termasuk dalam driver MongoDB resmi untuk Go dan menyediakan tipe dan fungsi yang diperlukan untuk berinteraksi dengan MongoDB. Misalnya, mongo.Connect digunakan untuk menghubungkan ke server MongoDB, dan mongo.Collection digunakan untuk berinteraksi dengan koleksi tertentu yang ada dalam database. <br />
-
-#### go.mongodb.org/mongo-driver/mongo/options <br />
-
-Paket opsi adalah komponen driver MongoDB resmi untuk Go yang memberi klien, basis data, dan koleksi MongoDB berbagai opsi konfigurasi. Dalam kasus ini, options.Client().Untuk menghubungkan MongoDB ke URI, ApplyURI digunakan. <br />
-
-#### go.mongodb.org/mongo-driver/bson <br />
-
-Paket bson menawarkan tipe dan fungsi untuk bekerja dengan BSON (Binary JSON), format data yang digunakan MongoDB untuk menyimpan dokumen. Dalam kasus ini, bson.D digunakan untuk membuat dokumen BSON yang akan disisipkan atau diambil dari MongoDB.
-
-Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk menghubungkan dan berinteraksi dengan MongoDB menggunakan Go, serta fitur khusus yang membantu dalam berbagai aspek pengembangan aplikasi, seperti penanganan kesalahan dan pencetakan data ke konsol. <br />
-
-### 3.4 Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+### 3.2 TAHAPAN MENGHUBUNGKAN KONEKSI BASIS DATA MONGODB
 
 Langkah 1: Melakukan instalasi Go dan MongoDB
 
@@ -291,7 +268,7 @@ Langkah 2: Membuat Proyek Go
 
 Buat folder untuk proyek baru Anda dan gunakan perintah berikut untuk memulai modul Go:
 
-## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT <br />
+## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
 Frontend berfokus pada pembuatan bagian-bagian aplikasi web yang langsung berinteraksi dengan pengguna, menggunakan teknologi seperti HTML, CSS, dan JavaScript. Tujuannya adalah menciptakan antarmuka pengguna (UI) yang memberikan pengalaman pengguna (UX) yang menyenangkan, sering kali melalui penelitian, pengujian, dan perbaikan berulang untuk secara efektif memenuhi kebutuhan pengguna. Pengembangan frontend dapat dilakukan secara terpisah dari backend, memungkinkan pembuatan UI tanpa perlu sistem backend yang sepenuhnya dikembangkan.
 
@@ -415,6 +392,8 @@ Samal hal nya pada halaman register, pada halaman login ini tidak terlalu banyak
 ### 4.3 INTEGRARSI JAVASCRIPT
 
 #### MEMBUAT FILE JAVASCRIPT
+
+JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi penting dalam lanskap aplikasi web kontemporer. Bahasa ini, yang dicirikan oleh sifatnya yang dinamis, sistem pengetikan longgar, dan properti asinkron, mengambil peran penting dalam mengaktifkan fungsionalitas interaktif dalam platform berbasis web. Selain itu, JavaScript digunakan secara luas untuk memfasilitasi manipulasi real-time dan interaksi dengan Document Object Model (DOM), komponen penting dalam struktur halaman web.(Ocariza et al., 2015)<br />
 
 ##### 1. SKRIP UTAMA (javascript/main.js)
 
