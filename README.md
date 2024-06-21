@@ -28,25 +28,19 @@ Selamat belajar dan semoga sukses!
 
 ## DAFTAR ISI
 
-### CHAPTER 1 PENGENALAN GOLANG DAN JAVASCRIPT
+### CHAPTER 1 PERSIAPAN LINGKUNGAN PENGEMBANG
 
-#### 1.1 DEFINISI GOLANG
+#### 1.1 INSTALILASI GOLANG
 
-#### 1.2 DEFINISI JAVASCRIPT
+#### 1.2 SETTING UP LINGKUNGAN PENGEMBANG
 
-#### 1.3 KELEBIHAN MENGGUNAKAN GOLANG DAN JAVASCRIPT DALAM PENGEMBANGAN WEB
+### CHAPTER 2 MEMBANGUN BACKEND DENGAN GOLANG
 
-### CHAPTER 2 PERSIAPAN LINGKUNGAN PENGEMBANG
+#### 2.1 STRUKTUR DASAR PROYEK GOLANG
 
-#### 2.1 CARA INSTALASI GOLANG
+### CHAPTER 3 MEMBANGUN DATABASE (MONGODB)
 
-#### 2.2 SETTING UP VISUAL STUDIO CODE DAN EKTENSI YANG DIPERLUKAN
-
-### CHAPTER 3 MEMBANGUN BACKEND DENGAN GOLANG
-
-#### 3.1 STRUKTUR DASARA PROYEK GOLANG
-
-#### 3.2 MENGHUBUNGKAN KE DATABASE (MONGODB)
+#### 3.1 MENGHUBUNGKAN DATABASE (MONGODB)
 
 ### CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
@@ -54,7 +48,7 @@ Selamat belajar dan semoga sukses!
 
 #### 4.2 INTEGRASI HTML DAN CSS
 
-### CHATER 5 MEMBUAT API RUTE ANGKOT
+### CHAPTER 5 MEMBUAT API RUTE ANGKOT
 
 #### 5.1 MERANCANG RESTFUL API DENGAN GOLANG
 
@@ -288,6 +282,7 @@ Paket bson menawarkan tipe dan fungsi untuk bekerja dengan BSON (Binary JSON), f
 Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk menghubungkan dan berinteraksi dengan MongoDB menggunakan Go, serta fitur khusus yang membantu dalam berbagai aspek pengembangan aplikasi, seperti penanganan kesalahan dan pencetakan data ke konsol. <br />
 
 ### 3.4 Berikut langkah-langkah untuk menghubungkan koneksi basis data mongodb <br />
+
 Langkah 1: Melakukan instalasi Go dan MongoDB
 
 Sebelum memulai, pastikan Anda telah menginstal Go dan MongoDB di sistem Anda. Anda dapat mengunduh dan menginstal keduanya dari situs resmi mereka. <br />
@@ -295,7 +290,6 @@ Sebelum memulai, pastikan Anda telah menginstal Go dan MongoDB di sistem Anda. A
 Langkah 2: Membuat Proyek Go
 
 Buat folder untuk proyek baru Anda dan gunakan perintah berikut untuk memulai modul Go:
-
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT <br />
 
