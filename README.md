@@ -32,7 +32,7 @@ Selamat belajar dan semoga sukses!
 
 #### 1.1 INSTALILASI GOLANG
 
-#### 1.2 SETTING UP LINGKUNGAN PENGEMBANG
+#### 1.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN
 
 ### CHAPTER 2 MEMBANGUN BACKEND DENGAN GOLANG
 
@@ -70,13 +70,13 @@ Selamat belajar dan semoga sukses!
 
 ### TENTANG PENULIS
 
-## CHAPTER 1 PENGENALAN GOLANG DAN JAVASCRIPT<br />
+## CHAPTER 1 PERSIAPAN LINGKUNGAN PENGEMBANG
 
-### 1.1 DEFINISI GOLANG<br />
+### 1.1 INSTALILASI GOLANG
 
 Go, juga dikenal sebagai Golang, adalah bahasa pemrograman yang dikembangkan oleh Google untuk membantu Anda menulis kode secara efisien dan mudah, aman, terukur, dan mudah dipelihara. Go dirancang untuk menyederhanakan manajemen ketergantungan dan proses pengembangan perangkat lunak. Bahasa ini secara asli mendukung konkurensi dan konkurensi, menjadikannya pilihan populer untuk pengembangan perangkat lunak yang memerlukan kinerja dan skalabilitas tinggi.(Blumen & Meyerson, n.d.)<br />
 
-### 1.2 DEFINISI JAVASCRIPT<br />
+### 1.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN
 
 JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi penting dalam lanskap aplikasi web kontemporer. Bahasa ini, yang dicirikan oleh sifatnya yang dinamis, sistem pengetikan longgar, dan properti asinkron, mengambil peran penting dalam mengaktifkan fungsionalitas interaktif dalam platform berbasis web. Selain itu, JavaScript digunakan secara luas untuk memfasilitasi manipulasi real-time dan interaksi dengan Document Object Model (DOM), komponen penting dalam struktur halaman web.(Ocariza et al., 2015)<br />
 
@@ -99,9 +99,9 @@ JavaScript, bahasa pemrograman skrip yang banyak digunakan, memegang posisi pent
 4. JavaScript memiliki komunitas pengembang yang sangat besar dan aktif, yang menyediakan banyak sumber daya, instructional exercise, dan alat bantu untuk pengembangan web.<br />
 5. JavaScript memungkinkan pembuatan aplikasi web yang dapat memperbarui konten secara real-time tanpa perlu memuat ulang halaman, berkat teknologi seperti WebSockets dan system seperti Meteor.js.<br />
 
-## CHAPTER 2 PERSIAPAN LINGKUNGAN PENGEMBANG<br />
+## CHAPTER 2 MEMBANGUN BACKEND DENGAN GOLANG
 
-### 2.1 CARA INSTALASI GOLANG<br />
+### 2.1 STRUKTUR DASAR PROYEK GOLANG<br />
 
 Golang, atau Go, adalah bahasa pemrograman yang dikembangkan oleh Google. Go dirancang untuk efisiensi, kemudahan penggunaan, dan kecepatan kompilasi. Bahasa ini memiliki fitur seperti pengelolaan memori otomatis, tipe data statis, dan dukungan concurrency yang kuat, menjadikannya pilihan yang baik untuk pengembangan aplikasi yang skalabel dan cepat.<br />
 
@@ -152,11 +152,11 @@ Terakhir ekstensi paling wajib di install adalah ini. Karena dengan adanya ekste
 
 Sebenarnya ekstensi-ekstensi bisa disesuaikan lagi sesuai kebutuhan, namun untuk dasar nya ketiga ekstensi ini wajib diperlukan untuk memulai dan membantu dalam pengembangan suatu website.
 
-## CHAPTER 3 MEMBANGUN BACKEND DENGAN GOLANG <br />
+## CHAPTER 3 MEMBANGUN DATABASE (MONGODB) <br />
 
 “Backend” mewakili elemen sisi server dalam kerangka web yang berfungsi sebagai mediator antara klien dan repositori data, seperti database, cache Redis, atau penyimpanan blob. Ini bertanggung jawab untuk mengelola logika operasional, manipulasi data, dan komunikasi dengan database atau aset tambahan yang penting untuk mendukung aplikasi berbasis web.(Morozov, 2020)<br />
 
-### 3.1 STRUKTUR DASAR PROYEK GOLANG<br />
+### 3.1 MENGHUBUNGKAN DATABASE<br />
 
 [GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
 Integrasi dalam konteks proyek Go dapat berarti berbagai hal, seperti menghubungkan berbagai bagian proyek, mengatur dependensi, atau menjalankan aplikasi. Berikut adalah panduan singkat tentang bagaimana setiap bagian dari proyek Anda saling berhubungan dan bagaimana Anda dapat menjalankan dan mengembangkan proyek ini.
