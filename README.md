@@ -466,6 +466,8 @@ Untuk halaman admin kita akan menggunakan metode Fetch berbeda dengan pada halam
 
 #### Menangkap API Create
 
+![Gambar](Images/create.png)<br />
+
 #### Menangkap API Update
 
 #### Menangkap API Delete
