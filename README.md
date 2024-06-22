@@ -467,21 +467,26 @@ Untuk halaman admin kita akan menggunakan metode Fetch berbeda dengan pada halam
 #### Menangkap API Create
 
 Pertama kita lakukan pengambilan API untuk fungsi Create.
+
 ![Gambar](Images/create.png)<br />
+
+Pada bagian akhir fungsi nya jangan lupa tambahkan variabel fungsi load data agar setiap kali habis membuat data baru, data pada tabel otomatis refresh kembali.
 
 #### Menangkap API Update
 
 Setelah melakukan pengambilan fungsi Create, lanjut lakukan untuk fungsi Update.
 
-![Gambar](Images/)
+![Gambar](Images/edit.png)
+
+Sama seperti pada fungsi create, pada bagian akhir fungsi tambahkan variable fungsi load data, agar data tabel ter refresh kembali.
 
 #### Menangkap API Delete
 
 Setelah fungsi update berhasil diterapkan, terakhir lakukan juga untuk fungsi Delete nya.<br />
 
-![Gambar](Images)
+![Gambar](Images/delete.png)
 
-Ketiga fungsi yang diantara nya, Create, update, delete, memiliki metode pemanggilan yang sama. Akan tetapi pada bagian fungsi delete memiliki sedikit perbedaan yaitu pada bagian body function nya. Yang dipilih atau di panggil hanya field id nya saja tidak seperti pada fungsi create dan update yang memanggil semua field dari database nya.
+Ketiga fungsi ini yaitu, Create, update, delete, memiliki metode pemanggilan API yang sama. Akan tetapi pada bagian fungsi delete memiliki sedikit perbedaan yaitu pada bagian body function nya. Yang dipilih atau di panggil hanya field id nya saja tidak seperti pada fungsi create dan update yang memanggil semua field dari database nya.
 
 ## CHAPTER 7 TAMPILAN UI WEBSITE YANG SUDAH DIBUAT
 
