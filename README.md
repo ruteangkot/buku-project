@@ -453,6 +453,23 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 ### 6.1 MENGHUBUNGKAN FRONTNEND DENGAN API BACKEND
 
+Untuk menampilkan data pada tabel maka kita perlu membuat fungsi untuk menangkap data dari API yang ada di backend.<br />
+PI (Application Programming Interfaces) adalah alat yang memungkinkan pertukaran data antara dua sistem yang berbeda melalui antarmuka program yang sama. API web menghubungkan berbagai aplikasi ke internet, memungkinkan data dikirim dan diterima dengan mudah tanpa perlu instalasi atau kompilasi seperti perangkat lunak tradisional.
+
+#### Pemanggilan data menggunakan XHR dan Fetch
+
+Pada bagian ini kita akan mengambil API untuk load data halaman utama menggunakan metode XHR.<br />
+![Gambar](Images/xhr.png)<br />
+
+Untuk halaman admin kita akan menggunakan metode Fetch berbeda dengan pada halaman utaman.<br />
+![Gambar](Images/fetch.png)<br />
+
+#### Menangkap API Create
+
+#### Menangkap API Update
+
+#### Menangkap API Delete
+
 ## CHAPTER 7 TAMPILAN UI WEBSITE YANG SUDAH DIBUAT
 
 ### 7.1 TAMPILAN USER
