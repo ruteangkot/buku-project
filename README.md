@@ -449,6 +449,14 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
+Setelah API sudah dibuat maka kita akan melakukan pengetesan API tersebut memlalui Software POSTMAN, untuk melihat apakah API tersebut dapat terbaca atau tidak.
+
+![Gambar](Images/cekpostman.png)<br />
+
+Masukan API kemudian klik send. Lalu pilih method yang dipakai nya, jika ingin menampilkan data maka pilih method GET seperti pada gambar di atas.<br />
+
+Lakukan juga untuk pengetesan untuk Create menggunakan method POST, Edit menggunakan method PUT, dan Delete menggunakan method DELETE.
+
 ## CHAPTER 6 INTEGRASI FRONTEND DAN BACKEND
 
 ### 6.1 MENGHUBUNGKAN FRONTNEND DENGAN API BACKEND
