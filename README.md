@@ -169,8 +169,8 @@ Titik masuk utama aplikasi adalah isi. Cara Penggunaan: Ini adalah tempat Anda m
 
 ### 2.2 IMPORT PACKAGE
 
-Untuk menggunakan MongoDB di dalam codingan kita harus menambahkan package MongoDB terlebih dahulu.
-Pada awal setiap file Go, Anda harus menentukan paket yang ingin Anda gunakan dalam kode Anda. Paket adalah cara untuk mengorganisir dan mengelompokkan kode ke dalam unit yang dapat digunakan kembali. Untuk contoh program: <br />
+Untuk menggunakan MongoDB dalam codingan, langkah pertama yang perlu dilakukan adalah menambahkan paket MongoDB ke proyek Anda. Di awal setiap file Go, menentukan paket yang akan digunakan adalah hal yang penting. Paket-paket ini seperti kotak alat yang membantu mengorganisir dan mengelompokkan kode Anda, sehingga memudahkan penggunaan kembali dan pengelolaan kode secara efisien. Dengan demikian, Anda dapat fokus pada pengembangan fitur dan fungsionalitas tanpa perlu membangun semuanya dari awal.
+Untuk contoh program: <br />
 
 #### context
 
