@@ -240,20 +240,21 @@ Selanjutnya, klik tombol "Choose a connection method" untuk mendapatkan Mongostr
 Seperti gambar di atas karena kalian sudah men-download MongoDB Compass kalian bisa memilih “Access your data trhough tools Compass”.
 ![Gambar9](<Images/Screenshot (399).png>)<br />
 
-Setelah kalian memilih tools menggunakan compass kalian akan di arahkan seperti gambar di atas, kalian tinggal memilih “I have MongoDB compass installed” karena kalian sudah men-down;oad nya tadi, dan di bawahnya akan tertera connection string nya. Ini yang akan dipakai ketika kita memakai software MongoDB compass nya,tidak lupa untuk meng-copy connection string nya dan simpan baik-baik karena akan selalu dipakai ketika anda sedang menggunakan MongoDB Compass, sekarang menuju langkah terakhir.
+Setelah memilih tools menggunakan MongoDB Compass, kamu akan diarahkan seperti yang terlihat pada gambar di atas. Pilih opsi "I have MongoDB Compass installed" karena kamu sudah mendownloadnya sebelumnya. Di bawahnya, akan muncul connection string yang akan kamu gunakan saat menggunakan software MongoDB Compass. Jangan lupa untuk menyalin connection string ini dan simpan dengan baik karena akan selalu digunakan ketika kamu mengoperasikan MongoDB Compass. Sekarang, mari menuju ke langkah terakhir.
 
-Pertama buka software MongoDB Compass kalian yang sudah terinstall.
+Pertama, buka software MongoDB Compass yang sudah terinstal di komputer kamu.
 ![Gambar10](<Images/Screenshot (400).png>)<br />
-Setelah itu click button “New Connection” lalu tambahkan connection string yang telah kamu copy dari MongoDB Atlas sebelumnya, lalu silahkan click button “Connect”.
+Setelah itu, klik tombol "New Connection", tambahkan connection string yang telah kamu salin dari MongoDB Atlas sebelumnya, dan terakhir, klik tombol "Connect" untuk mulai terhubung.
 
 ![Gambar11](<Images/Screenshot (401).png>)<br />
-Dan Selamat kalian sudah bisa menggunakan MongoDB Compass kalian, sedangkan untuk meng-connect di dalam VCS (Visual Studia Code) kalian harus menambahkan mongostring nya kedalam codingan kalian misal seperti gambar dibawah ini.
+Selamat, sekarang kamu sudah bisa menggunakan MongoDB Compass. Untuk menghubungkan ke dalam Visual Studio Code (VSC), tambahkan mongostring yang telah kamu dapatkan ke dalam codingan kamu, seperti yang terlihat dalam gambar di bawah ini.
 ![Gambar12](<Images/Screenshot (402).png>)<br />
-Jika sudah menambahkan connection string nya kalian bisa langsung meng-run codingan tersebut, karena saya menggunakan bahasa golang jadi untuk meng-run codingannya harus memakai perintah “Go-run nama file yang akan di run” seperti ini di terminal kalian. Contoh nya seperti gambar dibawah ini.
+Setelah menambahkan connection string, kamu bisa langsung menjalankan codingan tersebut. Jika kamu menggunakan bahasa Go, kamu dapat menjalankan file dengan perintah "go run namafile.go" di terminal kamu. Contohnya seperti yang ditunjukkan dalam gambar di bawah ini.
 ![Gambar12](<Images/Screenshot (403).png>)<br />
-Jika codingan kalian saat di run menghasilkan hasil yang seperti pada gambar di atas, maka selamat codingan anda sudah connect dengan MongoDB.
-NB:
-Jika kalian ingin menambahkan database mengaturnya itu lewat MongoDB Compass sedangkan web service nya ada di MongoDB Atlas.
+Jika saat kamu menjalankan codingan, hasilnya seperti yang terlihat pada gambar di atas, selamat! Codingan kamu sudah terhubung dengan MongoDB.
+
+Catatan:
+Untuk menambahkan database atau mengatur konfigurasinya, gunakan MongoDB Compass. Pastikan layanan web-nya tersedia di MongoDB Atlas.
 
 ### 3.2 TAHAPAN MENGHUBUNGKAN KONEKSI BASIS DATA MONGODB
 
