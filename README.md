@@ -265,6 +265,14 @@ Sebelum memulai, pastikan Anda telah menginstal Go dan MongoDB di sistem Anda. A
 Langkah 2: Membuat Proyek Go
 
 Buat folder untuk proyek baru Anda dan gunakan perintah berikut untuk memulai modul Go:
+[Gambarkoneksi](<Images/tutorial koneksi (1).png>)<br />
+setelah menjalankan perintah seperti gambar di atas kalian akan menerima hasil seperti yang ada di terminal dan sebelum ke langkah-langkah berikutnya kalian harus memasuki file tersebut dengan perintah "cd":
+[Gambarkoneksi](<Images/tutorial koneksi (2).png>)<br />
+contohnya seperti gambar di atas ini, nah setelah itu kalian harus menginstall "go.mod" untuk memulai coding menggunakan bahasa golang karena go.mod berfungsi untuk membuat import di setiap file kalian berjalan/berfungsi.
+[Gambarkoneksi](<Images/tutorial koneksi (5).png>)<br />
+setelah menjalankan perintah "go mod init nama-project kalian" kalian akan mendapatkan file "go.mod"
+di direktori file kalian masing-masing
+[Gambarkoneksi](<Images/tutorial koneksi (9).png>)<br />
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
