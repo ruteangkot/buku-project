@@ -274,6 +274,17 @@ setelah menjalankan perintah "go mod init nama-project kalian" kalian akan menda
 di direktori file kalian masing-masing
 [Gambarkoneksi](<Images/tutorial koneksi (9).png>)<br />
 
+Langkah 3: Menginstall MongoDB driver untuk Go
+Install driver MongoDB menggunakan perintah ini:
+[Gambarkoneksi](<Images/tutorial koneksi (3).png>)<br />
+setelah menjalankan perintah seperti gambar di atas kalian akan mendapatkan hasil seperti:
+[Gambarkoneksi](<Images/tutorial koneksi (6).png>)<br />
+dan setelah selesai mengunduh MongoDB Driver nya kalian akan mendapatkan file di direktori kalian "go.sum" :
+[Gambarkoneksi](<Images/tutorial koneksi (7).png>)<br />
+
+Langkah 4: Membuat file main.go
+
+
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
 Frontend berfokus pada pembuatan bagian-bagian aplikasi web yang langsung berinteraksi dengan pengguna, menggunakan teknologi seperti HTML, CSS, dan JavaScript. Tujuannya adalah menciptakan antarmuka pengguna (UI) yang memberikan pengalaman pengguna (UX) yang menyenangkan, sering kali melalui penelitian, pengujian, dan perbaikan berulang untuk secara efektif memenuhi kebutuhan pengguna. Pengembangan frontend dapat dilakukan secara terpisah dari backend, memungkinkan pembuatan UI tanpa perlu sistem backend yang sepenuhnya dikembangkan.
