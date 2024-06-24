@@ -106,24 +106,24 @@ Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 
 Visual Studio Code adalah editor kode sumber terbuka oleh Microsoft. Visual Studio Code mendukung berbagai bahasa pemrograman dan dikenal untuk fitur seperti debugging dan penyelesaian kode. Biasanya digunakan untuk pengembangan web dan berbasis cloud, berkat fleksibilitas dan perpustakaan ekstensinya. Editor menawarkan kontrol, manajemen build, pengujian unit, dan kemampuan pengujian statis. Dengan fitur-fitur ini, menjadikannya alat yang berharga bagi pengembang.(Murari & Sandru, 2013)<br />
 
-Ekstensi yang diperlukan pada pengembangan website ini hanya ada tiga.<br />
+Dalam pengembangan website ini, hanya diperlukan tiga ekstensi penting yang akan menyederhanakan proses dan meningkatkan efisiensi.<br />
 
 1. Eksntensi Golang
 
-Karena pada pengembangan ini kita akan menggunakan bahasa pemograman Go, tentu saja ekstensi ini di perlukan.<br />
+Karena dalam pengembangan ini kita akan menggunakan bahasa pemrograman Go, tentu saja ekstensi ini sangat diperlukan untuk mendukung dan menyempurnakan proses coding kita.<br />
 ![Gambar](Images/ekstenGo.png)<br />
 
 2. Ekstensi JavaScript
 
-Ekstensi ini diperlukan agar dapat membantu dalam penlusian syntaks-syntaks pada javascript.<br />
+Ekstensi ini sangat penting untuk membantu penulisan sintaks-sintaks JavaScript dengan lebih mudah dan efisien, sehingga mempercepat proses pengembangan dan meningkatkan kualitas kode.<br />
 ![Gambar](Images/EkstenJs.png)
 
 3. Ekstensi Prettier
 
-Terakhir ekstensi paling wajib di install adalah ini. Karena dengan adanya ekstensi ini sangat memudahkan kita jika memiliki penulisan kode-kode yang berantakan dapat di atasi secara cepat dan otomatis oleh ektensi ini.<br />
+Terakhir, ekstensi yang paling wajib diinstall adalah ini. Dengan ekstensi ini, kita dapat dengan mudah mengatasi penulisan kode yang berantakan, karena ekstensi ini akan merapikan kode secara cepat dan otomatis, sehingga meningkatkan efisiensi dan kualitas kerja kita.<br />
 ![Gambar](Images/EkstenPrettier.png)<br />
 
-Sebenarnya ekstensi-ekstensi bisa disesuaikan lagi sesuai kebutuhan, namun untuk dasar nya ketiga ekstensi ini wajib diperlukan untuk memulai dan membantu dalam pengembangan suatu website.
+Sebenarnya, ekstensi-ekstensi dapat disesuaikan sesuai kebutuhan spesifik, namun sebagai dasar, ketiga ekstensi ini sangat diperlukan untuk memulai dan mempermudah pengembangan suatu website.
 
 ## CHAPTER 2 MEMBANGUN BACKEND DENGAN GOLANG
 
@@ -204,7 +204,7 @@ Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk
 
 ## CHAPTER 3 MEMBANGUN DATABASE (MONGODB)
 
-> MongoDB adalah basis data NoSQL berbasis dokumen yang dikembangkan oleh MongoDB Inc. dan bersifat open-source. Basis data ini menggunakan format objek JavaScript (JSON) untuk menyimpan dan mengambil data, yang kemudian dikonversi ke format BSON saat disimpan. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar.
+MongoDB adalah basis data NoSQL berbasis dokumen yang dikembangkan oleh MongoDB Inc. dan bersifat open-source. Basis data ini menggunakan format objek JavaScript (JSON) untuk menyimpan dan mengambil data, yang kemudian dikonversi ke format BSON saat disimpan. Keunggulan MongoDB termasuk skalabilitas yang mudah, performa tinggi, dan kemampuan untuk menangani data yang besar.
 
 ### 3.1 MENGHUBUNGKAN DATABASE
 
@@ -312,7 +312,7 @@ Sama hal nya dengan halaman resgiter, pada halaman login akan memiliki form logi
 
 #### 4.2.2 MENGINTEGRASIKAN CSS
 
-CSS (Cascading Style Sheets) adalah metode yang semakin sering digunakan oleh pengembang web untuk mengatur tampilan halaman web. CSS memungkinkan pengembang untuk menentukan ukuran teks, font, dan warna untuk seluruh situs web tanpa perlu menyertakan informasi ini di setiap halaman, sehingga memisahkan gaya dari konten dan memudahkan proses desain.
+CSS (Cascading Style Sheets) adalah bahasa style sheet yang digunakan untuk menentukan tampilan dan format halaman web yang ditulis dalam HTML. CSS memungkinkan pengembang web untuk memisahkan konten dari presentasi, yang membuat kode HTML lebih bersih dan lebih mudah dikelola serta memungkinkan pengembang untuk menentukan ukuran teks, font, dan warna untuk seluruh situs web tanpa perlu menyertakan informasi ini di setiap halaman, sehingga memisahkan gaya dari konten dan memudahkan proses desain.
 
 ##### 1. GAYA UMUM (style.css)
 
