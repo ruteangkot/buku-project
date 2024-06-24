@@ -132,11 +132,11 @@ Sebenarnya, ekstensi-ekstensi dapat disesuaikan sesuai kebutuhan spesifik, namun
 ### 2.1 STRUKTUR DASAR PROYEK GOLANG
 
 [GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
-Integrasi dalam konteks proyek Go dapat berarti berbagai hal, seperti menghubungkan berbagai bagian proyek, mengatur dependensi, atau menjalankan aplikasi. Berikut adalah panduan singkat tentang bagaimana setiap bagian dari proyek Anda saling berhubungan dan bagaimana Anda dapat menjalankan dan mengembangkan proyek ini.
+Integrasi dalam konteks proyek Go melibatkan banyak aspek, mulai dari menghubungkan berbagai bagian proyek, mengelola dependensi dengan cerdas, hingga memastikan aplikasi berjalan lancar. Dalam panduan ini, kita akan melihat bagaimana setiap komponen proyek saling berinteraksi secara harmonis. Yuk, kita jelajahi cara terbaik untuk mengintegrasikan semua ini ke dalam proyek Go kita!
 
 #### 2.1.1 Konfigurasi Proyek (config/)
 
-Ini adalah file yang digunakan untuk mengonfigurasi aplikasi atau sistem. Biasanya, file ini berisi konfigurasi seperti konfigurasi database, pengaturan lingkungan (environment), koneksi ke layanan eksternal, dan pengaturan lainnya yang diperlukan oleh
+Ini adalah file kunci yang digunakan untuk mengatur aplikasi atau sistem. Di dalamnya terdapat berbagai pengaturan penting seperti konfigurasi database, pengaturan lingkungan, koneksi ke layanan eksternal, dan banyak lagi yang diperlukan agar sistem berjalan dengan lancar dan sesuai kebutuhan. File ini memainkan peran vital dalam memastikan bahwa aplikasi atau sistem dapat beroperasi dengan efisien dan dapat diadaptasi sesuai dengan perubahan lingkungan atau kebutuhan pengguna.
 Isi: Konfigurasi seperti file "config.yml" atau "config.json" Cara penggunaan: Anda akan memuat konfigurasi ini ke dalam file kontroler atau file "Main.go", seperti yang ditunjukkan dalam gambar berikut:
 [Carbon 3.1](Images/config.png) <br />
 
