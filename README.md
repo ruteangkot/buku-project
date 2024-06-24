@@ -283,6 +283,11 @@ dan setelah selesai mengunduh MongoDB Driver nya kalian akan mendapatkan file di
 [Gambarkoneksi](<Images/tutorial koneksi (7).png>)<br />
 
 Langkah 4: Membuat file main.go
+Di dalam folder proyek mymongodbapp, buat file baru bernama main.go. Anda dapat menggunakan editor teks pilihan kalian seperti VSCode, Atom, atau Nano.
+Buatlah file main.go di direktori file vs code kalian dan masukkan kode seperti gambar berikut:
+[Gambarkoneksi](<Images/tutorial koneksi (10).png>)<br />
+Setelah itu kalian bisa ke terminal dalam vs code kalian dan jalankan perintah "run main.go" untuk menjalankan file main.go kalian.
+
 
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
