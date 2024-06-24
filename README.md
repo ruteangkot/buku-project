@@ -200,7 +200,7 @@ Paket opsi adalah komponen driver MongoDB resmi untuk Go yang memberi klien, bas
 
 Paket bson menawarkan tipe dan fungsi untuk bekerja dengan BSON (Binary JSON), format data yang digunakan MongoDB untuk menyimpan dokumen. Dalam kasus ini, bson.D digunakan untuk membuat dokumen BSON yang akan disisipkan atau diambil dari MongoDB.
 
-Dengan mengimpor paket-paket ini, Anda memiliki semua alat yang diperlukan untuk menghubungkan dan berinteraksi dengan MongoDB menggunakan Go, serta fitur khusus yang membantu dalam berbagai aspek pengembangan aplikasi, seperti penanganan kesalahan dan pencetakan data ke konsol. <br />
+Dengan mengimpor paket-paket ini, Anda mendapatkan semua alat yang dibutuhkan untuk terhubung dan berinteraksi dengan MongoDB menggunakan Go. Ini tidak hanya mempermudah proses pengembangan, tetapi juga memberikan fitur-fitur khusus yang berguna dalam berbagai aspek pembuatan aplikasi. Mulai dari penanganan kesalahan dengan lebih efisien hingga kemampuan mencetak data langsung ke konsol, paket-paket ini seperti teman setia yang membantu Anda mengeksplorasi dan memanfaatkan potensi penuh MongoDB dalam proyek Anda. <br />
 
 ## CHAPTER 3 MEMBANGUN DATABASE (MONGODB)
 
@@ -213,14 +213,11 @@ Berikut adalah contoh dokumen MongoDB:
 
 ![Gambar](<Images/carbon(8).png>) <br />
 
-Langkah Pertama Buka browser default kalian dan cari di kolom pencarian MongoDB
-setelah itu kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
+Langkah pertama, buka browser favorit kamu dan cari "MongoDB" di kolom pencarian. Setelah itu, kamu akan diarahkan ke halaman web yang mirip dengan gambar di bawah ini
 ![Gambar1](<Images/Screenshot (385).png>)<br />
-Kalian bisa langsung click button “Try Atlas Free” dan kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
+Kamu bisa langsung klik tombol "Try Atlas Free" dan langsung diarahkan ke halaman seperti yang ada di gambar di bawah ini.
 ![Gambar2](<Images/Screenshot (394).png>)<br />
-Setelah melakukan login/sign up maka kita bisa ke langkah berikutnya.
-
-Setelah membuat account, kalian akan di arahkan ke halaman web seperti gambar dibawah ini.
+Setelah berhasil login atau sign up, langkah selanjutnya adalah menuju halaman web yang menampilkan informasi seperti yang terlihat dalam gambar di bawah ini.
 ![Gambar3](<Images/Screenshot (388).png>)<br />
 
 Isilah form berikut sesuai kebutuhan kalian seperti kebutuhan organisasi, project, dsb. Setelah mengisi form tersebut silahkan click button “Finish” dan sebelum membuat cluster nya kita harus men-download yang namanya MongoDB Compass terlebih dahulu agar cluster nya dapat digunakan.
