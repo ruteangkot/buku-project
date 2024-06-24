@@ -1,6 +1,6 @@
 # Pengembangan Website Rute Angkot
 
-![Gambar](Images/frontcover.jpg)<br />
+![Gambar](Images/coverbaru.png)<br />
 
 ## KATA PENGANTAR
 
@@ -290,7 +290,6 @@ Setelah itu kalian bisa ke terminal dalam vs code kalian dan jalankan perintah "
 Jika semuanya berjalan dengan benar, kalian akan melihat output yang menunjukkan bahwa koneksi ke MongoDB berhasil, dokumen disisipkan, dokumen ditemukan, dan koneksi ditutup.
 
 Dengan langkah ini, Anda telah berhasil menulis dan menjalankan kode Go yang menghubungkan ke MongoDB, menyisipkan dokumen, dan mengambil dokumen.
-
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
