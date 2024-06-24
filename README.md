@@ -287,7 +287,9 @@ Di dalam folder proyek mymongodbapp, buat file baru bernama main.go. Anda dapat 
 Buatlah file main.go di direktori file vs code kalian dan masukkan kode seperti gambar berikut:
 [Gambarkoneksi](<Images/tutorial koneksi (10).png>)<br />
 Setelah itu kalian bisa ke terminal dalam vs code kalian dan jalankan perintah "run main.go" untuk menjalankan file main.go kalian.
+Jika semuanya berjalan dengan benar, kalian akan melihat output yang menunjukkan bahwa koneksi ke MongoDB berhasil, dokumen disisipkan, dokumen ditemukan, dan koneksi ditutup.
 
+Dengan langkah ini, Anda telah berhasil menulis dan menjalankan kode Go yang menghubungkan ke MongoDB, menyisipkan dokumen, dan mengambil dokumen.
 
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
