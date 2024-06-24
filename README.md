@@ -220,21 +220,21 @@ Kamu bisa langsung klik tombol "Try Atlas Free" dan langsung diarahkan ke halama
 Setelah berhasil login atau sign up, langkah selanjutnya adalah menuju halaman web yang menampilkan informasi seperti yang terlihat dalam gambar di bawah ini.
 ![Gambar3](<Images/Screenshot (388).png>)<br />
 
-Isilah form berikut sesuai kebutuhan kalian seperti kebutuhan organisasi, project, dsb. Setelah mengisi form tersebut silahkan click button “Finish” dan sebelum membuat cluster nya kita harus men-download yang namanya MongoDB Compass terlebih dahulu agar cluster nya dapat digunakan.
-Tambahkan halaman web baru dan masukan MongoDB Compass ke dalam kolom pencarian browser kalian, setelah itu kalian akan dihadapkan dengan halaman web seperti gambar dibawah ini.
+Silakan isi formulir berikut sesuai kebutuhan kamu, seperti kebutuhan organisasi atau proyek. Setelah selesai mengisi formulir, klik tombol "Finish". Sebelum membuat cluster, pastikan untuk mengunduh MongoDB Compass terlebih dahulu agar cluster bisa digunakan dengan baik.
+
+Tambahkan halaman web baru dan cari "MongoDB Compass" di kolom pencarian browser kamu. Setelah itu, kamu akan langsung diarahkan ke halaman web yang menampilkan tampilan seperti gambar di bawah ini.
 ![Gambar4](<Images/Screenshot (386).png>)<br />
 
 Lalu kalian bisa click button “Download Now” dan kalian akan di arahkan ke halaman web Donwloadnya.
 ![Gambar5](<Images/Screenshot (387).png>)<br />
 
-Seperti yang kalian lihat pada gambar di atas, silahkan men-download MongoDB Compass (GUI) nya dan tunggu beberapa menit untuk menyelesaikan downlaod-an tersebut. Dan untuk pengguna macOS kalian bisa men-downlaodnya juga dengan cara mengubah platformnya dan sesuaikan dengan versi macOS kalian. Setelah download-an kalian selesai, kalian bisa kembali ke halaman web MongoDB Atlas nya untuk membuat cluster.
+Seperti yang terlihat pada gambar di atas, silakan unduh MongoDB Compass (GUI) dan tunggu beberapa saat untuk menyelesaikan proses unduhan. Pengguna macOS dapat mengubah platformnya untuk menyesuaikan dengan versi macOS mereka. Setelah unduhan selesai, kembali ke halaman awal MongoDB Atlas untuk mulai membuat cluster.
 ![Gambar6](<Images/Screenshot (385).png>)<br />
 
-Lengkapi Username dan Password kalian, setelah kalian lengkapi silahkan click button “Create Database User”
-Setelah sudah meng-create database user kalian akan di hadapkan dengan seperti gambar dibawah ini.
+Masukkan username dan password kamu, lalu klik tombol "Create Database User". Setelah berhasil membuat user database, kamu akan melihat tampilan seperti yang terlihat pada gambar di bawah ini.
 ![Gambar7](<Images/Screenshot (397).png>)<br />
 
-Kalian bisa meng-click button “Choose a connection method” untuk mendapatkan Mongostring nya.
+Selanjutnya, klik tombol "Choose a connection method" untuk mendapatkan Mongostring-nya.
 ![Gambar8](<Images/Screenshot (398).png>)<br />
 
 Seperti gambar di atas karena kalian sudah men-download MongoDB Compass kalian bisa memilih “Access your data trhough tools Compass”.
