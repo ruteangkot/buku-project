@@ -93,16 +93,20 @@ Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 ##### Instalasi di macOS
 
 1.  Unduh Installer: Kunjungi situs resmi Golang dan unduh file installer .pkg.
+    ![Gambar](<Images/Screenshot%20(165).png>)
 2.  Jalankan Installer: Buka file .pkg dan ikuti petunjuknya.
 3.  Set PATH: Tambahkan export PATH=$PATH:/usr/local/go/bin ke file profil shell Anda (misalnya, ~/.zshrc).
 4.  Verifikasi: Buka Terminal dan ketik go version. <br />
+    ![Gambar](Images/installgo.png)
 
 ###### Instalasi di Linux
 
 1. Unduh dan Ekstrak: Kunjungi situs resmi Golang dan unduh file .tar.gz. Ekstrak ke /usr/local.
-   [GambarInstalasiLinux](<Images/Screenshot (460).png>)<br />
+   [GambarInstalasiLinux](<Images/Screenshot%20(165).png>)<br />
 2. Set PATH: Tambahkan export PATH=$PATH:/usr/local/go/bin ke file profil shell Anda (misalnya, ~/.bashrc).
+   ![Gambar](Images/installinux.png)
 3. Verifikasi: Buka Terminal dan ketik go version.
+   ![Gambar](Images/installinux2.png)
    Dengan mengikuti langkah-langkah di atas, Anda akan siap untuk mulai menggunakan Golang di sistem operasi Anda. <br />
 
 ### 1.2 SETTING UP VISUAL STUDIO CODE DAN EKSTENSI YANG DIPERLUKAN
