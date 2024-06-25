@@ -83,9 +83,12 @@ Berikut adalah cara singkat untuk menginstal Golang di berbagai sistem operasi:
 #### Instalasi di Windows
 
 1.  Unduh Installer: Kunjungi situs resmi Golang dan unduh file installer .msi.
+    ![Gambar](<Images/Screenshot%20(165).png>)
 2.  Jalankan Installer: Jalankan file installer dan ikuti petunjuknya.
 3.  Set PATH: Tambahkan C:\Go\bin ke variabel lingkungan PATH.
+    ![Gambar](<Images/Screenshot%20(166).png>)
 4.  Verifikasi: Buka Command Prompt dan ketik go version. <br />
+    ![Gambar](Images/installgo.png)
 
 ##### Instalasi di macOS
 
