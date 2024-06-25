@@ -298,12 +298,26 @@ Seperti gambar di atas kode ini berfungsi untuk membuat koneksi ke MongoDB mengg
 [Gambarkoneksi](<Images/tutorial koneksi (13).png>)<br />
 Seperti gambar di atas kode ini berfungsi untuk memeriksa apakah koneksi terhubung atau tidak dan berfungsi untuk memastikan apakah koneksi berhasil dengan mengirimkan ping ke server mongoDB. <br />
 
-##### Ke-empat Mengoleksi Koleksi <br />
+##### Ke-empat Mengakses Koleksi <br />
 [Gambarkoneksi](<Images/tutorial koneksi (14).png>)<br />
+Kode di atas adalah bagaimana kalian bisa mengakses koleksi yang ada di mongoDB kalian yang telah kalian buat sebelumnya kalian bisa mengubah nama "client.Database" dan "Collection" nya sesuai dengan database yang ada di mongoDB kalian. <br />
 
+##### Kelima Menyisipkan dokumen <br />
+[Gambarkoneksi](<Images/tutorial koneksi (15).png>)<br />
+Dalam gambar di atas kode ini berfungsi untuk membuat dan menyisipkan dokumen BSON ke dalam koleksi. Menampilkan ID dokumen yang telah disisipkan.
 
+##### Ke-enam Menemukan dokumen <br />
+[Gambarkoneksi](<Images/tutorial koneksi (16).png>)<br />
+Dalam kode seperti gambar di atas berfungsi untuk menemukan dan menampilkan dokumen berdasarkan filter 
+(misalnya, nama "alice"). <br />
 
-Dengan langkah ini, Anda telah berhasil menulis dan menjalankan kode Go yang menghubungkan ke MongoDB, menyisipkan dokumen, dan mengambil dokumen.
+##### Ke-tujuh Menutup kode <br />
+[Gambarkoneksi](<Images/tutorial koneksi (17).png>)<br />
+Dalam kodingan di atas berfungsi untuk Menutup koneksi ke mongoDB kalian ketika tidak perlu di gunakan lagi atau tidak perlu digunakan. <br />
+
+Setelah memasukkan kode di atas dengan 7 langkah kalian bisa langsung ke terminal visual code kalian masing-masing dan jalankan perintah "run main.go" <br />
+
+Dengan langkah ini, Anda telah berhasil menulis dan menjalankan kode Go yang menghubungkan ke MongoDB, menyisipkan dokumen, dan mengambil dokumen. <br />
 
 ## CHAPTER 4 MEMBANGUN FRONTEND DENGAN JAVASCRIPT
 
