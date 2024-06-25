@@ -553,11 +553,9 @@ Selanjutnya, kita buat fungsi create dengan penulisan kode yang hampir sama pada
 
 ![Gambar](Images/minid4.png)<br />
 
-Pada bagian akhir fungsi nya jangan lupa tambahkan variabel fungsi load data agar setiap kali habis membuat data baru, data pada tabel otomatis refresh kembali.
+Lalu buat lagi fungsi untuk edit dan penulisan nya tetap sama, yang membedakan hanya pada method yang digunakan nya. Untuk edit kita akan menggunakan method PUT.
 
-Setelah melakukan pengambilan fungsi Create, lanjut lakukan untuk fungsi Update.
-
-![Gambar](Images/edit.png)
+![Gambar](Images/minid5.png)
 
 Sama seperti pada fungsi create, pada bagian akhir fungsi tambahkan variable fungsi load data, agar data tabel ter refresh kembali.
 
