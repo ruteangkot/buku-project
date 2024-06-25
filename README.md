@@ -258,11 +258,11 @@ Untuk menambahkan database atau mengatur konfigurasinya, gunakan MongoDB Compass
 
 ### 3.2 TAHAPAN MENGHUBUNGKAN KONEKSI BASIS DATA MONGODB
 
-Langkah 1: Melakukan instalasi Go dan MongoDB
+#### Langkah 1: Melakukan instalasi Go dan MongoDB <br />
 
 Sebelum memulai, pastikan Anda telah menginstal Go dan MongoDB di sistem Anda. Anda dapat mengunduh dan menginstal keduanya dari situs resmi mereka. <br />
 
-Langkah 2: Membuat Proyek Go
+#### Langkah 2: Membuat Proyek Go <br />
 
 Buat folder untuk proyek baru Anda dan gunakan perintah berikut untuk memulai modul Go:
 [Gambarkoneksi](<Images/tutorial koneksi (1).png>)<br />
@@ -274,7 +274,7 @@ setelah menjalankan perintah "go mod init nama-project kalian" kalian akan menda
 di direktori file kalian masing-masing
 [Gambarkoneksi](<Images/tutorial koneksi (9).png>)<br />
 
-Langkah 3: Menginstall MongoDB driver untuk Go
+#### Langkah 3: Menginstall MongoDB driver untuk Go <br />
 Install driver MongoDB menggunakan perintah ini:
 [Gambarkoneksi](<Images/tutorial koneksi (3).png>)<br />
 setelah menjalankan perintah seperti gambar di atas kalian akan mendapatkan hasil seperti:
@@ -282,18 +282,25 @@ setelah menjalankan perintah seperti gambar di atas kalian akan mendapatkan hasi
 dan setelah selesai mengunduh MongoDB Driver nya kalian akan mendapatkan file di direktori kalian "go.sum" :
 [Gambarkoneksi](<Images/tutorial koneksi (7).png>)<br />
 
-Langkah 4: Membuat file main.go
+#### Langkah 4: Membuat file main.go <br />
 Di dalam folder proyek mymongodbapp, buat file baru bernama main.go. Anda dapat menggunakan editor teks pilihan kalian seperti VSCode, Atom, atau Nano.
 Buatlah file main.go di direktori file vs code kalian dan masukkan kode seperti gambar berikut:
-Pertama kita masukan kode untuk konfigurasi opsi client:
+
+##### Pertama kita masukan kode untuk konfigurasi opsi client: <br />
 [Gambarkoneksi](<Images/tutorial koneksi (11).png>)<br />
-Kalian bisa mengatur URI Koneksi MongoDB, gantilah "Localhost:27017" dengan URI mongoDB kalian masing-masing.
+Kalian bisa mengatur URI Koneksi MongoDB, gantilah "Localhost:27017" dengan URI mongoDB kalian masing-masing. <br />
 
-Kedua Menguhubungkan ke MongoDB
+##### Kedua Menguhubungkan ke MongoDB <br />
 [Gambarkoneksi](<Images/tutorial koneksi (12).png>)<br />
-Seperti gambar di atas kode ini berfungsi untuk membuat koneksi ke MongoDB menggunakan opsi yang telah di konfigurasi.
+Seperti gambar di atas kode ini berfungsi untuk membuat koneksi ke MongoDB menggunakan opsi yang telah di konfigurasi pada. <br />
 
-Ketiga
+##### Ketiga Memeriksa Koneksi ke MongoDB <br />
+[Gambarkoneksi](<Images/tutorial koneksi (13).png>)<br />
+Seperti gambar di atas kode ini berfungsi untuk memeriksa apakah koneksi terhubung atau tidak dan berfungsi untuk memastikan apakah koneksi berhasil dengan mengirimkan ping ke server mongoDB. <br />
+
+##### Ke-empat Mengoleksi Koleksi <br />
+[Gambarkoneksi](<Images/tutorial koneksi (14).png>)<br />
+
 
 
 Dengan langkah ini, Anda telah berhasil menulis dan menjalankan kode Go yang menghubungkan ke MongoDB, menyisipkan dokumen, dan mengambil dokumen.
