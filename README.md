@@ -555,13 +555,11 @@ Selanjutnya, kita buat fungsi create dengan penulisan kode yang hampir sama pada
 
 Lalu buat lagi fungsi untuk edit dan penulisan nya tetap sama, yang membedakan hanya pada method yang digunakan nya. Untuk edit kita akan menggunakan method PUT.
 
-![Gambar](Images/minid5.png)
+![Gambar](Images/minid5.png)<br />
 
-Sama seperti pada fungsi create, pada bagian akhir fungsi tambahkan variable fungsi load data, agar data tabel ter refresh kembali.
+Terakhir kita akan membuat untuk fungsi Delete. Fungsi terakhir juga tetap memiliki penulisan kode yang sama, yang berbeda hanya pada bagian method yang digunakan dan field body function nya.
 
-Setelah fungsi update berhasil diterapkan, terakhir lakukan juga untuk fungsi Delete nya.<br />
-
-![Gambar](Images/delete.png)
+![Gambar](Images/minid6.png)<br />
 
 Ketiga fungsi ini yaitu, Create, update, delete, memiliki metode pemanggilan API yang sama. Akan tetapi pada bagian fungsi delete memiliki sedikit perbedaan yaitu pada bagian body function nya. Yang dipilih atau di panggil hanya field id nya saja tidak seperti pada fungsi create dan update yang memanggil semua field dari database nya.
 
