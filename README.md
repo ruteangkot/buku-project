@@ -547,9 +547,11 @@ Lanjut, pertama sekarang kita deklarasikan untuk fungsi pemanggilan Fecth nya pa
 
 ![Gambar](Images/minid3.png)<br />
 
-Pertama kita lakukan pengambilan API untuk fungsi Create.
+Saat membuat halaman admin dengan JavaScript, kita telah menyusun fungsi untuk memanggil data. Namun, saat itu, deklarasi API belum lengkap. Sekarang, fungsinya sudah selesai, dan data rute akan sepenuhnya ditampilkan pada halaman admin.<br />
 
-![Gambar](Images/create.png)<br />
+Selanjutnya, kita buat fungsi create dengan penulisan kode yang hampir sama pada saat pemanggilan data, namun ada sedikit perbedaan pada method yang digunakan nya, untuk fungsi ini menggunakan method POST.
+
+![Gambar](Images/minid4.png)<br />
 
 Pada bagian akhir fungsi nya jangan lupa tambahkan variabel fungsi load data agar setiap kali habis membuat data baru, data pada tabel otomatis refresh kembali.
 
