@@ -536,12 +536,16 @@ Pada bagian ini kita akan mengambil API untuk load data halaman utama menggunaka
 
 Seperti pada saat pengecekan API menggunakan POSTMAN, pada kodingan nya juga menyertakan method. Untuk menampilkan data kita menggunakan method GET.
 
-#### Pemanggilan data menggunakan Fecth (admin.js)
+#### 6.1.2 Pemanggilan data menggunakan Fecth (admin.js)
 
-Untuk halaman admin kita akan menggunakan metode Fetch berbeda dengan pada halaman utaman.<br />
-![Gambar](Images/fetch.png)<br />
+Berbeda dengan halaman utama, untuk halaman admin kita akan menggunakan metode Fetch.
+Sebelum mendeklarasikan fungsi Fetch ini, kita akan buat dulu event handling untuk menangani pemanggilan API untuk fungsi CRUD (create, update, delete) yang akan kita deklarasikan nanti. Berikut kode nya.<br />
 
-#### Menangkap API Create
+![Gambar](Images/)<br />
+
+Lanjut, pertama sekarang kita deklarasikan untuk fungsi pemanggilan Fecth nya pada halaman admin untuk menampilkan data.
+
+![Gambar](Images/)
 
 Pertama kita lakukan pengambilan API untuk fungsi Create.
 
@@ -549,15 +553,11 @@ Pertama kita lakukan pengambilan API untuk fungsi Create.
 
 Pada bagian akhir fungsi nya jangan lupa tambahkan variabel fungsi load data agar setiap kali habis membuat data baru, data pada tabel otomatis refresh kembali.
 
-#### Menangkap API Update
-
 Setelah melakukan pengambilan fungsi Create, lanjut lakukan untuk fungsi Update.
 
 ![Gambar](Images/edit.png)
 
 Sama seperti pada fungsi create, pada bagian akhir fungsi tambahkan variable fungsi load data, agar data tabel ter refresh kembali.
-
-#### Menangkap API Delete
 
 Setelah fungsi update berhasil diterapkan, terakhir lakukan juga untuk fungsi Delete nya.<br />
 
