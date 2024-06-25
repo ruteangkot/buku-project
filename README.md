@@ -529,10 +529,14 @@ Lakukan juga untuk pengetesan untuk Create menggunakan method POST, Edit menggun
 
 Untuk menampilkan data pada tabel maka kita perlu membuat fungsi untuk menangkap data dari API yang ada di backend.<br />
 
-#### Pemanggilan data menggunakan XHR dan Fetch
+#### 6.1.1 Pemanggilan data menggunakan XHR (main.js)
 
 Pada bagian ini kita akan mengambil API untuk load data halaman utama menggunakan metode XHR.<br />
 ![Gambar](Images/xhr.png)<br />
+
+Seperti pada saat pengecekan API menggunakan POSTMAN, pada kodingan nya juga menyertakan method. Untuk menampilkan data kita menggunakan method GET.
+
+#### Pemanggilan data menggunakan Fecth (admin.js)
 
 Untuk halaman admin kita akan menggunakan metode Fetch berbeda dengan pada halaman utaman.<br />
 ![Gambar](Images/fetch.png)<br />
