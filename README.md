@@ -509,6 +509,8 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 ### 5.1 MERANCANG RESTFUL API DENGAN GOLANG
 
+API (Application Programming Interfaces) adalah alat yang memungkinkan pertukaran data antara dua sistem yang berbeda melalui antarmuka program yang sama. API web menghubungkan berbagai aplikasi ke internet, memungkinkan data dikirim dan diterima dengan mudah tanpa perlu instalasi atau kompilasi seperti perangkat lunak tradisional.
+
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
@@ -526,7 +528,6 @@ Lakukan juga untuk pengetesan untuk Create menggunakan method POST, Edit menggun
 ### 6.1 MENGHUBUNGKAN FRONTNEND DENGAN API BACKEND
 
 Untuk menampilkan data pada tabel maka kita perlu membuat fungsi untuk menangkap data dari API yang ada di backend.<br />
-PI (Application Programming Interfaces) adalah alat yang memungkinkan pertukaran data antara dua sistem yang berbeda melalui antarmuka program yang sama. API web menghubungkan berbagai aplikasi ke internet, memungkinkan data dikirim dan diterima dengan mudah tanpa perlu instalasi atau kompilasi seperti perangkat lunak tradisional.
 
 #### Pemanggilan data menggunakan XHR dan Fetch
 
