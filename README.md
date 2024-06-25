@@ -275,6 +275,7 @@ di direktori file kalian masing-masing
 [Gambarkoneksi](<Images/tutorial koneksi (9).png>)<br />
 
 #### Langkah 3: Menginstall MongoDB driver untuk Go <br />
+
 Install driver MongoDB menggunakan perintah ini:
 [Gambarkoneksi](<Images/tutorial koneksi (3).png>)<br />
 setelah menjalankan perintah seperti gambar di atas kalian akan mendapatkan hasil seperti:
@@ -283,35 +284,43 @@ dan setelah selesai mengunduh MongoDB Driver nya kalian akan mendapatkan file di
 [Gambarkoneksi](<Images/tutorial koneksi (7).png>)<br />
 
 #### Langkah 4: Membuat file main.go <br />
+
 Di dalam folder proyek mymongodbapp, buat file baru bernama main.go. Anda dapat menggunakan editor teks pilihan kalian seperti VSCode, Atom, atau Nano.
 Buatlah file main.go di direktori file vs code kalian dan masukkan kode seperti gambar berikut:
 
 ##### Pertama kita masukan kode untuk konfigurasi opsi client: <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (11).png>)<br />
 Kalian bisa mengatur URI Koneksi MongoDB, gantilah "Localhost:27017" dengan URI mongoDB kalian masing-masing. <br />
 
 ##### Kedua Menguhubungkan ke MongoDB <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (12).png>)<br />
 Seperti gambar di atas kode ini berfungsi untuk membuat koneksi ke MongoDB menggunakan opsi yang telah di konfigurasi pada. <br />
 
 ##### Ketiga Memeriksa Koneksi ke MongoDB <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (13).png>)<br />
 Seperti gambar di atas kode ini berfungsi untuk memeriksa apakah koneksi terhubung atau tidak dan berfungsi untuk memastikan apakah koneksi berhasil dengan mengirimkan ping ke server mongoDB. <br />
 
 ##### Ke-empat Mengakses Koleksi <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (14).png>)<br />
 Kode di atas adalah bagaimana kalian bisa mengakses koleksi yang ada di mongoDB kalian yang telah kalian buat sebelumnya kalian bisa mengubah nama "client.Database" dan "Collection" nya sesuai dengan database yang ada di mongoDB kalian. <br />
 
 ##### Kelima Menyisipkan dokumen <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (15).png>)<br />
 Dalam gambar di atas kode ini berfungsi untuk membuat dan menyisipkan dokumen BSON ke dalam koleksi. Menampilkan ID dokumen yang telah disisipkan.
 
 ##### Ke-enam Menemukan dokumen <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (16).png>)<br />
-Dalam kode seperti gambar di atas berfungsi untuk menemukan dan menampilkan dokumen berdasarkan filter 
+Dalam kode seperti gambar di atas berfungsi untuk menemukan dan menampilkan dokumen berdasarkan filter
 (misalnya, nama "alice"). <br />
 
 ##### Ke-tujuh Menutup kode <br />
+
 [Gambarkoneksi](<Images/tutorial koneksi (17).png>)<br />
 Dalam kodingan di atas berfungsi untuk Menutup koneksi ke mongoDB kalian ketika tidak perlu di gunakan lagi atau tidak perlu digunakan. <br />
 
@@ -461,6 +470,10 @@ Selanjutnya, untuk membuat kolom pencarian rute nya dapat berjalan dibutuhkan fu
 ##### 2. SKRIP ADMIN (admin/admin.js)
 
 File JavaScript untuk halaman admin akan mengandung skrip yang dibutuhkan untuk fungsi-fungsi admin, seperti manipulasi data tabel. Ini menunjukkan bagaimana kita bisa menambahkan fungsionalitas yang berbeda di halaman admin.<br />
+
+Sebelum lanjut membuat fungsi pada halaman admin, kita akan deklarasikan dulu semua id yang perlu kita panggil dan gunakan.
+
+![Gambar](Images/minid1.png)<br />
 
 Sama seperti file javascript utama, kita akan buat fungsi agar data nya masuk ke dalam tabel, namun sedikit berbeda dengan file javascript utama. Ada penambahan elemen lain pada file javascript ini.<br />
 
