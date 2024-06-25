@@ -285,9 +285,16 @@ dan setelah selesai mengunduh MongoDB Driver nya kalian akan mendapatkan file di
 Langkah 4: Membuat file main.go
 Di dalam folder proyek mymongodbapp, buat file baru bernama main.go. Anda dapat menggunakan editor teks pilihan kalian seperti VSCode, Atom, atau Nano.
 Buatlah file main.go di direktori file vs code kalian dan masukkan kode seperti gambar berikut:
-[Gambarkoneksi](<Images/tutorial koneksi (10).png>)<br />
-Setelah itu kalian bisa ke terminal dalam vs code kalian dan jalankan perintah "run main.go" untuk menjalankan file main.go kalian.
-Jika semuanya berjalan dengan benar, kalian akan melihat output yang menunjukkan bahwa koneksi ke MongoDB berhasil, dokumen disisipkan, dokumen ditemukan, dan koneksi ditutup.
+Pertama kita masukan kode untuk konfigurasi opsi client:
+[Gambarkoneksi](<Images/tutorial koneksi (11).png>)<br />
+Kalian bisa mengatur URI Koneksi MongoDB, gantilah "Localhost:27017" dengan URI mongoDB kalian masing-masing.
+
+Kedua Menguhubungkan ke MongoDB
+[Gambarkoneksi](<Images/tutorial koneksi (12).png>)<br />
+Seperti gambar di atas kode ini berfungsi untuk membuat koneksi ke MongoDB menggunakan opsi yang telah di konfigurasi.
+
+Ketiga
+
 
 Dengan langkah ini, Anda telah berhasil menulis dan menjalankan kode Go yang menghubungkan ke MongoDB, menyisipkan dokumen, dan mengambil dokumen.
 
