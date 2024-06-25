@@ -579,14 +579,15 @@ Tampilan halaman admin pada mobile.<br />
 
 ## DAFTAR PUSTAKA
 
+Badros, G. J., Borning, A., Marriott, K., & Stuckey, P. (1999). Constraint Cascading Style Sheets for the Web.<br />
 Blumen, R., & Meyerson, J. (n.d.). 4 / $ 3 1. 0 0 © 2 0 1 4 I E E E The Go Programming Language. www.se-radio.net<br />
-introduction-to-cascading-style-sheets-3j57sobw. (n.d.)<br />
 Jain, N. (2014). REVIEW OF DIFFERENT RESPONSIVE CSS FRONT-END FRAMEWORKS. In Journal of Global Research in Computer Science (Vol. 5, Issue 11). www.newaeonweb.com.br/responsiveaeon<br />
 Morozov, K. (2020). Increasing Web-Design Effectiveness Based on Backendless Architecture.<br />
 Murari, R., & Sandru, V. (2013). Visual Studio-Continuous Integration. In IJCEM International Journal of Computational Engineering & Management (Vol. 16). www.ijcem.org<br />
+Norton, B. (2021). APIs: A Common Interface for the Global Biodiversity Informatics Community. Biodiversity Information Science and Standards, 5. https://doi.org/10.3897/biss.5.75267<br />
 Ocariza, F. S., Li, G., Pattabiraman, K., & Mesbah, A. (2015). Automatic Fault Localization for Client-Side JavaScript. Test. Verif. Reliab, 00, 1–24. https://doi.org/10.1002/stvr<br />
 Rahmatika, R., Pauziah, U., & Mursito, H. (2021). HTML-Based Website Learning Training (Hypertext Markup Languange). REKA ELKOMIKA: Jurnal Pengabdian Kepada Masyarakat, 2(1), 19–25. https://doi.org/10.26760/rekaelkomika.v2i1.19-25<br />
-Satheesh, Mithun., D’mello, B. Joseph., & Krol, Jason. (2015). Web development with MongoDB and NodeJS : build an interactive and full-featured web application from scratch using Node.js and MongoDB. Packt Publishing.<br />
+Satheesh, Mithun., D’mello, B. Joseph., & Krol, Jason. (2015). Web development with MongoDB and NodeJS : build an interactive and full-featured web application from scratch using Node.js and MongoDB. Packt Publishing.
 
 ## TENTANG PENULIS
 
