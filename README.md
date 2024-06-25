@@ -541,11 +541,11 @@ Seperti pada saat pengecekan API menggunakan POSTMAN, pada kodingan nya juga men
 Berbeda dengan halaman utama, untuk halaman admin kita akan menggunakan metode Fetch.
 Sebelum mendeklarasikan fungsi Fetch ini, kita akan buat dulu event handling untuk menangani pemanggilan API untuk fungsi CRUD (create, update, delete) yang akan kita deklarasikan nanti. Berikut kode nya.<br />
 
-![Gambar](Images/)<br />
+![Gambar](Images/minid2.png)<br />
 
 Lanjut, pertama sekarang kita deklarasikan untuk fungsi pemanggilan Fecth nya pada halaman admin untuk menampilkan data.
 
-![Gambar](Images/)
+![Gambar](Images/minid3.png)<br />
 
 Pertama kita lakukan pengambilan API untuk fungsi Create.
 
