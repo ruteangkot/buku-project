@@ -540,7 +540,20 @@ Buat file `config/db.go` untuk menghubungkan ke MongoDB menggunakan URI MongoDB 
 Kalian bisa menggantikan URI mongoDB nya sesuai URI database MongoDB kalian. <br />
 
 ##### Langkah 5 : Membuat model user <br />
+Buat file model/user.go untuk mendefinisikan struktur data pengguna:
+[Gambarendpoint](<Images/tutorial endpoint (5).png>) <br />
+Ingat, struct type kalian harus sama dengan yang ada di database mongodb kalian, karena jika tidak maka database kalian tidak akan terpanggil type struct user nya.<br />
 
+##### Langkah 6 : Menambahkan fungsi pada file helper <br />
+Fungsi yang akan kita gunakan untuk hashing kata sandi atau pembuatan token dengan menggunakan JWT
+Buat file helper/auth.go untuk mendukung hashing kata sandi dan pembuatan token JWT:
+[Gambarendpoint](<Images/tutorial endpoint (6).png>) <br />
+Kalian bisa mengisi token "your_secret_key" dengan token kalian masing-masing. <br />
+ 
+##### Langkah 7 : Membuat endpoint untuk login & register <br />
+Buat file controllers/auth.go untuk mengatur logika dari login & registernya:
+[Gambarendpoint](<Images/tutorial endpoint (7).png>) <br />
+Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
