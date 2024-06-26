@@ -524,12 +524,17 @@ Kita akan membuat sistem login dan registrasi menggunakan Golang dan MongoDB dal
 
 ##### Langkah 1 : Tambahkan dependensi yang diperlukan <br />
 
-Kedua kalian bisa menambahkan dependensi sesuai yang kalian perlukan dan dependensi di gambar ini adalah wajib ada karena akan dipakai saat memmbuat endpoint:
+Langkah pertama, mari kita tambahkan dependensi yang dibutuhkan sesuai kebutuhan kamu. Dependensi yang ada di gambar ini wajib ada karena akan digunakan saat membuat endpoint.:
 [Gambarendpoint](<Images/tutorial endpoint (2).png>) <br />
 
 ##### Langkah 2 : Buat struktur proyek <br />
 
-Ketiga kalian bisa membuat struktur proyek seperti berikut :
+Langkah kedua, mari kita buat struktur proyek seperti ini:
+
+-Buat direktori dan file sesuai dengan struktur yang diinginkan.<br />
+-Pastikan semuanya tertata rapi agar mudah dikelola.
+
+Struktur proyek yang baik adalah kunci untuk pengembangan yang lancar dan efisien. Berikut adalah contoh struktur proyek yang bisa kamu ikuti:
 [Gambarendpoint](<Images/tutorial endpoint (3).png>) <br />
 
 ##### Langkah 3 : Tambahkan koneksi MongoDB <br />
@@ -540,16 +545,15 @@ Kalian bisa menggantikan URI mongoDB nya sesuai URI database MongoDB kalian. <br
 
 ##### Langkah 4 : Membuat model user <br />
 
-Buat file model/user.go untuk mendefinisikan struktur data pengguna:
+selanjutnya, Buat file model/user.go untuk mendefinisikan struktur data pengguna:
 [Gambarendpoint](<Images/tutorial endpoint (5).png>) <br />
-Ingat, struct type kalian harus sama dengan yang ada di database mongodb kalian, karena jika tidak maka database kalian tidak akan terpanggil type struct user nya.<br />
+Ingat, tipe struct kalian harus sama persis dengan yang ada di database MongoDB. Kalau tidak, data di database tidak akan bisa dipanggil dengan benar. Jadi, pastikan tipe struct user kamu sesuai dengan yang ada di MongoDB.<br />
 
 ##### Langkah 5 : Menambahkan fungsi pada file helper <br />
 
-Fungsi yang akan kita gunakan untuk hashing kata sandi atau pembuatan token dengan menggunakan JWT
-Buat file helper/auth.go untuk mendukung hashing kata sandi dan pembuatan token JWT:
+Fungsi yang akan kita gunakan untuk hashing kata sandi dan pembuatan token menggunakan JWT sangat penting. Agar lebih mudah, kita buat file helper/auth.go untuk membantu kita dalam proses ini.
 [Gambarendpoint](<Images/tutorial endpoint (6).png>) <br />
-Kalian bisa mengisi token "your_secret_key" dengan token kalian masing-masing. <br />
+Kamu bisa mengisi token "your_secret_key" dengan token kalian masing-masing. <br />
 
 ##### Langkah 6 : Membuat endpoint untuk login & register <br />
 
