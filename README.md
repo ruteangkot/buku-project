@@ -524,6 +524,22 @@ Kita akan membuat sistem login dan registrasi menggunakan Golang dan MongoDB dal
 ##### Langkah 1 : Persiapan Proyek Golang <br />
 Pertama persiapkan Proyek baru dan inisialisasi modul GO, tapi jika kalian sudah membuat proyek kalian maka kalian bisa melewati langkah ini:
 [Gambarendpoint](<Images/tutorial endpoint (1).png>) <br />
+kalian bisa menjalankan perintah berikut di terminal vs code kalian masing-masing. <br />
+
+##### Langkah 2 : Tambahkan dependensi yang diperlukan <br />
+Kedua kalian bisa menambahkan dependensi sesuai yang kalian perlukan dan dependensi di gambar ini adalah wajib ada karena akan dipakai saat memmbuat endpoint:
+[Gambarendpoint](<Images/tutorial endpoint (2).png>) <br />
+
+##### Langkah 3 : Buat struktur proyek <br />
+Ketiga kalian bisa membuat struktur proyek seperti berikut :
+[Gambarendpoint](<Images/tutorial endpoint (3).png>) <br />
+
+##### Langkah 4 : Tambahkan koneksi MongoDB <br />
+Buat file `config/db.go` untuk menghubungkan ke MongoDB menggunakan URI MongoDB atlas anda.
+[Gambarendpoint](<Images/tutorial endpoint (4).png>) <br />
+Kalian bisa menggantikan URI mongoDB nya sesuai URI database MongoDB kalian. <br />
+
+##### Langkah 5 : Membuat model user <br />
 
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
