@@ -518,6 +518,13 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 
 API (Application Programming Interfaces) adalah alat yang memungkinkan pertukaran data antara dua sistem yang berbeda melalui antarmuka program yang sama. API web menghubungkan berbagai aplikasi ke internet, memungkinkan data dikirim dan diterima dengan mudah tanpa perlu instalasi atau kompilasi seperti perangkat lunak tradisional.
 
+#### 5.1.1 MEMBUAT ENDPOINT LOGIN & REGISTER <br />
+Kita akan membuat sistem login dan registrasi menggunakan Golang dan MongoDB dalam tutorial ini. Aplikasi ini akan mengelola akun pengguna, menyimpan data di MongoDB, dan menghasilkan token JWT untuk autentikasi. <br />
+
+##### Langkah 1 : Persiapan Proyek Golang <br />
+Pertama persiapkan Proyek baru dan inisialisasi modul GO, tapi jika kalian sudah membuat proyek kalian maka kalian bisa melewati langkah ini:
+[Gambarendpoint](<Images/tutorial endpoint (1).png>) <br />
+
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
@@ -529,6 +536,7 @@ Setelah API sudah dibuat maka kita akan melakukan pengetesan API tersebut memlal
 Masukan API kemudian klik send. Lalu pilih method yang dipakai nya, jika ingin menampilkan data maka pilih method GET seperti pada gambar di atas.<br />
 
 Lakukan juga untuk pengetesan untuk Create menggunakan method POST, Edit menggunakan method PUT, dan Delete menggunakan method DELETE.
+
 
 ## CHAPTER 6 INTEGRASI FRONTEND DAN BACKEND
 
