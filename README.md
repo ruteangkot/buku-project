@@ -519,41 +519,44 @@ Untuk file javascript login tidak terlalu banyak fungsi dan kode yang dibuat, ta
 API (Application Programming Interfaces) adalah alat yang memungkinkan pertukaran data antara dua sistem yang berbeda melalui antarmuka program yang sama. API web menghubungkan berbagai aplikasi ke internet, memungkinkan data dikirim dan diterima dengan mudah tanpa perlu instalasi atau kompilasi seperti perangkat lunak tradisional.
 
 #### 5.1.1 MEMBUAT ENDPOINT LOGIN & REGISTER <br />
+
 Kita akan membuat sistem login dan registrasi menggunakan Golang dan MongoDB dalam tutorial ini. Aplikasi ini akan mengelola akun pengguna, menyimpan data di MongoDB, dan menghasilkan token JWT untuk autentikasi. <br />
 
-##### Langkah 1 : Persiapan Proyek Golang <br />
-Pertama persiapkan Proyek baru dan inisialisasi modul GO, tapi jika kalian sudah membuat proyek kalian maka kalian bisa melewati langkah ini:
-[Gambarendpoint](<Images/tutorial endpoint (1).png>) <br />
-kalian bisa menjalankan perintah berikut di terminal vs code kalian masing-masing. <br />
+##### Langkah 1 : Tambahkan dependensi yang diperlukan <br />
 
-##### Langkah 2 : Tambahkan dependensi yang diperlukan <br />
 Kedua kalian bisa menambahkan dependensi sesuai yang kalian perlukan dan dependensi di gambar ini adalah wajib ada karena akan dipakai saat memmbuat endpoint:
 [Gambarendpoint](<Images/tutorial endpoint (2).png>) <br />
 
-##### Langkah 3 : Buat struktur proyek <br />
+##### Langkah 2 : Buat struktur proyek <br />
+
 Ketiga kalian bisa membuat struktur proyek seperti berikut :
 [Gambarendpoint](<Images/tutorial endpoint (3).png>) <br />
 
-##### Langkah 4 : Tambahkan koneksi MongoDB <br />
+##### Langkah 3 : Tambahkan koneksi MongoDB <br />
+
 Buat file `config/db.go` untuk menghubungkan ke MongoDB menggunakan URI MongoDB atlas anda.
 [Gambarendpoint](<Images/tutorial endpoint (4).png>) <br />
 Kalian bisa menggantikan URI mongoDB nya sesuai URI database MongoDB kalian. <br />
 
-##### Langkah 5 : Membuat model user <br />
+##### Langkah 4 : Membuat model user <br />
+
 Buat file model/user.go untuk mendefinisikan struktur data pengguna:
 [Gambarendpoint](<Images/tutorial endpoint (5).png>) <br />
 Ingat, struct type kalian harus sama dengan yang ada di database mongodb kalian, karena jika tidak maka database kalian tidak akan terpanggil type struct user nya.<br />
 
-##### Langkah 6 : Menambahkan fungsi pada file helper <br />
+##### Langkah 5 : Menambahkan fungsi pada file helper <br />
+
 Fungsi yang akan kita gunakan untuk hashing kata sandi atau pembuatan token dengan menggunakan JWT
 Buat file helper/auth.go untuk mendukung hashing kata sandi dan pembuatan token JWT:
 [Gambarendpoint](<Images/tutorial endpoint (6).png>) <br />
 Kalian bisa mengisi token "your_secret_key" dengan token kalian masing-masing. <br />
- 
-##### Langkah 7 : Membuat endpoint untuk login & register <br />
+
+##### Langkah 6 : Membuat endpoint untuk login & register <br />
+
 Buat file controllers/auth.go untuk mengatur logika dari login & registernya:
 [Gambarendpoint](<Images/tutorial endpoint (7).png>) <br />
 Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
+
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
@@ -565,7 +568,6 @@ Setelah API sudah dibuat maka kita akan melakukan pengetesan API tersebut memlal
 Masukan API kemudian klik send. Lalu pilih method yang dipakai nya, jika ingin menampilkan data maka pilih method GET seperti pada gambar di atas.<br />
 
 Lakukan juga untuk pengetesan untuk Create menggunakan method POST, Edit menggunakan method PUT, dan Delete menggunakan method DELETE.
-
 
 ## CHAPTER 6 INTEGRASI FRONTEND DAN BACKEND
 
