@@ -175,7 +175,7 @@ Titik masuk utama aplikasi adalah isi. Cara Penggunaan: Ini adalah tempat Anda m
 [Carbon 3.6](Images/main.png) <br />
 
 ### 2.2 IMPORT PACKAGE
-
+[Gambarpackage](<Images/import package.png>)
 Untuk menggunakan MongoDB dalam codingan, langkah pertama yang perlu dilakukan adalah menambahkan paket MongoDB ke proyek Anda. Di awal setiap file Go, menentukan paket yang akan digunakan adalah hal yang penting. Paket-paket ini seperti kotak alat yang membantu mengorganisir dan mengelompokkan kode Anda, sehingga memudahkan penggunaan kembali dan pengelolaan kode secara efisien. Dengan demikian, Anda dapat fokus pada pengembangan fitur dan fungsionalitas tanpa perlu membangun semuanya dari awal.
 Untuk contoh program: <br />
 
