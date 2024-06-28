@@ -174,21 +174,21 @@ File main biasanya merupakan entri utama aplikasi. Aplikasi dimulai di sini dan 
 Titik masuk utama aplikasi adalah isi. Cara Penggunaan: Ini adalah tempat Anda memulai konfigurasi, router, dan server HTTP. Contohnya:
 [Carbon 3.6](Images/main.png) <br />
 
-### 2.2 IMPORT PACKAGE
-[Gambarpackage](<Images/import package.png>)
+### 2.2 IMPORT PACKAGE <br /> 
+[Gambarpackage](<Images/import package.png>) <br />
 Untuk menggunakan MongoDB dalam codingan, langkah pertama yang perlu dilakukan adalah menambahkan paket MongoDB ke proyek Anda. Di awal setiap file Go, menentukan paket yang akan digunakan adalah hal yang penting. Paket-paket ini seperti kotak alat yang membantu mengorganisir dan mengelompokkan kode Anda, sehingga memudahkan penggunaan kembali dan pengelolaan kode secara efisien. Dengan demikian, Anda dapat fokus pada pengembangan fitur dan fungsionalitas tanpa perlu membangun semuanya dari awal.
 Untuk contoh program: <br />
 
-#### context
-
+#### context <br />
+[Gambarcontext](<Images/Import context.png>)<br />
 Untuk mengatur batas waktu, pembatalan, dan berbagi nilai antar goroutine, paket konteks menyediakan tipe dan fungsi. Dalam contoh ini, context.TODO() digunakan untuk membuat konteks kosong, yang menunjukkan bahwa Anda belum menentukan konteks sebenarnya. Seringkali digunakan sebagai penutup sementara. <br />
 
-#### fmt
-
+#### fmt <br />
+[Gambarfmt](<images/import fmt.png>)<br />
 Paket standar Go yang dikenal sebagai fmt memiliki fungsi untuk memformat dan mencetak teks ke konsol atau output lainnya. Dalam kasus ini, fmt.Println digunakan untuk mencetak pesan ke konsol, yang menunjukkan ketika koneksi ke MongoDB berhasil atau ketika dokumen telah disisipkan ke dalam koleksi. <br />
 
 #### log
-
+[Gambarlog](<images/import log.png>) <br />
 Paket log menawarkan fasilitas logging sederhana. Misalnya, log.Fatal digunakan untuk mencetak pesan kesalahan ke konsol dan menghentikan program jika terjadi kesalahan selama proses koneksi atau operasi MongoDB. Ini membantu menangani dan melacak kesalahan dalam aplikasi. <br />
 
 #### time
