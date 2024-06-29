@@ -138,7 +138,7 @@ Sebenarnya, ekstensi-ekstensi dapat disesuaikan sesuai kebutuhan spesifik, namun
 
 ### 2.1 STRUKTUR DASAR PROYEK GOLANG
 
-[GambarStrukturProjekGolang](<Images/direktori backend.png>)<br />
+[GambarStrukturProjekGolang](<Images/direktorii backendd.png>)<br />
 Integrasi dalam konteks proyek Go melibatkan banyak aspek, mulai dari menghubungkan berbagai bagian proyek, mengelola dependensi dengan cerdas, hingga memastikan aplikasi berjalan lancar. Dalam panduan ini, kita akan melihat bagaimana setiap komponen proyek saling berinteraksi secara harmonis. Yuk, kita jelajahi cara terbaik untuk mengintegrasikan semua ini ke dalam proyek Go kita!
 
 #### 2.1.1 Konfigurasi Proyek (config/)
@@ -532,33 +532,39 @@ API (Application Programming Interfaces) adalah alat yang memungkinkan pertukara
 #### 5.1.1 MEMBUAT ENDPOINT LOGIN & REGISTER <br />
 
 ##### Pertama membuat struct <br />
+
 Langkah pertama untuk buat endpoint login & register adalah membuat struct di file "model/ruteangkot.go" kalian masing-masing ini berfungsi untuk endpoint loginnya:
- [Gambarendpoint](<Images/struct.png>)<br />
+[Gambarendpoint](Images/struct.png)<br />
 Pastikan Struct nya seperti gambar di atas. <br />
 
 ##### Kedua Menambahkan function initDB <br />
+
 Langkah kedua kalian harus menambahkan function initDB di dalam file "config/db.go" yang berfungsi untuk menginisialisasi koneksi ke database saat aplikasi backend dimulai:
-[GambarinitDB](<Images/initDB.png>)<br />
+[GambarinitDB](Images/initDB.png)<br />
 Pastikan function initDB nya seperti gambar di atas. <br />
 
 ##### Ketiga Menambahkan function Login <br />
+
 Langkah ketiga kalian harus menambahkan function Login di dalam file "controller/ruteangkot.go" seperti gambar dibawah ini:
-[GambarLogin](<Images/login.png>)<br />
+[GambarLogin](Images/login.png)<br />
 Pastikan function Login nya seperti gambar di atas. <br />
 
 ##### Ke-empat Menambahkan function Register <br />
-Langkah keempat setelah kalian menambahkan function login kini kalian harus menambahkan function Register di dalam file "controller/ruteangkot.go" : 
-[GambarRegister](<Images/register.png>)<br />
+
+Langkah keempat setelah kalian menambahkan function login kini kalian harus menambahkan function Register di dalam file "controller/ruteangkot.go" :
+[GambarRegister](Images/register.png)<br />
 Pastikan function Register nya seperti gambar di atas. <br />
 
 ##### Kelima Menambahkan method login & register <br />
-Langkah kelima setelah kalian menambahkan function login & register kini kalian harus menambahkan method nya di dalam file "route/route.go" : 
-[GambarMethod](<Images/method.png>)<br />
+
+Langkah kelima setelah kalian menambahkan function login & register kini kalian harus menambahkan method nya di dalam file "route/route.go" :
+[GambarMethod](Images/method.png)<br />
 Pastikan method nya seperti gambar di atas. <br />
 
 ##### Ke-enam Memanggil function init <br />
+
 Langkah terakhir kalian setelah menambahkan function login & register dan juga method nya adalah memanggil function initBD yang ada di dalam file "config/db.go" ke dalam file main.go:
-[GambarInit](<Images/init.png>)<br />
+[GambarInit](Images/init.png)<br />
 Pastikan function init nya seperti gambar di atas. <br />
 Setelah mengikuti tutorial ini jangan lupa untuk memanggil fungsi-fungsi di atas ke frontend kalian.
 
