@@ -573,19 +573,46 @@ Buat file controllers/auth.go untuk mengatur logika dari login & registernya:
 Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
 
 ##### Langkah 7 : Konfigurasi di router nya di file main.go <br />
+
 Setelah itu kalian bisa tambahkan konfigurasi router nya di file main.go:
 [Gambarendpoint](<Images/tutorial endpoint (8).png>) <br />
 
 ###### Pengujian <br />
+
 Sekarang kalian bisa menguji endpoint login dan register kalian menggunakan alat seperti Postman atau Curl.
 [Gambarendpoint](<Images/tutorial endpoint (9).png>) <br />
-seperti gambar di atas kalian bisa mencobanya, dan jika berhasil kalian akan mendapatkan token JWT yang bisa digunakan untuk autentikasi 
+seperti gambar di atas kalian bisa mencobanya, dan jika berhasil kalian akan mendapatkan token JWT yang bisa digunakan untuk autentikasi
 
 ###### Kesimpulan <br />
+
 Sekarang kalian memiliki sistem login dan registrasi yang mudah menggunakan Golang dan MongoDB. Dengan melakukan langkah-langkah ini, Anda dapat mengelola akun pengguna dan menggunakan token JWT untuk autentikasi.
-Jangan lupa untuk menyesuaikan kode untuk memenuhi kebutuhan proyek, seperti mengganti secretKey dan URI MongoDB. 
+Jangan lupa untuk menyesuaikan kode untuk memenuhi kebutuhan proyek, seperti mengganti secretKey dan URI MongoDB.
 
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT <br />
+
+#### 5.2.1 Pengertian Ringkas Operasi Backend CRUD <br />
+
+Operasi CRUD berarti membuat, membaca, mengubah, dan menghapus, yang merupakan empat tindakan utama yang dapat dilakukan pada sumber data. Dalam hal aplikasi backend, ini memungkinkan kita untuk mengelola data dalam basis data melalui API. Berikut adalah penjelasan singkat tentang operasi CRUD:
+
+1.  Create (Membuat): Operasi ini digunakan untuk menambahkan data baru ke dalam basis data. Hal ini dapat terjadi dengan menambahkan rute angkot baru ke dalam koleksi data rute.
+
+2.  Read (Membaca): Operasi ini digunakan untuk mengambil data dari basis data. Data dapat diambil sesuai dengan kriteria tertentu atau semua data yang ada. Contohnya, data rute angkot dapat diambil untuk ditampilkan di aplikasi frontend.
+
+3.  Update(Memperbarui):
+    Operasi ini digunakan untuk memperbarui data dalam basis data, seperti mengubah detail rute angkot yang sudah ada.
+
+4.  Delete(Menghapus):
+    Operasi ini digunakan untuk menghilangkan data dari basis data, seperti menghilangkan data rute angkot tertentu dari data koleksi. <br />
+
+#### 5.2.2 Langkah-langkah Pembuatan <br />
+
+##### Langkah 1 : Membuat file model/route.go <br />
+
+Untuk langkah pertama kalian bisa membuat file route.go nya berisi codingan dibawah ini:
+[Gambarcrud](<Images/tutorial crud (1).png>) <br />
+kedua struct seperti gambar di atas wajib untuk pembuatan crud menggunakan database mongoDB. <br />
+
+##### Langkah 2 : Membuat file controller/route.go <br />
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
