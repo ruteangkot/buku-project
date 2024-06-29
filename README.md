@@ -613,6 +613,17 @@ Untuk langkah pertama kalian bisa membuat file route.go nya berisi codingan diba
 kedua struct seperti gambar di atas wajib untuk pembuatan crud menggunakan database mongoDB. <br />
 
 ##### Langkah 2 : Membuat file controller/route.go <br />
+Untuk langkah kedua kalian bisa membuat file route.go dan berisi codingan ini untuk mengatur logika di crud nya:
+[Gambarcrud](<Images/tutorial crud (2).png>) <br />
+Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
+
+##### Langkah 3 : Konfigurasi router ke file main.go <br />
+Untuk langkah ketiga kalian bisa mengatur konfigurasi router nya di file main.go:
+[Gambarcrud](<Images/tutorial crud (3).png>) <br />
+Setelah memasukkan codingan ini kalian bisa menjalankan file main.go kalian masing-masing dan kalian bisa setup frontend crud nya menyesuaikan dengan crud yang ada di backend ini. <br />
+
+##### Kesimpulan <br />
+Operasi CRUD menggunakan Golang dan MongoDB sebagai backend. Frontend dasar berkomunikasi dengan backend menggunakan fetch API JavaScript. Anda dapat mengembangkan tampilan dan fitur frontend lebih lanjut sesuai kebutuhan proyek. 
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
