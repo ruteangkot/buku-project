@@ -572,7 +572,15 @@ Buat file controllers/auth.go untuk mengatur logika dari login & registernya:
 [Gambarendpoint](<Images/tutorial endpoint (7).png>) <br />
 Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
 
-### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT
+##### Langkah 7 : Konfigurasi di router nya di file main.go <br />
+Setelah itu kalian bisa tambahkan konfigurasi router nya di file main.go:
+[Gambarendpoint](<Images/tutorial endpoint (8).png>) <br />
+
+###### Pengujian <br />
+Sekarang kalian bisa menguji endpoint login dan register kalian menggunakan alat seperti Postman atau Curl.
+
+
+### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT <br />
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
