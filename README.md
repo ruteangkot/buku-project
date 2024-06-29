@@ -592,15 +592,21 @@ Kita akan memasuki langkah-langkah pembuatan crud nya
 
 Pertama kita akan membuat function create di file "controller/ruteangkot.go" seperti gambar dibawah ini:
 [Gambarfunction](<Images/crud(1).png>)<br />
-dan juga jangan lupa untuk menambahkan method "POST" nya di dalam file "route/route.go" seperti ini:
+dan juga jangan lupa untuk menambahkan method "POST" nya di dalam file "route/route.go" ikuti gambar dibawah ini:
 [Gambarfunction](<Images/crud(1.1).png>)<br />
 
 ##### Langkah Kedua membuat function Update <br />
 
-Kedua setelah membuat function Create kita akan membuat function Update di file "controller/ruteangkot.go" seperti gambar dibawah ini:
+Kedua setelah membuat function Create kita akan membuat function Update di file "controller/ruteangkot.go" ikuti gambar dibawah ini:
 [Gambarfunction](<Images/crud(2).png>)<br />
 dan juga kita akan menambahkan method "PUT" pada file "route/route.go" seperti ini:
 [Gambarfunction](<Images/crud(2.1).png>)<br />
+
+##### Langkah Ketiga membuat function Delete <br />
+Ketiga setelah membuat function create & update kita akan membuat function Delete di dalam file "controller/ruteangkot.go" ikuti gambar dibawah ini:
+[Gambarfunction](<Images/crud (3).png>)<br />
+dan juga kita akan menambahkan method "DELETE" pada file "route/route.go" seperti ini:
+[Gambarfunction](<Images/crud (3.1).png>)<br />
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
