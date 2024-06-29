@@ -138,7 +138,7 @@ Sebenarnya, ekstensi-ekstensi dapat disesuaikan sesuai kebutuhan spesifik, namun
 
 ### 2.1 STRUKTUR DASAR PROYEK GOLANG
 
-[GambarStrukturProjekGolang](<Images/Screenshot (459).png>)<br />
+[GambarStrukturProjekGolang](<Images/direktori backend.png>)<br />
 Integrasi dalam konteks proyek Go melibatkan banyak aspek, mulai dari menghubungkan berbagai bagian proyek, mengelola dependensi dengan cerdas, hingga memastikan aplikasi berjalan lancar. Dalam panduan ini, kita akan melihat bagaimana setiap komponen proyek saling berinteraksi secara harmonis. Yuk, kita jelajahi cara terbaik untuk mengintegrasikan semua ini ke dalam proyek Go kita!
 
 #### 2.1.1 Konfigurasi Proyek (config/)
@@ -531,62 +531,36 @@ API (Application Programming Interfaces) adalah alat yang memungkinkan pertukara
 
 #### 5.1.1 MEMBUAT ENDPOINT LOGIN & REGISTER <br />
 
-Kita akan membuat sistem login dan registrasi menggunakan Golang dan MongoDB dalam tutorial ini. Aplikasi ini akan mengelola akun pengguna, menyimpan data di MongoDB, dan menghasilkan token JWT untuk autentikasi. <br />
+##### Pertama membuat struct <br />
+Langkah pertama untuk buat endpoint login & register adalah membuat struct di file "model/ruteangkot.go" kalian masing-masing ini berfungsi untuk endpoint loginnya:
+ [Gambarendpoint](<Images/struct.png>)<br />
+Pastikan Struct nya seperti gambar di atas. <br />
 
-##### Langkah 1 : Tambahkan dependensi yang diperlukan <br />
+##### Kedua Menambahkan function initDB <br />
+Langkah kedua kalian harus menambahkan function initDB di dalam file "config/db.go" yang berfungsi untuk menginisialisasi koneksi ke database saat aplikasi backend dimulai:
+[GambarinitDB](<Images/initDB.png>)<br />
+Pastikan function initDB nya seperti gambar di atas. <br />
 
-Langkah pertama, mari kita tambahkan dependensi yang dibutuhkan sesuai kebutuhan kamu. Dependensi yang ada di gambar ini wajib ada karena akan digunakan saat membuat endpoint.:
-[Gambarendpoint](<Images/tutorial endpoint (2).png>) <br />
+##### Ketiga Menambahkan function Login <br />
+Langkah ketiga kalian harus menambahkan function Login di dalam file "controller/ruteangkot.go" seperti gambar dibawah ini:
+[GambarLogin](<Images/login.png>)<br />
+Pastikan function Login nya seperti gambar di atas. <br />
 
-##### Langkah 2 : Buat struktur proyek <br />
+##### Ke-empat Menambahkan function Register <br />
+Langkah keempat setelah kalian menambahkan function login kini kalian harus menambahkan function Register di dalam file "controller/ruteangkot.go" : 
+[GambarRegister](<Images/register.png>)<br />
+Pastikan function Register nya seperti gambar di atas. <br />
 
-Langkah kedua, mari kita buat struktur proyek seperti ini:
+##### Kelima Menambahkan method login & register <br />
+Langkah kelima setelah kalian menambahkan function login & register kini kalian harus menambahkan method nya di dalam file "route/route.go" : 
+[GambarMethod](<Images/method.png>)<br />
+Pastikan method nya seperti gambar di atas. <br />
 
--Buat direktori dan file sesuai dengan struktur yang diinginkan.<br />
--Pastikan semuanya tertata rapi agar mudah dikelola.
-
-Struktur proyek yang baik adalah kunci untuk pengembangan yang lancar dan efisien. Berikut adalah contoh struktur proyek yang bisa kamu ikuti:
-[Gambarendpoint](<Images/tutorial endpoint (3).png>) <br />
-
-##### Langkah 3 : Tambahkan koneksi MongoDB <br />
-
-Buat file `config/db.go` untuk menghubungkan ke MongoDB menggunakan URI MongoDB atlas anda.
-[Gambarendpoint](<Images/tutorial endpoint (4).png>) <br />
-Kalian bisa menggantikan URI mongoDB nya sesuai URI database MongoDB kalian. <br />
-
-##### Langkah 4 : Membuat model user <br />
-
-selanjutnya, Buat file model/user.go untuk mendefinisikan struktur data pengguna:
-[Gambarendpoint](<Images/tutorial endpoint (5).png>) <br />
-Ingat, tipe struct kalian harus sama persis dengan yang ada di database MongoDB. Kalau tidak, data di database tidak akan bisa dipanggil dengan benar. Jadi, pastikan tipe struct user kamu sesuai dengan yang ada di MongoDB.<br />
-
-##### Langkah 5 : Menambahkan fungsi pada file helper <br />
-
-Fungsi yang akan kita gunakan untuk hashing kata sandi dan pembuatan token menggunakan JWT sangat penting. Agar lebih mudah, kita buat file helper/auth.go untuk membantu kita dalam proses ini.
-[Gambarendpoint](<Images/tutorial endpoint (6).png>) <br />
-Kamu bisa mengisi token "your_secret_key" dengan token kalian masing-masing. <br />
-
-##### Langkah 6 : Membuat endpoint untuk login & register <br />
-
-Buat file controllers/auth.go untuk mengatur logika dari login & registernya:
-[Gambarendpoint](<Images/tutorial endpoint (7).png>) <br />
-Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
-
-##### Langkah 7 : Konfigurasi di router nya di file main.go <br />
-
-Setelah itu kalian bisa tambahkan konfigurasi router nya di file main.go:
-[Gambarendpoint](<Images/tutorial endpoint (8).png>) <br />
-
-###### Pengujian <br />
-
-Sekarang kalian bisa menguji endpoint login dan register kalian menggunakan alat seperti Postman atau Curl.
-[Gambarendpoint](<Images/tutorial endpoint (9).png>) <br />
-seperti gambar di atas kalian bisa mencobanya, dan jika berhasil kalian akan mendapatkan token JWT yang bisa digunakan untuk autentikasi
-
-###### Kesimpulan <br />
-
-Sekarang kalian memiliki sistem login dan registrasi yang mudah menggunakan Golang dan MongoDB. Dengan melakukan langkah-langkah ini, Anda dapat mengelola akun pengguna dan menggunakan token JWT untuk autentikasi.
-Jangan lupa untuk menyesuaikan kode untuk memenuhi kebutuhan proyek, seperti mengganti secretKey dan URI MongoDB.
+##### Ke-enam Memanggil function init <br />
+Langkah terakhir kalian setelah menambahkan function login & register dan juga method nya adalah memanggil function initBD yang ada di dalam file "config/db.go" ke dalam file main.go:
+[GambarInit](<Images/init.png>)<br />
+Pastikan function init nya seperti gambar di atas. <br />
+Setelah mengikuti tutorial ini jangan lupa untuk memanggil fungsi-fungsi di atas ke frontend kalian.
 
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT <br />
 
@@ -613,17 +587,20 @@ Untuk langkah pertama kalian bisa membuat file route.go nya berisi codingan diba
 kedua struct seperti gambar di atas wajib untuk pembuatan crud menggunakan database mongoDB. <br />
 
 ##### Langkah 2 : Membuat file controller/route.go <br />
+
 Untuk langkah kedua kalian bisa membuat file route.go dan berisi codingan ini untuk mengatur logika di crud nya:
 [Gambarcrud](<Images/tutorial crud (2).png>) <br />
 Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
 
 ##### Langkah 3 : Konfigurasi router ke file main.go <br />
+
 Untuk langkah ketiga kalian bisa mengatur konfigurasi router nya di file main.go:
 [Gambarcrud](<Images/tutorial crud (3).png>) <br />
 Setelah memasukkan codingan ini kalian bisa menjalankan file main.go kalian masing-masing dan kalian bisa setup frontend crud nya menyesuaikan dengan crud yang ada di backend ini. <br />
 
 ##### Kesimpulan <br />
-Operasi CRUD menggunakan Golang dan MongoDB sebagai backend. Frontend dasar berkomunikasi dengan backend menggunakan fetch API JavaScript. Anda dapat mengembangkan tampilan dan fitur frontend lebih lanjut sesuai kebutuhan proyek. 
+
+Operasi CRUD menggunakan Golang dan MongoDB sebagai backend. Frontend dasar berkomunikasi dengan backend menggunakan fetch API JavaScript. Anda dapat mengembangkan tampilan dan fitur frontend lebih lanjut sesuai kebutuhan proyek.
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
