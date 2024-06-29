@@ -586,27 +586,21 @@ Operasi CRUD berarti membuat, membaca, mengubah, dan menghapus, yang merupakan e
 
 #### 5.2.2 Langkah-langkah Pembuatan <br />
 
-##### Langkah 1 : Membuat file model/route.go <br />
+Kita akan memasuki langkah-langkah pembuatan crud nya
 
-Untuk langkah pertama kalian bisa membuat file route.go nya berisi codingan dibawah ini:
-[Gambarcrud](<Images/tutorial crud (1).png>) <br />
-kedua struct seperti gambar di atas wajib untuk pembuatan crud menggunakan database mongoDB. <br />
+##### Langkah Pertama membuat function Create <br />
 
-##### Langkah 2 : Membuat file controller/route.go <br />
+Pertama kita akan membuat function create di file "controller/ruteangkot.go" seperti gambar dibawah ini:
+[Gambarfunction](<Images/crud(1).png>)<br />
+dan juga jangan lupa untuk menambahkan method "POST" nya di dalam file "route/route.go" seperti ini:
+[Gambarfunction](<Images/crud(1.1).png>)<br />
 
-Untuk langkah kedua kalian bisa membuat file route.go dan berisi codingan ini untuk mengatur logika di crud nya:
-[Gambarcrud](<Images/tutorial crud (2).png>) <br />
-Kalian bisa menyesuaikan nama database dan collection dengan database kalian di mongoDB. <br />
+##### Langkah Kedua membuat function Update <br />
 
-##### Langkah 3 : Konfigurasi router ke file main.go <br />
-
-Untuk langkah ketiga kalian bisa mengatur konfigurasi router nya di file main.go:
-[Gambarcrud](<Images/tutorial crud (3).png>) <br />
-Setelah memasukkan codingan ini kalian bisa menjalankan file main.go kalian masing-masing dan kalian bisa setup frontend crud nya menyesuaikan dengan crud yang ada di backend ini. <br />
-
-##### Kesimpulan <br />
-
-Operasi CRUD menggunakan Golang dan MongoDB sebagai backend. Frontend dasar berkomunikasi dengan backend menggunakan fetch API JavaScript. Anda dapat mengembangkan tampilan dan fitur frontend lebih lanjut sesuai kebutuhan proyek.
+Kedua setelah membuat function Create kita akan membuat function Update di file "controller/ruteangkot.go" seperti gambar dibawah ini:
+[Gambarfunction](<Images/crud(2).png>)<br />
+dan juga kita akan menambahkan method "PUT" pada file "route/route.go" seperti ini:
+[Gambarfunction](<Images/crud(2.1).png>)<br />
 
 ### 5.3 TESTING API MENGGUNAKAN POSTMAN
 
