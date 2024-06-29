@@ -578,7 +578,12 @@ Setelah itu kalian bisa tambahkan konfigurasi router nya di file main.go:
 
 ###### Pengujian <br />
 Sekarang kalian bisa menguji endpoint login dan register kalian menggunakan alat seperti Postman atau Curl.
+[Gambarendpoint](<Images/tutorial endpoint (9).png>) <br />
+seperti gambar di atas kalian bisa mencobanya, dan jika berhasil kalian akan mendapatkan token JWT yang bisa digunakan untuk autentikasi 
 
+###### Kesimpulan <br />
+Sekarang kalian memiliki sistem login dan registrasi yang mudah menggunakan Golang dan MongoDB. Dengan melakukan langkah-langkah ini, Anda dapat mengelola akun pengguna dan menggunakan token JWT untuk autentikasi.
+Jangan lupa untuk menyesuaikan kode untuk memenuhi kebutuhan proyek, seperti mengganti secretKey dan URI MongoDB. 
 
 ### 5.2 CRUD OPERATION UNTUK DATA RUTE ANGKOT <br />
 
