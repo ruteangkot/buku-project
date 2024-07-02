@@ -641,4 +641,10 @@ Satheesh, Mithun., D’mello, B. Joseph., & Krol, Jason. (2015). Web development
 
 ## TENTANG PENULIS
 
+Rolly Maulana Awangga, lahir di Kota Indramayu pada tanggal 10 November 1986. Pendidikan tingkat dasar hingga menengah ditempuh di Indramayu. Mulai merantau sejak SMA, melatih kemandiriannya di SMKALIAN Cirebon dengan aktif organisasi PPS Betako Merpati Putih, Pengurus OSIS dan Pendiri Dewan Keamanan Sekolah. Melanjutkan pendidikan S1 di STT Telkom, S2 di IT Telkom Bandung. Selama kuliah aktif sebagai TLH Telkom, pengurus Klub Linux Bandung, Pengurus Bandung Kota Blogger, Pendiri Saung IT dan wartawan Pikiran Rakyat. Menjadi tenaga ahli dan konsultan di aplikasi SDDKN Sekretariat Negara, Aplikasi Kementrian Hukum dan Ham, Team DevOps Pekan Olahraga Nasional, Cloud Architect Aplikasi Asesment Madrasah Kementrian Agama. <br />
+
+Muhamad Haekal Syukur, lahir di kota Cianjur pada tanggal 14 September 2005. Pendidikan tingkat dasar hingga Akhir ditempuh di Cianjur. Melatih kepemimpinan sejak di MAN 1 Cianjur dengan menjadi ketua kelas. Melanjutkan pendidikan di D4 Teknik Informatika di Universitas Logistik dan Bisnis Internasional.<br />
+
+Raihan Aditya Hermawan, pria tertampan yang lahir di Kota Sukabumi pada tanggal 15 juni 2005. Pendidikan tingkat dasar hingga menengah kelas 8 ditempuh di Kota Sukabumi, mulai merantau sejak kelas 9 smp dan melatih kemandiriannya di smkn 7 buru namlea dengan magang di percetakan Attaya Kota Namlea. Melanjutkan Pendidikan D4 Teknik Infotmatika di Universitas Logistik & Bisnis Internasional.
+
 ![Gambar](Images/backcover2.png.jpg)
