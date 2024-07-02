@@ -421,52 +421,6 @@ Terakhir tambahkan juga query untuk menyesuaikan warna pada semua elemen nya jik
 
 ![Gambar](Images/cssdarkmode.png) <br />
 
-##### 2. GAYA KHUSUS HALAMAN ADMIN (admin/admin.css)
-
-Kita akan membuat file CSS khusus untuk halaman admin, memberikan gaya yang sedikit berbeda untuk tabel dan elemen lainnya. Ini menunjukkan bagaimana kita bisa memiliki gaya khusus untuk halaman yang berbeda dalam proyek yang sama.<br />
-
-Karena banyak nya elemen pada halaman admin, ini menjadikan kode nya lebih banyak daripada CSS halaman utama. Banyak elemen yang harus di style pada halaman ini. Berikut kode nya. <br />
-
-Pertama import juga font google dan CDN untuk Framework CSS Skeleton nya seperti pada CSS utama.<br />
-
-Lanjut isi kode-kode ini.<br />
-
-![Gambar](Images/cssadmin1.png)<br />
-
-Karena pada halaman ini memang memiliki banyak elemen, terutama elemen modal yang digunakan pada javascript nya untuk menangani suatu fungsi. Maka dari itu kita akan memberikan gaya yang sesuai untuk modal tersebut.<br />
-
-![Gambar](Images/cssadmin2.png)<br />
-
-Dan jangan lupa tambahkan juga kode untuk query responsive nya.<br />
-
-![Gambar](Images/cssadmin4.png)<br />
-
-Tamabahkan juga kode untuk query mode gelap nya seperti pada CSS utama jika memang membutuhkan.<br >
-
-##### 3. GAYA KHUSUS HALAMAN REGISTER (register/register.css)
-
-Kita akan membuat file CSS khusus untuk halaman register, memberikan gaya yang rapi dan profesional.<br />
-Pada halaman ini tidak terlalu banyak elemen yang dibuat, maka gaya CSS nya juga tidak terlalu banyak.<br />
-
-![Gambar](Images/registercss.png)
-
-Import font google dan CDN Framework CSS Skeleton, lanjutkan buat query responsive nya.<br />
-
-![Gambar](Images/registercss2.png)
-
-##### 4. GAYA KHUSUS HALAMAN LOGIN (login/login.css)
-
-Nahh, terakhir gaya untuk file CSS halaman login. Pada file ini akan fokus pada penataan form login agar terlihat lebih rapi dan profesional sama dengan halaman register.<br />
-
-Seperti pada file CSS sebelumnya import font google dan CDN Framework CSS Skeleton.<br />
-Lanjut isi kode nya seperti ini.<br />
-
-![Gambar](Images/csslogin1.png)<br />
-
-Samal hal nya pada halaman register, pada halaman login ini tidak terlalu banyak elemen yang dibuat, maka pada pembuatan query responsive nya juga tidak terlalu banyak.<br />
-
-![Gambar](Images/csslogin2.png)<br />
-
 ### 4.3 INTEGRARSI JAVASCRIPT
 
 #### MEMBUAT FILE JAVASCRIPT
@@ -603,6 +557,7 @@ dan juga kita akan menambahkan method "PUT" pada file "route/route.go" seperti i
 [Gambarfunction](<Images/crud(2.1).png>)<br />
 
 ##### Langkah Ketiga membuat function Delete <br />
+
 Ketiga setelah membuat function create & update kita akan membuat function Delete di dalam file "controller/ruteangkot.go" ikuti gambar dibawah ini:
 [Gambarfunction](<Images/crud (3).png>)<br />
 dan juga kita akan menambahkan method "DELETE" pada file "route/route.go" seperti ini:
